@@ -1,0 +1,148 @@
+{
+  "gyms": [
+    {
+      "name": "VioletGym",
+      "trainers": [
+        { "name": "BirdKeeperMatt", "address": "0x170f82c" },
+        { "name": "LeaderFalkner", "address": "0x170F8C4" }
+      ]
+    },
+    {
+      "name": "AzaleaGym",
+      "trainers": [
+        { "name": "BugCatcherChaz", "address": "0x170f96c" },
+        { "name": "TwinsMinAndLyn", "address": "0x170fa04" },
+        { "name": "LeaderBugsy", "address": "0x170fa9c" }
+      ]
+    },
+    {
+      "name": "GoldenrodGym",
+      "trainers": [
+        { "name": "LassLois", "address": "0x170fb3c" },
+        { "name": "BeautyRita", "address": "0x170fbd4" },
+        { "name": "LeaderWhitney", "address": "0x170fc6c" }
+      ]
+    },
+    {
+      "name": "EcruteakGym",
+      "trainers": [
+        { "name": "MediumHolly", "address": "0x170fd0c" },
+        { "name": "SageTy", "address": "0x170fda4" },
+        { "name": "LeaderMorty", "address": "0x170fe3c" }
+      ]
+    },
+    {
+      "name": "Cianwood Gym",
+      "trainers": [
+        { "name": "BlackBeltNick", "address": "0x170fedc" },
+        { "name": "LeaderChuck", "address": "0x170ff74" }
+      ]
+    },
+    {
+      "name": "OlivineGym",
+      "trainers": [
+        { "name": "LeaderJasmine", "address": "0x171001c" }
+      ]
+    },
+    {
+      "name": "TeamRocketInterruption",
+      "trainers": [
+        { "name": "RocketGruntMale", "address": "0x17100bc" },
+        { "name": "RocketGruntFemale", "address": "0x1710154" },
+        { "name": "RocketExecutiveFemale", "address": "0x17101ec" },
+        { "name": "RocketExecutiveMale", "address": "0x1710284" }
+      ]
+    },
+    {
+      "name": "MahoganyGym",
+      "trainers": [
+        { "name": "BoarderAlvin", "address": "0x171032c" },
+        { "name": "SkierCarol", "address": "0x17103c4" },
+        { "name": "LeaderPryce", "address": "0x171045c" }
+      ]
+    },
+    {
+      "name": "Blackthorn Gym",
+      "trainers": [
+        { "name": "CooltrainerGloria", "address": "0x17104fc" },
+        { "name": "CooltrainerVince", "address": "0x1710594" },
+        { "name": "LeaderClair", "address": "0x171062c" }
+      ]
+    },
+    {
+      "name": "EliteFour",
+      "trainers": [
+        { "name": "EliteFourWill", "address": "0x17106cc" },
+        { "name": "EliteFourKoga", "address": "0x1710764" },
+        { "name": "EliteFourBruno", "address": "0x17107fc" },
+        { "name": "EliteFourKaren", "address": "0x1710894" }
+      ]
+    },
+    {
+      "name": "EliteFourChampion",
+      "trainers": [
+        { "name": "ChampionLance", "address": "0x171093c" }
+      ]
+    },
+    {
+      "name": "VermilionGym",
+      "trainers": [
+        { "name": "LeaderLt.Surge", "address": "0x17109dc" }
+      ]
+    },
+    {
+      "name": "SaffronGym",
+      "trainers": [
+        { "name": "LeaderSabrina", "address": "0x1710a7c" }
+      ]
+    },
+    {
+      "name": "CeruleanGym",
+      "trainers": [
+        { "name": "LeaderMisty", "address": "0x1710b1c" }
+      ]
+    },
+    {
+      "name": "CeladonGym",
+      "trainers": [
+        { "name": "LeaderErika", "address": "0x1710bbc" }
+      ]
+    },
+    {
+      "name": "FuchsiaGym",
+      "trainers": [
+        { "name": "LeaderJanine", "address": "0x1710c5c" }
+      ]
+    },
+    {
+      "name": "PewterGym",
+      "trainers": [
+        { "name": "LeaderBrock", "address": "0x1710cfc" }
+      ]
+    },
+    {
+      "name": "CinnabarGym",
+      "trainers": [
+        { "name": "LeaderBlaine", "address": "0x1710d9c" }
+      ]
+    },
+    {
+      "name": "ViridianGym",
+      "trainers": [
+        { "name": "LeaderBlue", "address": "0x1710e3c" }
+      ]
+    },
+    {
+      "name": "SilverCave",
+      "trainers": [
+        { "name": "red", "address": "0x1710edc" }
+      ]
+    },
+    {
+      "name": "SecretCave",
+      "trainers": [
+        { "name": "rival", "address": "0x1710f7c" }
+      ]
+    }
+  ]
+}
