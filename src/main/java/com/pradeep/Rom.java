@@ -1,13 +1,20 @@
 package com.pradeep;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
 
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Rom {
 
-    public byte[] rom;
+    private byte[] rom;
     private byte[] backupRom;
 
     // =========================
