@@ -10,7 +10,7 @@
   { "name": "BURNT_BERRY", "hex": "0x4F" },
   { "name": "ICE_BERRY", "hex": "0x50" },
   { "name": "POISON_BARB", "hex": "0x51" },
-  { "name": "KING'S_ROCK", "hex": "0x52" },
+  { "name": "KINGS_ROCK", "hex": "0x52" },
   { "name": "BITTER_BERRY", "hex": "0x53" },
   { "name": "MINT_BERRY", "hex": "0x54" },
   { "name": "SILVERPOWDER", "hex": "0x59" },

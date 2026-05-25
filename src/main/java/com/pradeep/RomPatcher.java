@@ -41,10 +41,9 @@ public class RomPatcher {
             }
         }
 
-        for (GymPokemonData.Gym gym : pokemonData.getGyms()) {
-            if (!gym.getName().equalsIgnoreCase("VioletGym")) {
-                continue;
-            }
+        for (int k = 0; k < 4; k++) {
+            GymPokemonData.Gym gym = pokemonData.getGyms().get(k);
+
             for (GymPokemonData.Trainer trainer : gym.getTrainers()) {
                 String addrStr = trainerAddressMap.get(trainer.getName());
 
