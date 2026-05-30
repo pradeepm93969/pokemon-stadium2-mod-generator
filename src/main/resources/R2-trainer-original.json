@@ -1,0 +1,2383 @@
+{
+  "gyms": [
+    {
+      "name": "VioletGym",
+      "trainers": [
+        {
+          "name": "BirdKeeperMatt",
+          "pokemon": [
+            {
+              "name": "PIDGEOTTO",
+              "item": "SHARP_BEAK",
+              "move1": "MIRROR_MOVE",
+              "move2": "GUST",
+              "move3": "QUICK_ATTACK",
+              "move4": "STEEL_WING",
+              "rawData": "32 11 4D 00 77 10 62 D3 00 80 78 00 78 00 78 00 78 00 78 00 8A 3A 00 00"
+            },
+            {
+              "name": "TOGETIC",
+              "item": "PRZCUREBERRY",
+              "move1": "MIRROR_MOVE",
+              "move2": "PSYCHIC",
+              "move3": "FIRE_BLAST",
+              "move4": "ZAP_CANNON",
+              "rawData": "32 B0 4E 00 77 5E 7E C0 0F 80 78 00 78 00 78 00 78 00 78 00 3A 3A 00 00"
+            },
+            {
+              "name": "FEAROW",
+              "item": "MINT_BERRY",
+              "move1": "MIRROR_MOVE",
+              "move2": "DRILL_PECK",
+              "move3": "TRI_ATTACK",
+              "move4": "QUICK_ATTACK",
+              "rawData": "32 16 54 00 77 41 A1 62 00 80 78 00 78 00 78 00 78 00 78 00 3A 3A 00 00"
+            },
+            {
+              "name": "FARFETCH\u0027D",
+              "item": "PINK_BOW",
+              "move1": "MIRROR_MOVE",
+              "move2": "FLY",
+              "move3": "SLASH",
+              "move4": "FLAIL",
+              "rawData": "32 53 69 00 77 13 A3 AF 00 80 78 00 78 00 78 00 78 00 78 00 8A 3A 00 00"
+            },
+            {
+              "name": "NOCTOWL",
+              "item": "METAL_COAT",
+              "move1": "MIRROR_MOVE",
+              "move2": "TAKE_DOWN",
+              "move3": "STEEL_WING",
+              "move4": "CONFUSION",
+              "rawData": "32 A4 8F 00 77 24 D3 5D 00 80 78 00 78 00 78 00 78 00 78 00 3A 3A 00 00"
+            },
+            {
+              "name": "MURKROW",
+              "item": "NONE",
+              "move1": "MIRROR_MOVE",
+              "move2": "DRILL_PECK",
+              "move3": "FEINT_ATTACK",
+              "move4": "QUICK_ATTACK",
+              "rawData": "32 C6 66 00 77 41 B9 62 00 80 78 00 78 00 78 00 78 00 78 00 3A 3A 00 00"
+            }
+          ]
+        },
+        {
+          "name": "LeaderFalkner",
+          "pokemon": [
+            {
+              "name": "PIDGEOT",
+              "item": "PRZCUREBERRY",
+              "move1": "MUD_SLAP",
+              "move2": "DOUBLE_EDGE",
+              "move3": "STEEL_WING",
+              "move4": "SKY_ATTACK",
+              "rawData": "32 12 4E 00 BD 26 D3 8F 03 FF 8C 00 8C 00 8C 00 8C 00 8C 00 B7 67 00 00"
+            },
+            {
+              "name": "DODRIO",
+              "item": "MAGNET",
+              "move1": "MUD_SLAP",
+              "move2": "TRI_ATTACK",
+              "move3": "DRILL_PECK",
+              "move4": "SKY_ATTACK",
+              "rawData": "32 55 6D 00 BD A1 41 8F 03 80 8C 00 8C 00 8C 00 8C 00 8C 00 87 67 00 00"
+            },
+            {
+              "name": "GLIGAR",
+              "item": "FOCUS_BAND",
+              "move1": "WING_ATTACK",
+              "move2": "METAL_CLAW",
+              "move3": "SLUDGE_BOMB",
+              "move4": "QUICK_ATTACK",
+              "rawData": "32 CF 77 00 11 E8 BC 62 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 67 67 00 00"
+            },
+            {
+              "name": "CHARIZARD",
+              "item": "SCOPE_LENS",
+              "move1": "MUD_SLAP",
+              "move2": "FLAMETHROWER",
+              "move3": "FLY",
+              "move4": "EARTHQUAKE",
+              "rawData": "32 06 8C 00 BD 35 13 59 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 67 67 00 00"
+            },
+            {
+              "name": "SKARMORY",
+              "item": "QUICK_CLAW",
+              "move1": "MUD_SLAP",
+              "move2": "STEEL_WING",
+              "move3": "DRILL_PECK",
+              "move4": "SKY_ATTACK",
+              "rawData": "32 E3 49 00 BD D3 41 8F 03 80 8C 00 8C 00 8C 00 8C 00 8C 00 67 67 00 00"
+            },
+            {
+              "name": "ZAPDOS",
+              "item": "BRIGHTPOWDER",
+              "move1": "MUD_SLAP",
+              "move2": "THUNDERBOLT",
+              "move3": "DRILL_PECK",
+              "move4": "SKY_ATTACK",
+              "rawData": "32 91 03 00 BD 55 41 8F 03 FF 8C 00 8C 00 8C 00 8C 00 8C 00 A7 67 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzaleaGym",
+      "trainers": [
+        {
+          "name": "BugCatcherChaz",
+          "pokemon": [
+            {
+              "name": "BEEDRILL",
+              "item": "BITTER_BERRY",
+              "move1": "TWINEEDLE",
+              "move2": "DOUBLE_EDGE",
+              "move3": "SLUDGE_BOMB",
+              "move4": "AGILITY",
+              "rawData": "32 0F 53 00 29 26 BC 61 00 FF 78 00 78 00 78 00 78 00 78 00 56 56 00 00"
+            },
+            {
+              "name": "SUNFLORA",
+              "item": "POISON_BARB",
+              "move1": "RAZOR_LEAF",
+              "move2": "SLUDGE_BOMB",
+              "move3": "GIGA_DRAIN",
+              "move4": "GROWTH",
+              "rawData": "32 C0 51 00 4B BC CA 4A 0C 80 78 00 78 00 78 00 78 00 78 00 86 56 00 00"
+            },
+            {
+              "name": "BUTTERFREE",
+              "item": "PRZCUREBERRY",
+              "move1": "PSYBEAM",
+              "move2": "GUST",
+              "move3": "GIGA_DRAIN",
+              "move4": "WHIRLWIND",
+              "rawData": "32 0C 4E 00 3C 10 CA 12 0C 80 78 00 78 00 78 00 78 00 78 00 56 56 00 00"
+            },
+            {
+              "name": "SANDSHREW",
+              "item": "SOFT_SAND",
+              "move1": "EARTHQUAKE",
+              "move2": "SLASH",
+              "move3": "IRON_TAIL",
+              "move4": "COUNTER",
+              "rawData": "32 1B 4C 00 59 A3 E7 44 00 80 78 00 78 00 78 00 78 00 78 00 86 56 00 00"
+            },
+            {
+              "name": "YANMA",
+              "item": "KINGS_ROCK",
+              "move1": "WING_ATTACK",
+              "move2": "SWIFT",
+              "move3": "REVERSAL",
+              "move4": "FORESIGHT",
+              "rawData": "32 C1 52 00 11 81 B3 C1 00 80 78 00 78 00 78 00 78 00 78 00 86 56 00 00"
+            },
+            {
+              "name": "DUNSPARCE",
+              "item": "MINT_BERRY",
+              "move1": "DIG",
+              "move2": "FLAMETHROWER",
+              "move3": "THUNDERBOLT",
+              "move4": "GLARE",
+              "rawData": "32 CE 54 00 5B 35 55 89 00 80 78 00 78 00 78 00 78 00 78 00 56 56 00 00"
+            }
+          ]
+        },
+        {
+          "name": "TwinsMinAndLyn",
+          "pokemon": [
+            {
+              "name": "LEDIAN",
+              "item": "PRZCUREBERRY",
+              "move1": "SWEET_SCENT",
+              "move2": "ROLLOUT",
+              "move3": "GIGA_DRAIN",
+              "move4": "LIGHT_SCREEN",
+              "rawData": "32 A6 4E 00 E6 CD CA 71 0C 80 78 00 78 00 78 00 78 00 78 00 8A 3A 00 00"
+            },
+            {
+              "name": "EEVEE",
+              "item": "NONE",
+              "move1": "CHARM",
+              "move2": "SHADOW_BALL",
+              "move3": "DOUBLE_EDGE",
+              "move4": "FLAIL",
+              "rawData": "32 85 71 00 CC F7 26 AF 00 80 78 00 78 00 78 00 78 00 78 00 3A 3A 00 00"
+            },
+            {
+              "name": "PONYTA",
+              "item": "METAL_COAT",
+              "move1": "CHARM",
+              "move2": "FIRE_BLAST",
+              "move3": "TAKE_DOWN",
+              "move4": "IRON_TAIL",
+              "rawData": "32 4D 8F 00 CC 7E 24 E7 30 80 78 00 78 00 78 00 78 00 78 00 8A 3A 00 00"
+            },
+            {
+              "name": "PINECO",
+              "item": "MINT_BERRY",
+              "move1": "SWEET_SCENT",
+              "move2": "ROLLOUT",
+              "move3": "GIGA_DRAIN",
+              "move4": "REFLECT",
+              "rawData": "32 CC 54 00 E6 CD CA 73 00 80 78 00 78 00 78 00 78 00 78 00 8A 3A 00 00"
+            },
+            {
+              "name": "SNUBBULL",
+              "item": "BERRY",
+              "move1": "CHARM",
+              "move2": "CRUNCH",
+              "move3": "HEADBUTT",
+              "move4": "LICK",
+              "rawData": "32 D1 AA 00 CC F2 1D 7A 00 80 78 00 78 00 78 00 78 00 78 00 3A 3A 00 00"
+            },
+            {
+              "name": "NIDORINA",
+              "item": "BITTER_BERRY",
+              "move1": "CHARM",
+              "move2": "BODY_SLAM",
+              "move3": "DOUBLE_KICK",
+              "move4": "DISABLE",
+              "rawData": "32 1E 53 00 CC 22 18 32 00 80 78 00 78 00 78 00 78 00 78 00 3A 3A 00 00"
+            }
+          ]
+        },
+        {
+          "name": "LeaderBugsy",
+          "pokemon": [
+            {
+              "name": "SCYTHER",
+              "item": "KINGS_ROCK",
+              "move1": "WING_ATTACK",
+              "move2": "STEEL_WING",
+              "move3": "REVERSAL",
+              "move4": "HYPER_BEAM",
+              "rawData": "32 7B 52 00 11 D3 B3 3F 03 FF 8C 00 8C 00 8C 00 8C 00 8C 00 C9 9B 00 00"
+            },
+            {
+              "name": "HERACROSS",
+              "item": "FOCUS_BAND",
+              "move1": "MEGAHORN",
+              "move2": "REVERSAL",
+              "move3": "TAKE_DOWN",
+              "move4": "EARTHQUAKE",
+              "rawData": "32 D6 77 00 E0 B3 24 59 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 B7 6B 00 00"
+            },
+            {
+              "name": "PINSIR",
+              "item": "SCOPE_LENS",
+              "move1": "FURY_CUTTER",
+              "move2": "SUBMISSION",
+              "move3": "BODY_SLAM",
+              "move4": "SEISMIC_TOSS",
+              "rawData": "32 7F 8C 00 D2 42 22 45 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 B7 6B 00 00"
+            },
+            {
+              "name": "QUAGSIRE",
+              "item": "BRIGHTPOWDER",
+              "move1": "SURF",
+              "move2": "EARTHQUAKE",
+              "move3": "ANCIENT_POWER",
+              "move4": "HAZE",
+              "rawData": "32 C3 03 00 39 59 F6 72 0C 80 8C 00 8C 00 8C 00 8C 00 8C 00 67 67 00 00"
+            },
+            {
+              "name": "SUDOWOODO",
+              "item": "QUICK_CLAW",
+              "move1": "ROCK_SLIDE",
+              "move2": "EARTHQUAKE",
+              "move3": "LOW_KICK",
+              "move4": "STRENGTH",
+              "rawData": "32 B9 49 00 9D 59 43 46 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 67 67 00 00"
+            },
+            {
+              "name": "RATICATE",
+              "item": "MAGNET",
+              "move1": "HYPER_FANG",
+              "move2": "SUPER_FANG",
+              "move3": "REVERSAL",
+              "move4": "ROAR",
+              "rawData": "32 14 6D 00 9E A2 B3 2E 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 67 67 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GoldenrodGym",
+      "trainers": [
+        {
+          "name": "LassLois",
+          "pokemon": [
+            {
+              "name": "FURRET",
+              "item": "MINT_BERRY",
+              "move1": "SLAM",
+              "move2": "REVERSAL",
+              "move3": "DIG",
+              "move4": "QUICK_ATTACK",
+              "rawData": "32 A2 54 00 15 B3 5B 62 00 80 78 00 78 00 78 00 78 00 78 00 86 56 00 00"
+            },
+            {
+              "name": "PORYGON",
+              "item": "NEVERMELTICE",
+              "move1": "TRI_ATTACK",
+              "move2": "CONVERSION",
+              "move3": "PSYCHIC",
+              "move4": "THUNDERBOLT",
+              "rawData": "32 89 6C 00 A1 A0 5E 55 00 80 78 00 78 00 78 00 78 00 78 00 86 56 00 00"
+            },
+            {
+              "name": "DUGTRIO",
+              "item": "BITTER_BERRY",
+              "move1": "MAGNITUDE",
+              "move2": "TRI_ATTACK",
+              "move3": "ROCK_SLIDE",
+              "move4": "SAND_ATTACK",
+              "rawData": "32 33 53 00 DE A1 9D 1C 00 80 78 00 78 00 78 00 78 00 78 00 86 56 00 00"
+            },
+            {
+              "name": "JUMPLUFF",
+              "item": "PRZCUREBERRY",
+              "move1": "GIGA_DRAIN",
+              "move2": "HEADBUTT",
+              "move3": "CONFUSION",
+              "move4": "SOLAR_BEAM",
+              "rawData": "32 BD 4E 00 CA 1D 5D 4C C0 80 78 00 78 00 78 00 78 00 78 00 56 56 00 00"
+            },
+            {
+              "name": "CORSOLA",
+              "item": "FOCUS_BAND",
+              "move1": "BUBBLE_BEAM",
+              "move2": "ROCK_SLIDE",
+              "move3": "PSYCHIC",
+              "move4": "MIRROR_COAT",
+              "rawData": "32 DE 77 00 3D 9D 5E F3 00 80 78 00 78 00 78 00 78 00 78 00 56 56 00 00"
+            },
+            {
+              "name": "AIPOM",
+              "item": "MIRACLE_SEED",
+              "move1": "SWIFT",
+              "move2": "IRON_TAIL",
+              "move3": "SHADOW_BALL",
+              "move4": "COUNTER",
+              "rawData": "32 BE 75 00 81 E7 F7 44 00 80 78 00 78 00 78 00 78 00 78 00 56 56 00 00"
+            }
+          ]
+        },
+        {
+          "name": "BeautyRita",
+          "pokemon": [
+            {
+              "name": "PIKACHU",
+              "item": "MINT_BERRY",
+              "move1": "ATTRACT",
+              "move2": "PRESENT",
+              "move3": "QUICK_ATTACK",
+              "move4": "DOUBLE_TEAM",
+              "rawData": "32 19 54 00 D5 D9 62 68 30 80 78 00 A0 00 78 00 78 00 78 00 D6 56 00 00"
+            },
+            {
+              "name": "TOGETIC",
+              "item": "BURNT_BERRY",
+              "move1": "ATTRACT",
+              "move2": "PRESENT",
+              "move3": "ENCORE",
+              "move4": "DOUBLE_TEAM",
+              "rawData": "32 B0 4F 00 D5 D9 E3 68 3C 80 78 00 A0 00 78 00 78 00 78 00 E6 56 00 00"
+            },
+            {
+              "name": "CLEFABLE",
+              "item": "PRZCUREBERRY",
+              "move1": "ATTRACT",
+              "move2": "PRESENT",
+              "move3": "SHADOW_BALL",
+              "move4": "MINIMIZE",
+              "rawData": "32 24 4E 00 D5 D9 F7 6B 30 80 78 00 A0 00 78 00 78 00 78 00 B6 56 00 00"
+            },
+            {
+              "name": "WIGGLYTUFF",
+              "item": "BITTER_BERRY",
+              "move1": "ATTRACT",
+              "move2": "PRESENT",
+              "move3": "SHADOW_BALL",
+              "move4": "DOUBLE_TEAM",
+              "rawData": "32 28 53 00 D5 D9 F7 68 30 80 78 00 A0 00 78 00 78 00 78 00 B6 56 00 00"
+            },
+            {
+              "name": "AZUMARILL",
+              "item": "PSNCUREBERRY",
+              "move1": "ATTRACT",
+              "move2": "PRESENT",
+              "move3": "WHIRLPOOL",
+              "move4": "DOUBLE_TEAM",
+              "rawData": "32 B8 4A 00 D5 D9 FA 68 30 80 78 00 A0 00 78 00 78 00 78 00 B6 56 00 00"
+            },
+            {
+              "name": "DELIBIRD",
+              "item": "BERRY_JUICE",
+              "move1": "ATTRACT",
+              "move2": "PRESENT",
+              "move3": "CURSE",
+              "move4": "DOUBLE_TEAM",
+              "rawData": "32 E1 8B 00 D5 D9 AE 68 30 80 78 00 A0 00 78 00 78 00 78 00 D6 56 00 00"
+            }
+          ]
+        },
+        {
+          "name": "LeaderWhitney",
+          "pokemon": [
+            {
+              "name": "MILTANK",
+              "item": "KINGS_ROCK",
+              "move1": "STOMP",
+              "move2": "EARTHQUAKE",
+              "move3": "REVERSAL",
+              "move4": "MILK_DRINK",
+              "rawData": "32 F1 52 00 17 59 B3 D0 00 FF 8C 00 8C 00 8C 00 8C 00 8C 00 97 67 00 00"
+            },
+            {
+              "name": "GOLDUCK",
+              "item": "BRIGHTPOWDER",
+              "move1": "SURF",
+              "move2": "PSYCHIC",
+              "move3": "ICE_BEAM",
+              "move4": "CROSS_CHOP",
+              "rawData": "32 37 03 00 39 5E 3A EE 03 80 8C 00 8C 00 8C 00 8C 00 8C 00 87 67 00 00"
+            },
+            {
+              "name": "PERSIAN",
+              "item": "SCOPE_LENS",
+              "move1": "SLASH",
+              "move2": "SHADOW_BALL",
+              "move3": "THUNDERBOLT",
+              "move4": "ROAR",
+              "rawData": "32 35 8C 00 A3 F7 55 2E 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 87 67 00 00"
+            },
+            {
+              "name": "DONPHAN",
+              "item": "QUICK_CLAW",
+              "move1": "EARTHQUAKE",
+              "move2": "ANCIENT_POWER",
+              "move3": "DOUBLE_EDGE",
+              "move4": "FLAIL",
+              "rawData": "32 E8 49 00 59 F6 26 AF 30 80 8C 00 8C 00 8C 00 8C 00 8C 00 67 67 00 00"
+            },
+            {
+              "name": "MR.MIME",
+              "item": "MAGNET",
+              "move1": "PSYCHIC",
+              "move2": "DOUBLE_TEAM",
+              "move3": "MEDITATE",
+              "move4": "BATON_PASS",
+              "rawData": "32 7A 6D 00 5E 68 60 E2 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 67 67 00 00"
+            },
+            {
+              "name": "TAUROS",
+              "item": "FOCUS_BAND",
+              "move1": "STOMP",
+              "move2": "EARTHQUAKE",
+              "move3": "IRON_TAIL",
+              "move4": "SCARY_FACE",
+              "rawData": "32 80 77 00 17 59 E7 B8 03 80 8C 00 8C 00 8C 00 8C 00 8C 00 87 67 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EcruteakGym",
+      "trainers": [
+        {
+          "name": "MediumHolly",
+          "pokemon": [
+            {
+              "name": "GASTLY",
+              "item": "NONE",
+              "move1": "PSYCHIC",
+              "move2": "NIGHT_SHADE",
+              "move3": "GIGA_DRAIN",
+              "move4": "SPITE",
+              "rawData": "32 5C 71 00 5E 65 CA B4 0F FF 8C 00 8C 00 8C 00 8C 00 8C 00 67 67 00 00"
+            },
+            {
+              "name": "NOCTOWL",
+              "item": "PRZCUREBERRY",
+              "move1": "TAKE_DOWN",
+              "move2": "WING_ATTACK",
+              "move3": "FEINT_ATTACK",
+              "move4": "FORESIGHT",
+              "rawData": "32 A4 4E 00 24 11 B9 C1 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 87 67 00 00"
+            },
+            {
+              "name": "WEEPINBELL",
+              "item": "MINT_BERRY",
+              "move1": "RAZOR_LEAF",
+              "move2": "ENCORE",
+              "move3": "SLAM",
+              "move4": "SLUDGE_BOMB",
+              "rawData": "32 46 54 00 4B E3 15 BC 30 80 8C 00 8C 00 8C 00 8C 00 8C 00 67 67 00 00"
+            },
+            {
+              "name": "QWILFISH",
+              "item": "BITTER_BERRY",
+              "move1": "SURF",
+              "move2": "SLUDGE_BOMB",
+              "move3": "ICE_BEAM",
+              "move4": "FLAIL",
+              "rawData": "32 D3 53 00 39 BC 3A AF 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 67 67 00 00"
+            },
+            {
+              "name": "SEAKING",
+              "item": "NONE",
+              "move1": "WATERFALL",
+              "move2": "HORN_ATTACK",
+              "move3": "PSYBEAM",
+              "move4": "HAZE",
+              "rawData": "32 77 AE 00 7F 1E 3C 72 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 87 67 00 00"
+            },
+            {
+              "name": "DITTO",
+              "item": "METAL_POWDER",
+              "move1": "TRANSFORM",
+              "move2": "Null",
+              "move3": "Null",
+              "move4": "Null",
+              "rawData": "32 84 23 00 90 00 00 00 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 77 77 00 00"
+            }
+          ]
+        },
+        {
+          "name": "SageTy",
+          "pokemon": [
+            {
+              "name": "HAUNTER",
+              "item": "PRZCUREBERRY",
+              "move1": "DOUBLE_TEAM",
+              "move2": "MEAN_LOOK",
+              "move3": "CURSE",
+              "move4": "SHADOW_BALL",
+              "rawData": "32 5D 4E 00 68 D4 AE F7 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 3A 3A 00 00"
+            },
+            {
+              "name": "GRIMER",
+              "item": "MINT_BERRY",
+              "move1": "MUD_SLAP",
+              "move2": "MEAN_LOOK",
+              "move3": "ZAP_CANNON",
+              "move4": "ICE_PUNCH",
+              "rawData": "32 58 54 00 BD D4 C0 08 CC 80 8C 00 8C 00 8C 00 8C 00 8C 00 8A 3A 00 00"
+            },
+            {
+              "name": "JYNX",
+              "item": "ICE_BERRY",
+              "move1": "MUD_SLAP",
+              "move2": "MEAN_LOOK",
+              "move3": "DYNAMIC_PUNCH",
+              "move4": "SHADOW_BALL",
+              "rawData": "32 7C 50 00 BD D4 DF F7 0C 80 8C 00 8C 00 8C 00 8C 00 8C 00 3A 3A 00 00"
+            },
+            {
+              "name": "GOLBAT",
+              "item": "BITTER_BERRY",
+              "move1": "DOUBLE_TEAM",
+              "move2": "MEAN_LOOK",
+              "move3": "STEEL_WING",
+              "move4": "FEINT_ATTACK",
+              "rawData": "32 2A 53 00 68 D4 D3 B9 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 8A 3A 00 00"
+            },
+            {
+              "name": "MUK",
+              "item": "BURNT_BERRY",
+              "move1": "MUD_SLAP",
+              "move2": "MEAN_LOOK",
+              "move3": "ZAP_CANNON",
+              "move4": "ICE_PUNCH",
+              "rawData": "32 59 4F 00 BD D4 C0 08 0C 80 8C 00 8C 00 8C 00 8C 00 8C 00 8A 3A 00 00"
+            },
+            {
+              "name": "MURKROW",
+              "item": "PSNCUREBERRY",
+              "move1": "MUD_SLAP",
+              "move2": "MEAN_LOOK",
+              "move3": "NIGHT_SHADE",
+              "move4": "DRILL_PECK",
+              "rawData": "32 C6 4A 00 BD D4 65 41 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 3A 3A 00 00"
+            }
+          ]
+        },
+        {
+          "name": "LeaderMorty",
+          "pokemon": [
+            {
+              "name": "GENGAR",
+              "item": "KINGS_ROCK",
+              "move1": "PSYCHIC",
+              "move2": "THUNDERBOLT",
+              "move3": "FIRE_PUNCH",
+              "move4": "CONFUSE_RAY",
+              "rawData": "32 5E 52 00 5E 55 07 6D 00 FF 96 00 96 00 96 00 96 00 96 00 8A 9A 00 00"
+            },
+            {
+              "name": "MANTINE",
+              "item": "BRIGHTPOWDER",
+              "move1": "SURF",
+              "move2": "WING_ATTACK",
+              "move3": "ICE_BEAM",
+              "move4": "CONFUSE_RAY",
+              "rawData": "32 E2 03 00 39 11 3A 6D 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 67 67 00 00"
+            },
+            {
+              "name": "GRANBULL",
+              "item": "SCOPE_LENS",
+              "move1": "TAKE_DOWN",
+              "move2": "SHADOW_BALL",
+              "move3": "SLUDGE_BOMB",
+              "move4": "LICK",
+              "rawData": "32 D2 8C 00 24 F7 BC 7A 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 87 67 00 00"
+            },
+            {
+              "name": "LAPRAS",
+              "item": "MAGNET",
+              "move1": "SURF",
+              "move2": "ICE_BEAM",
+              "move3": "THUNDERBOLT",
+              "move4": "BODY_SLAM",
+              "rawData": "32 83 6D 00 39 3A 55 22 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 67 67 00 00"
+            },
+            {
+              "name": "MISDREAVUS",
+              "item": "FOCUS_BAND",
+              "move1": "SHADOW_BALL",
+              "move2": "THUNDERBOLT",
+              "move3": "PSYCHIC",
+              "move4": "CONFUSE_RAY",
+              "rawData": "32 C8 77 00 F7 55 5E 6D 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 67 67 00 00"
+            },
+            {
+              "name": "EXEGGUTOR",
+              "item": "QUICK_CLAW",
+              "move1": "PSYCHIC",
+              "move2": "GIGA_DRAIN",
+              "move3": "DOUBLE_EDGE",
+              "move4": "STUN_SPORE",
+              "rawData": "32 67 49 00 5E CA 26 4E 30 80 8C 00 8C 00 8C 00 8C 00 8C 00 87 67 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cianwood Gym",
+      "trainers": [
+        {
+          "name": "BlackBeltNick",
+          "pokemon": [
+            {
+              "name": "MACHOKE",
+              "item": "MINT_BERRY",
+              "move1": "FISSURE",
+              "move2": "ROCK_SLIDE",
+              "move3": "REST",
+              "move4": "SLEEP_TALK",
+              "rawData": "32 43 54 00 5A 9D 9C D6 03 80 8C 00 8C 00 8C 00 8C 00 8C 00 8B 7B 00 00"
+            },
+            {
+              "name": "GRAVELER",
+              "item": "NONE",
+              "move1": "FISSURE",
+              "move2": "ROCK_SLIDE",
+              "move3": "REST",
+              "move4": "SLEEP_TALK",
+              "rawData": "32 4B 7D 00 5A 9D 9C D6 03 80 8C 00 8C 00 8C 00 8C 00 8C 00 8B 7B 00 00"
+            },
+            {
+              "name": "KINGLER",
+              "item": "MYSTERYBERRY",
+              "move1": "GUILLOTINE",
+              "move2": "CRABHAMMER",
+              "move3": "REST",
+              "move4": "SLEEP_TALK",
+              "rawData": "32 63 96 00 0C 98 9C D6 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 1B 7B 00 00"
+            },
+            {
+              "name": "ARBOK",
+              "item": "PRZCUREBERRY",
+              "move1": "FISSURE",
+              "move2": "ROCK_SLIDE",
+              "move3": "REST",
+              "move4": "SLEEP_TALK",
+              "rawData": "32 18 4E 00 5A 9D 9C D6 03 80 8C 00 8C 00 8C 00 8C 00 8C 00 8B 7B 00 00"
+            },
+            {
+              "name": "DRAGONAIR",
+              "item": "DRAGON_SCALE",
+              "move1": "HORN_DRILL",
+              "move2": "DRAGON_BREATH",
+              "move3": "REST",
+              "move4": "SLEEP_TALK",
+              "rawData": "32 94 97 00 20 E1 9C D6 03 80 8C 00 8C 00 8C 00 8C 00 8C 00 1B 7B 00 00"
+            },
+            {
+              "name": "PINSIR",
+              "item": "BITTER_BERRY",
+              "move1": "GUILLOTINE",
+              "move2": "FURY_CUTTER",
+              "move3": "REST",
+              "move4": "SLEEP_TALK",
+              "rawData": "32 7F 53 00 0C D2 9C D6 03 80 8C 00 8C 00 8C 00 8C 00 8C 00 1B 7B 00 00"
+            }
+          ]
+        },
+        {
+          "name": "LeaderChuck",
+          "pokemon": [
+            {
+              "name": "POLIWRATH",
+              "item": "MINT_BERRY",
+              "move1": "DYNAMIC_PUNCH",
+              "move2": "BELLY_DRUM",
+              "move3": "REST",
+              "move4": "SLEEP_TALK",
+              "rawData": "32 3E 54 00 DF BB 9C D6 C3 FF AA 00 AA 00 AA 00 AA 00 AA 00 EA AB 00 00"
+            },
+            {
+              "name": "SANDSLASH",
+              "item": "SCOPE_LENS",
+              "move1": "DYNAMIC_PUNCH",
+              "move2": "EARTHQUAKE",
+              "move3": "ROCK_SLIDE",
+              "move4": "METAL_CLAW",
+              "rawData": "32 1C 8C 00 DF 59 9D E8 C0 80 AA 00 AA 00 AA 00 AA 00 AA 00 B8 98 00 00"
+            },
+            {
+              "name": "URSARING",
+              "item": "QUICK_CLAW",
+              "move1": "DYNAMIC_PUNCH",
+              "move2": "SLASH",
+              "move3": "EARTHQUAKE",
+              "move4": "CRUNCH",
+              "rawData": "32 D9 49 00 DF A3 59 F2 C0 80 AA 00 AA 00 AA 00 AA 00 AA 00 B8 98 00 00"
+            },
+            {
+              "name": "AMPHAROS",
+              "item": "BRIGHTPOWDER",
+              "move1": "DYNAMIC_PUNCH",
+              "move2": "THUNDERBOLT",
+              "move3": "FIRE_PUNCH",
+              "move4": "LIGHT_SCREEN",
+              "rawData": "32 B5 03 00 DF 55 07 71 C0 80 AA 00 AA 00 AA 00 AA 00 AA 00 B8 98 00 00"
+            },
+            {
+              "name": "HITMONCHAN",
+              "item": "KINGS_ROCK",
+              "move1": "DYNAMIC_PUNCH",
+              "move2": "MEGA_PUNCH",
+              "move3": "MACH_PUNCH",
+              "move4": "PURSUIT",
+              "rawData": "32 6B 52 00 DF 05 B7 E4 C0 80 AA 00 AA 00 AA 00 AA 00 AA 00 B8 98 00 00"
+            },
+            {
+              "name": "HYPNO",
+              "item": "PRZCUREBERRY",
+              "move1": "DYNAMIC_PUNCH",
+              "move2": "PSYCHIC",
+              "move3": "SHADOW_BALL",
+              "move4": "LIGHT_SCREEN",
+              "rawData": "32 61 4E 00 DF 5E F7 71 C0 80 AA 00 AA 00 AA 00 AA 00 AA 00 B8 98 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OlivineGym",
+      "trainers": [
+        {
+          "name": "LeaderJasmine",
+          "pokemon": [
+            {
+              "name": "STEELIX",
+              "item": "QUICK_CLAW",
+              "move1": "IRON_TAIL",
+              "move2": "EARTHQUAKE",
+              "move3": "ROCK_SLIDE",
+              "move4": "RETURN",
+              "rawData": "32 D0 49 00 E7 59 9D D8 C0 FF A0 00 A0 00 A0 00 A0 00 A0 00 CA 9A 00 00"
+            },
+            {
+              "name": "STANTLER",
+              "item": "PRZCUREBERRY",
+              "move1": "PSYCHIC",
+              "move2": "EARTHQUAKE",
+              "move3": "LIGHT_SCREEN",
+              "move4": "ROAR",
+              "rawData": "32 EA 4E 00 5E 59 71 2E 00 80 A0 00 A0 00 A0 00 A0 00 A0 00 79 89 00 00"
+            },
+            {
+              "name": "BLASTOISE",
+              "item": "MAGNET",
+              "move1": "SURF",
+              "move2": "EARTHQUAKE",
+              "move3": "ICE_BEAM",
+              "move4": "MIRROR_COAT",
+              "rawData": "32 09 6D 00 39 59 3A F3 00 80 A0 00 A0 00 A0 00 A0 00 A0 00 89 89 00 00"
+            },
+            {
+              "name": "SLOWBRO",
+              "item": "BRIGHTPOWDER",
+              "move1": "SURF",
+              "move2": "PSYCHIC",
+              "move3": "EARTHQUAKE",
+              "move4": "ICE_BEAM",
+              "rawData": "32 50 03 00 39 5E 59 3A 00 80 A0 00 A0 00 A0 00 A0 00 A0 00 79 89 00 00"
+            },
+            {
+              "name": "RAPIDASH",
+              "item": "KINGS_ROCK",
+              "move1": "FLAMETHROWER",
+              "move2": "DOUBLE_KICK",
+              "move3": "STOMP",
+              "move4": "IRON_TAIL",
+              "rawData": "32 4E 52 00 35 18 17 E7 00 80 A0 00 A0 00 A0 00 A0 00 A0 00 89 89 00 00"
+            },
+            {
+              "name": "SCIZOR",
+              "item": "FOCUS_BAND",
+              "move1": "METAL_CLAW",
+              "move2": "REVERSAL",
+              "move3": "WING_ATTACK",
+              "move4": "SLASH",
+              "rawData": "32 D4 77 00 E8 B3 11 A3 00 80 A0 00 A0 00 A0 00 A0 00 A0 00 79 89 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TeamRocketInterruption",
+      "trainers": [
+        {
+          "name": "RocketGruntMale",
+          "pokemon": [
+            {
+              "name": "WEEZING",
+              "item": "BITTER_BERRY",
+              "move1": "EXPLOSION",
+              "move2": "SLUDGE",
+              "move3": "PSYBEAM",
+              "move4": "SCREECH",
+              "rawData": "32 6E 53 00 99 7C 3C 67 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 87 67 00 00"
+            },
+            {
+              "name": "ELECTRODE",
+              "item": "MINT_BERRY",
+              "move1": "EXPLOSION",
+              "move2": "THUNDERBOLT",
+              "move3": "MIRROR_COAT",
+              "move4": "SCREECH",
+              "rawData": "32 65 54 00 99 55 F3 67 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 B7 67 00 00"
+            },
+            {
+              "name": "CLOYSTER",
+              "item": "NONE",
+              "move1": "EXPLOSION",
+              "move2": "ICE_BEAM",
+              "move3": "SURF",
+              "move4": "SCREECH",
+              "rawData": "32 5B 6B 00 99 3A 39 67 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 87 67 00 00"
+            },
+            {
+              "name": "SUDOWOODO",
+              "item": "PRZCUREBERRY",
+              "move1": "SELF_DESTRUCT",
+              "move2": "ROCK_SLIDE",
+              "move3": "EARTHQUAKE",
+              "move4": "FEINT_ATTACK",
+              "rawData": "32 B9 4E 00 78 9D 59 B9 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 77 67 00 00"
+            },
+            {
+              "name": "FORRETRESS",
+              "item": "NONE",
+              "move1": "EXPLOSION",
+              "move2": "PIN_MISSILE",
+              "move3": "GIGA_DRAIN",
+              "move4": "DOUBLE_EDGE",
+              "rawData": "32 CD 58 00 99 2A CA 26 0C 80 8C 00 8C 00 8C 00 8C 00 8C 00 77 67 00 00"
+            },
+            {
+              "name": "GOLEM",
+              "item": "FOCUS_BAND",
+              "move1": "EXPLOSION",
+              "move2": "MAGNITUDE",
+              "move3": "ROCK_SLIDE",
+              "move4": "STRENGTH",
+              "rawData": "32 4C 77 00 99 DE 9D 46 00 80 8C 00 8C 00 8C 00 8C 00 8C 00 77 67 00 00"
+            }
+          ]
+        },
+        {
+          "name": "RocketGruntFemale",
+          "pokemon": [
+            {
+              "name": "HOUNDOUR",
+              "item": "CHARCOAL",
+              "move1": "TOXIC",
+              "move2": "FIRE_SPIN",
+              "move3": "FLAMETHROWER",
+              "move4": "DETECT",
+              "rawData": "32 E4 8A 00 5C 53 35 C5 03 80 8C 00 8C 00 8C 00 8C 00 8C 00 8A 4A 00 00"
+            },
+            {
+              "name": "SHUCKLE",
+              "item": "PSNCUREBERRY",
+              "move1": "TOXIC",
+              "move2": "WRAP",
+              "move3": "DIG",
+              "move4": "PROTECT",
+              "rawData": "32 D5 4A 00 5C 23 5B B6 03 80 8C 00 8C 00 8C 00 8C 00 8C 00 8A 4A 00 00"
+            },
+            {
+              "name": "AZUMARILL",
+              "item": "NONE",
+              "move1": "PERISH_SONG",
+              "move2": "WHIRLPOOL",
+              "move3": "SURF",
+              "move4": "PROTECT",
+              "rawData": "32 B8 5F 00 C3 FA 39 B6 03 80 8C 00 8C 00 8C 00 8C 00 8C 00 4A 4A 00 00"
+            },
+            {
+              "name": "SHELLDER",
+              "item": "MINT_BERRY",
+              "move1": "TOXIC",
+              "move2": "CLAMP",
+              "move3": "ICE_BEAM",
+              "move4": "PROTECT",
+              "rawData": "32 5A 54 00 5C 80 3A B6 03 80 8C 00 8C 00 8C 00 8C 00 8C 00 4A 4A 00 00"
+            },
+            {
+              "name": "ONIX",
+              "item": "BITTER_BERRY",
+              "move1": "TOXIC",
+              "move2": "BIND",
+              "move3": "EARTHQUAKE",
+              "move4": "PROTECT",
+              "rawData": "32 5F 53 00 5C 14 59 B6 03 80 8C 00 8C 00 8C 00 8C 00 8C 00 8A 4A 00 00"
+            },
+            {
+              "name": "DEWGONG",
+              "item": "PRZCUREBERRY",
+              "move1": "PERISH_SONG",
+              "move2": "WHIRLPOOL",
+              "move3": "AURORA_BEAM",
+              "move4": "PROTECT",
+              "rawData": "32 57 4E 00 C3 FA 3E B6 03 80 8C 00 8C 00 8C 00 8C 00 8C 00 8A 4A 00 00"
+            }
+          ]
+        },
+        {
+          "name": "RocketExecutiveFemale",
+          "pokemon": [
+            {
+              "name": "VILEPLUME",
+              "item": "MAGNET",
+              "move1": "RAZOR_LEAF",
+              "move2": "SLUDGE_BOMB",
+              "move3": "PETAL_DANCE",
+              "move4": "FRUSTRATION",
+              "rawData": "32 2D 6D 00 4B BC 50 DA 00 05 96 00 96 00 96 00 96 00 96 00 67 67 00 00"
+            },
+            {
+              "name": "ARBOK",
+              "item": "NONE",
+              "move1": "THIEF",
+              "move2": "EARTHQUAKE",
+              "move3": "ROCK_SLIDE",
+              "move4": "FRUSTRATION",
+              "rawData": "32 18 00 00 A8 59 9D DA 00 05 96 00 96 00 96 00 96 00 96 00 87 67 00 00"
+            },
+            {
+              "name": "MAGCARGO",
+              "item": "MINT_BERRY",
+              "move1": "FLAMETHROWER",
+              "move2": "ROCK_SLIDE",
+              "move3": "EARTHQUAKE",
+              "move4": "FRUSTRATION",
+              "rawData": "32 DB 54 00 35 9D 59 DA 00 05 96 00 96 00 96 00 96 00 96 00 67 67 00 00"
+            },
+            {
+              "name": "KABUTOPS",
+              "item": "BERSERK_GENE",
+              "move1": "THIEF",
+              "move2": "SURF",
+              "move3": "ANCIENT_POWER",
+              "move4": "FRUSTRATION",
+              "rawData": "32 8D 98 00 A8 39 F6 DA 0C 05 96 00 96 00 96 00 96 00 96 00 87 67 00 00"
+            },
+            {
+              "name": "VICTREEBEL",
+              "item": "PRZCUREBERRY",
+              "move1": "RAZOR_LEAF",
+              "move2": "SLUDGE_BOMB",
+              "move3": "GIGA_DRAIN",
+              "move4": "FRUSTRATION",
+              "rawData": "32 47 4E 00 4B BC CA DA 0C 05 96 00 96 00 96 00 96 00 96 00 87 67 00 00"
+            },
+            {
+              "name": "GOLBAT",
+              "item": "NONE",
+              "move1": "THIEF",
+              "move2": "WING_ATTACK",
+              "move3": "HAZE",
+              "move4": "FRUSTRATION",
+              "rawData": "32 2A 00 00 A8 11 72 DA 00 05 96 00 96 00 96 00 96 00 96 00 67 67 00 00"
+            }
+          ]
+        },
+        {
+          "name": "RocketExecutiveMale",
+          "pokemon": [
+            {
+              "name": "HOUNDOOM",
+              "item": "MAGNET",
+              "move1": "CRUNCH",
+              "move2": "SUNNY_DAY",
+              "move3": "FIRE_BLAST",
+              "move4": "SOLAR_BEAM",
+              "rawData": "32 E5 6D 00 F2 F1 7E 4C 3F FF AA 00 AA 00 AA 00 AA 00 AA 00 78 78 00 00"
+            },
+            {
+              "name": "OCTILLERY",
+              "item": "SCOPE_LENS",
+              "move1": "SURF",
+              "move2": "PSYBEAM",
+              "move3": "SWAGGER",
+              "move4": "SCREECH",
+              "rawData": "32 E0 8C 00 39 3C CF 67 C0 80 A0 00 A0 00 A0 00 A0 00 A0 00 67 67 00 00"
+            },
+            {
+              "name": "WOBBUFFET",
+              "item": "FOCUS_BAND",
+              "move1": "COUNTER",
+              "move2": "MIRROR_COAT",
+              "move3": "SAFEGUARD",
+              "move4": "DESTINY_BOND",
+              "rawData": "32 CA 77 00 44 F3 DB C2 00 80 A0 00 A0 00 A0 00 A0 00 A0 00 67 67 00 00"
+            },
+            {
+              "name": "HYPNO",
+              "item": "PRZCUREBERRY",
+              "move1": "PSYCHIC",
+              "move2": "SHADOW_BALL",
+              "move3": "THUNDER_PUNCH",
+              "move4": "SWAGGER",
+              "rawData": "32 61 4E 00 5E F7 09 CF 00 80 A0 00 A0 00 A0 00 A0 00 A0 00 87 67 00 00"
+            },
+            {
+              "name": "PARASECT",
+              "item": "BRIGHTPOWDER",
+              "move1": "GIGA_DRAIN",
+              "move2": "SLUDGE_BOMB",
+              "move3": "SWAGGER",
+              "move4": "STUN_SPORE",
+              "rawData": "32 2F 03 00 CA BC CF 4E C0 80 A0 00 A0 00 A0 00 A0 00 A0 00 87 67 00 00"
+            },
+            {
+              "name": "TYRANITAR",
+              "item": "QUICK_CLAW",
+              "move1": "ROCK_SLIDE",
+              "move2": "EARTHQUAKE",
+              "move3": "SWAGGER",
+              "move4": "SCREECH",
+              "rawData": "32 F8 49 00 9D 59 CF 67 30 80 A0 00 A0 00 A0 00 A0 00 A0 00 87 67 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MahoganyGym",
+      "trainers": [
+        {
+          "name": "BoarderAlvin",
+          "pokemon": [
+            {
+              "name": "SEEL",
+              "item": "PRZCUREBERRY",
+              "move1": "SURF",
+              "move2": "ICE_BEAM",
+              "move3": "ENCORE",
+              "move4": "DISABLE",
+              "rawData": "32 56 4E 00 39 3A E3 32 0C 80 A0 00 A0 00 A0 00 A0 00 A0 00 67 67 00 00"
+            },
+            {
+              "name": "KADABRA",
+              "item": "MYSTIC_WATER",
+              "move1": "PSYBEAM",
+              "move2": "ICE_PUNCH",
+              "move3": "ENCORE",
+              "move4": "DISABLE",
+              "rawData": "32 40 60 00 3C 08 E3 32 0C 80 A0 00 A0 00 A0 00 A0 00 A0 00 67 67 00 00"
+            },
+            {
+              "name": "DELIBIRD",
+              "item": "MINT_BERRY",
+              "move1": "FLY",
+              "move2": "BLIZZARD",
+              "move3": "QUICK_ATTACK",
+              "move4": "RAPID_SPIN",
+              "rawData": "32 E1 54 00 13 3B 62 E5 30 80 A0 00 A0 00 A0 00 A0 00 A0 00 67 67 00 00"
+            },
+            {
+              "name": "MAGNETON",
+              "item": "PSNCUREBERRY",
+              "move1": "THUNDERBOLT",
+              "move2": "TRI_ATTACK",
+              "move3": "ROLLOUT",
+              "move4": "MIMIC",
+              "rawData": "32 52 4A 00 55 A1 CD 66 00 80 A0 00 A0 00 A0 00 A0 00 A0 00 67 67 00 00"
+            },
+            {
+              "name": "VENUSAUR",
+              "item": "BITTER_BERRY",
+              "move1": "RAZOR_LEAF",
+              "move2": "BODY_SLAM",
+              "move3": "REFLECT",
+              "move4": "ROAR",
+              "rawData": "32 03 53 00 4B 22 73 2E 00 80 A0 00 A0 00 A0 00 A0 00 A0 00 67 67 00 00"
+            },
+            {
+              "name": "SNEASEL",
+              "item": "ICE_BERRY",
+              "move1": "SLASH",
+              "move2": "ICE_BEAM",
+              "move3": "SHADOW_BALL",
+              "move4": "COUNTER",
+              "rawData": "32 D7 50 00 A3 3A F7 44 00 80 A0 00 A0 00 A0 00 A0 00 A0 00 87 67 00 00"
+            }
+          ]
+        },
+        {
+          "name": "SkierCarol",
+          "pokemon": [
+            {
+              "name": "SEADRA",
+              "item": "KINGS_ROCK",
+              "move1": "ICY_WIND",
+              "move2": "TWISTER",
+              "move3": "HEADBUTT",
+              "move4": "BLIZZARD",
+              "rawData": "32 75 52 00 C4 EF 1D 3B 3C 80 A0 00 A0 00 A0 00 A0 00 A0 00 67 67 00 00"
+            },
+            {
+              "name": "RATICATE",
+              "item": "PRZCUREBERRY",
+              "move1": "ICY_WIND",
+              "move2": "BITE",
+              "move3": "HYPER_FANG",
+              "move4": "BLIZZARD",
+              "rawData": "32 14 4E 00 C4 2C 9E 3B 3C 80 A0 00 A0 00 A0 00 A0 00 A0 00 87 67 00 00"
+            },
+            {
+              "name": "OMASTAR",
+              "item": "MINT_BERRY",
+              "move1": "ICY_WIND",
+              "move2": "HEADBUTT",
+              "move3": "BITE",
+              "move4": "BLIZZARD",
+              "rawData": "32 8B 54 00 C4 1D 2C 3B 3C 80 A0 00 A0 00 A0 00 A0 00 A0 00 87 67 00 00"
+            },
+            {
+              "name": "MAROWAK",
+              "item": "BURNT_BERRY",
+              "move1": "ICY_WIND",
+              "move2": "ROCK_SLIDE",
+              "move3": "HEADBUTT",
+              "move4": "BLIZZARD",
+              "rawData": "32 69 4F 00 C4 9D 1D 3B 3C 80 A0 00 A0 00 A0 00 A0 00 A0 00 67 67 00 00"
+            },
+            {
+              "name": "POLIWHIRL",
+              "item": "BITTER_BERRY",
+              "move1": "ICY_WIND",
+              "move2": "HEADBUTT",
+              "move3": "WHIRLPOOL",
+              "move4": "BLIZZARD",
+              "rawData": "32 3D 53 00 C4 1D FA 3B 30 80 A0 00 A0 00 A0 00 A0 00 A0 00 87 67 00 00"
+            },
+            {
+              "name": "PERSIAN",
+              "item": "PSNCUREBERRY",
+              "move1": "ICY_WIND",
+              "move2": "HEADBUTT",
+              "move3": "BITE",
+              "move4": "ROAR",
+              "rawData": "32 35 4A 00 C4 1D 2C 2E 3C 80 A0 00 A0 00 A0 00 A0 00 A0 00 67 67 00 00"
+            }
+          ]
+        },
+        {
+          "name": "LeaderPryce",
+          "pokemon": [
+            {
+              "name": "PILOSWINE",
+              "item": "QUICK_CLAW",
+              "move1": "EARTHQUAKE",
+              "move2": "ICE_BEAM",
+              "move3": "ANCIENT_POWER",
+              "move4": "BODY_SLAM",
+              "rawData": "32 DD 49 00 59 3A F6 22 3C FF AA 00 AA 00 AA 00 AA 00 AA 00 B8 7C 00 00"
+            },
+            {
+              "name": "QUAGSIRE",
+              "item": "BRIGHTPOWDER",
+              "move1": "SURF",
+              "move2": "EARTHQUAKE",
+              "move3": "ICE_BEAM",
+              "move4": "IRON_TAIL",
+              "rawData": "32 C3 03 00 39 59 3A E7 0C 80 AA 00 AA 00 AA 00 AA 00 AA 00 78 78 00 00"
+            },
+            {
+              "name": "HITMONTOP",
+              "item": "MAGNET",
+              "move1": "HIGH_JUMP_KICK",
+              "move2": "STRENGTH",
+              "move3": "DIG",
+              "move4": "COUNTER",
+              "rawData": "32 ED 6D 00 88 46 5B 44 00 80 AA 00 AA 00 AA 00 AA 00 AA 00 78 78 00 00"
+            },
+            {
+              "name": "TENTACRUEL",
+              "item": "FOCUS_BAND",
+              "move1": "SURF",
+              "move2": "ICE_BEAM",
+              "move3": "REFLECT",
+              "move4": "MIRROR_COAT",
+              "rawData": "32 49 77 00 39 3A 73 F3 30 80 AA 00 AA 00 AA 00 AA 00 AA 00 78 78 00 00"
+            },
+            {
+              "name": "GIRAFARIG",
+              "item": "PRZCUREBERRY",
+              "move1": "HEADBUTT",
+              "move2": "PSYCHIC",
+              "move3": "EARTHQUAKE",
+              "move4": "SHADOW_BALL",
+              "rawData": "32 CB 4E 00 1D 5E 59 F7 00 80 AA 00 AA 00 AA 00 AA 00 AA 00 78 78 00 00"
+            },
+            {
+              "name": "ARTICUNO",
+              "item": "SCOPE_LENS",
+              "move1": "ICE_BEAM",
+              "move2": "FLY",
+              "move3": "DOUBLE_EDGE",
+              "move4": "BUBBLE_BEAM",
+              "rawData": "32 90 8C 00 3A 13 26 3D C0 80 AA 00 AA 00 AA 00 AA 00 AA 00 BA 9A 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blackthorn Gym",
+      "trainers": [
+        {
+          "name": "CooltrainerGloria",
+          "pokemon": [
+            {
+              "name": "SMEARGLE",
+              "item": "FOCUS_BAND",
+              "move1": "SPIDER_WEB",
+              "move2": "SPORE",
+              "move3": "NIGHTMARE",
+              "move4": "SUPER_FANG",
+              "rawData": "32 EB 77 00 A9 93 AB A2 FF 80 96 00 96 00 96 00 96 00 96 00 86 56 00 00"
+            },
+            {
+              "name": "TANGELA",
+              "item": "BITTER_BERRY",
+              "move1": "BIND",
+              "move2": "SLEEP_POWDER",
+              "move3": "MEGA_DRAIN",
+              "move4": "SLUDGE_BOMB",
+              "rawData": "32 72 53 00 14 4F 48 BC FF 80 96 00 96 00 96 00 96 00 96 00 56 56 00 00"
+            },
+            {
+              "name": "JYNX",
+              "item": "ICE_BERRY",
+              "move1": "MEAN_LOOK",
+              "move2": "LOVELY_KISS",
+              "move3": "DREAM_EATER",
+              "move4": "ICE_PUNCH",
+              "rawData": "32 7C 50 00 D4 8E 8A 08 FF 80 96 00 96 00 96 00 96 00 96 00 56 56 00 00"
+            },
+            {
+              "name": "GOLDUCK",
+              "item": "PRZCUREBERRY",
+              "move1": "WHIRLPOOL",
+              "move2": "HYPNOSIS",
+              "move3": "PSYCHIC",
+              "move4": "SUBMISSION",
+              "rawData": "32 37 4E 00 FA 5F 5E 42 FF 80 96 00 96 00 96 00 96 00 96 00 86 56 00 00"
+            },
+            {
+              "name": "HAUNTER",
+              "item": "MINT_BERRY",
+              "move1": "MEAN_LOOK",
+              "move2": "HYPNOSIS",
+              "move3": "NIGHTMARE",
+              "move4": "NIGHT_SHADE",
+              "rawData": "32 5D 54 00 D4 5F AB 65 FF 80 96 00 96 00 96 00 96 00 96 00 86 56 00 00"
+            },
+            {
+              "name": "NINETALES",
+              "item": "BURNT_BERRY",
+              "move1": "FIRE_SPIN",
+              "move2": "HYPNOSIS",
+              "move3": "FEINT_ATTACK",
+              "move4": "FLAMETHROWER",
+              "rawData": "32 26 4F 00 53 5F B9 35 FF 80 96 00 96 00 96 00 96 00 96 00 56 56 00 00"
+            }
+          ]
+        },
+        {
+          "name": "CooltrainerVince",
+          "pokemon": [
+            {
+              "name": "IVYSAUR",
+              "item": "BURNT_BERRY",
+              "move1": "RAZOR_LEAF",
+              "move2": "CUT",
+              "move3": "LEECH_SEED",
+              "move4": "REFLECT",
+              "rawData": "32 02 4F 00 4B 0F 49 73 00 80 C8 00 C8 00 C8 00 C8 00 C8 00 9A 9A 00 00"
+            },
+            {
+              "name": "WARTORTLE",
+              "item": "PRZCUREBERRY",
+              "move1": "HYDRO_PUMP",
+              "move2": "BLIZZARD",
+              "move3": "REFLECT",
+              "move4": "MIRROR_COAT",
+              "rawData": "32 08 4E 00 38 3B 73 F3 F0 80 C8 00 C8 00 C8 00 C8 00 C8 00 1A 9A 00 00"
+            },
+            {
+              "name": "CHARMELEON",
+              "item": "MINT_BERRY",
+              "move1": "FIRE_BLAST",
+              "move2": "SLASH",
+              "move3": "DIG",
+              "move4": "COUNTER",
+              "rawData": "32 05 54 00 7E A3 5B 44 C0 80 C8 00 C8 00 C8 00 C8 00 C8 00 9A 9A 00 00"
+            },
+            {
+              "name": "BAYLEEF",
+              "item": "BITTER_BERRY",
+              "move1": "RAZOR_LEAF",
+              "move2": "BODY_SLAM",
+              "move3": "COUNTER",
+              "move4": "LIGHT_SCREEN",
+              "rawData": "32 99 53 00 4B 22 44 71 00 80 C8 00 C8 00 C8 00 C8 00 C8 00 1A 9A 00 00"
+            },
+            {
+              "name": "CROCONAW",
+              "item": "NONE",
+              "move1": "HYDRO_PUMP",
+              "move2": "CRUNCH",
+              "move3": "SLASH",
+              "move4": "DIG",
+              "rawData": "32 9F AE 00 38 F2 A3 5B C0 80 C8 00 C8 00 C8 00 C8 00 C8 00 9A 9A 00 00"
+            },
+            {
+              "name": "QUILAVA",
+              "item": "PSNCUREBERRY",
+              "move1": "FIRE_BLAST",
+              "move2": "DIG",
+              "move3": "REVERSAL",
+              "move4": "ROAR",
+              "rawData": "32 9C 4A 00 7E 5B B3 2E C0 80 C8 00 C8 00 C8 00 C8 00 C8 00 9A 9A 00 00"
+            }
+          ]
+        },
+        {
+          "name": "LeaderClair",
+          "pokemon": [
+            {
+              "name": "KINGDRA",
+              "item": "BRIGHTPOWDER",
+              "move1": "DRAGON_BREATH",
+              "move2": "HYDRO_PUMP",
+              "move3": "RETURN",
+              "move4": "ICE_BEAM",
+              "rawData": "32 E6 03 00 E1 38 D8 3A 30 FA 96 00 96 00 96 00 96 00 96 00 C8 7A 00 00"
+            },
+            {
+              "name": "AMPHAROS",
+              "item": "QUICK_CLAW",
+              "move1": "THUNDERBOLT",
+              "move2": "THUNDER_WAVE",
+              "move3": "FIRE_PUNCH",
+              "move4": "BODY_SLAM",
+              "rawData": "32 B5 49 00 55 56 07 22 00 80 96 00 96 00 96 00 96 00 96 00 78 78 00 00"
+            },
+            {
+              "name": "NIDOKING",
+              "item": "SCOPE_LENS",
+              "move1": "EARTHQUAKE",
+              "move2": "DOUBLE_KICK",
+              "move3": "SHADOW_BALL",
+              "move4": "BODY_SLAM",
+              "rawData": "32 22 8C 00 59 18 F7 22 00 80 96 00 96 00 96 00 96 00 96 00 A8 78 00 00"
+            },
+            {
+              "name": "RHYDON",
+              "item": "FOCUS_BAND",
+              "move1": "ROCK_SLIDE",
+              "move2": "EARTHQUAKE",
+              "move3": "BODY_SLAM",
+              "move4": "ROAR",
+              "rawData": "32 70 77 00 9D 59 22 2E 00 80 96 00 96 00 96 00 96 00 96 00 78 CC 00 00"
+            },
+            {
+              "name": "CHARIZARD",
+              "item": "KINGS_ROCK",
+              "move1": "FLAMETHROWER",
+              "move2": "WING_ATTACK",
+              "move3": "EARTHQUAKE",
+              "move4": "BODY_SLAM",
+              "rawData": "32 06 52 00 35 11 59 22 00 80 96 00 96 00 96 00 96 00 96 00 A8 78 00 00"
+            },
+            {
+              "name": "GYARADOS",
+              "item": "MAGNET",
+              "move1": "WATERFALL",
+              "move2": "DOUBLE_EDGE",
+              "move3": "ICE_BEAM",
+              "move4": "DRAGON_BREATH",
+              "rawData": "32 82 6D 00 7F 26 3A E1 00 80 96 00 96 00 96 00 96 00 96 00 78 78 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EliteFour",
+      "trainers": [
+        {
+          "name": "EliteFourWill",
+          "pokemon": [
+            {
+              "name": "XATU",
+              "item": "BRIGHTPOWDER",
+              "move1": "PSYCHIC",
+              "move2": "DRILL_PECK",
+              "move3": "GIGA_DRAIN",
+              "move4": "FEINT_ATTACK",
+              "rawData": "32 B2 03 00 5E 41 CA B9 CC FF A0 00 A0 00 A0 00 A0 00 A0 00 A7 67 00 00"
+            },
+            {
+              "name": "ELECTABUZZ",
+              "item": "KINGS_ROCK",
+              "move1": "THUNDERBOLT",
+              "move2": "PSYCHIC",
+              "move3": "ICE_PUNCH",
+              "move4": "ROLLING_KICK",
+              "rawData": "32 7D 52 00 55 5E 08 1B 30 80 96 00 96 00 96 00 96 00 96 00 87 67 00 00"
+            },
+            {
+              "name": "MANTINE",
+              "item": "MAGNET",
+              "move1": "WATERFALL",
+              "move2": "WING_ATTACK",
+              "move3": "ICE_BEAM",
+              "move4": "HAZE",
+              "rawData": "32 E2 6D 00 7F 11 3A 72 00 80 96 00 96 00 96 00 96 00 96 00 67 67 00 00"
+            },
+            {
+              "name": "FLAREON",
+              "item": "QUICK_CLAW",
+              "move1": "FIRE_BLAST",
+              "move2": "BODY_SLAM",
+              "move3": "SHADOW_BALL",
+              "move4": "ROAR",
+              "rawData": "32 88 49 00 7E 22 F7 2E C0 80 96 00 96 00 96 00 96 00 96 00 87 67 00 00"
+            },
+            {
+              "name": "CHANSEY",
+              "item": "FOCUS_BAND",
+              "move1": "PSYCHIC",
+              "move2": "ICE_BEAM",
+              "move3": "THUNDERBOLT",
+              "move4": "COUNTER",
+              "rawData": "32 71 77 00 5E 3A 55 44 C0 80 96 00 96 00 96 00 96 00 96 00 67 67 00 00"
+            },
+            {
+              "name": "HYPNO",
+              "item": "SCOPE_LENS",
+              "move1": "PSYCHIC",
+              "move2": "SHADOW_BALL",
+              "move3": "SUBMISSION",
+              "move4": "ICE_PUNCH",
+              "rawData": "32 61 8C 00 5E F7 42 08 C0 80 96 00 96 00 96 00 96 00 96 00 67 67 00 00"
+            }
+          ]
+        },
+        {
+          "name": "EliteFourKoga",
+          "pokemon": [
+            {
+              "name": "VENOMOTH",
+              "item": "BRIGHTPOWDER",
+              "move1": "DOUBLE_TEAM",
+              "move2": "TOXIC",
+              "move3": "BATON_PASS",
+              "move4": "PSYBEAM",
+              "rawData": "32 31 03 00 68 5C E2 3C 03 FF B4 00 B4 00 B4 00 B4 00 B4 00 4C 4C 00 00"
+            },
+            {
+              "name": "MAGMAR",
+              "item": "MAGNET",
+              "move1": "DOUBLE_TEAM",
+              "move2": "TOXIC",
+              "move3": "CONFUSE_RAY",
+              "move4": "FLAMETHROWER",
+              "rawData": "32 7E 6D 00 68 5C 6D 35 03 80 A0 00 A0 00 A0 00 A0 00 A0 00 4B 4B 00 00"
+            },
+            {
+              "name": "LAPRAS",
+              "item": "LEFTOVERS",
+              "move1": "DOUBLE_TEAM",
+              "move2": "TOXIC",
+              "move3": "CONFUSE_RAY",
+              "move4": "SURF",
+              "rawData": "32 83 92 00 68 5C 6D 39 03 80 A0 00 A0 00 A0 00 A0 00 A0 00 4B 4B 00 00"
+            },
+            {
+              "name": "STANTLER",
+              "item": "MYSTERYBERRY",
+              "move1": "DOUBLE_TEAM",
+              "move2": "TOXIC",
+              "move3": "CONFUSE_RAY",
+              "move4": "EARTHQUAKE",
+              "rawData": "32 EA 96 00 68 5C 6D 59 00 80 A0 00 A0 00 A0 00 A0 00 A0 00 8B 4B 00 00"
+            },
+            {
+              "name": "LANTURN",
+              "item": "QUICK_CLAW",
+              "move1": "DOUBLE_TEAM",
+              "move2": "TOXIC",
+              "move3": "CONFUSE_RAY",
+              "move4": "THUNDERBOLT",
+              "rawData": "32 AB 49 00 68 5C 6D 55 03 80 A0 00 A0 00 A0 00 A0 00 A0 00 8B 4B 00 00"
+            },
+            {
+              "name": "ARIADOS",
+              "item": "FOCUS_BAND",
+              "move1": "DOUBLE_TEAM",
+              "move2": "SPIDER_WEB",
+              "move3": "BATON_PASS",
+              "move4": "PSYBEAM",
+              "rawData": "32 A8 77 00 68 A9 E2 3C 03 80 A0 00 A0 00 A0 00 A0 00 A0 00 8B 4B 00 00"
+            }
+          ]
+        },
+        {
+          "name": "EliteFourBruno",
+          "pokemon": [
+            {
+              "name": "MACHAMP",
+              "item": "QUICK_CLAW",
+              "move1": "CROSS_CHOP",
+              "move2": "EARTHQUAKE",
+              "move3": "ROCK_SLIDE",
+              "move4": "FISSURE",
+              "rawData": "32 44 49 00 EE 59 9D 5A C0 FF AA 00 AA 00 AA 00 AA 00 AA 00 C9 89 00 00"
+            },
+            {
+              "name": "GOLEM",
+              "item": "BRIGHTPOWDER",
+              "move1": "ROCK_SLIDE",
+              "move2": "MAGNITUDE",
+              "move3": "SUBMISSION",
+              "move4": "FISSURE",
+              "rawData": "32 4C 03 00 9D DE 42 5A 00 80 A0 00 A0 00 A0 00 A0 00 A0 00 79 89 00 00"
+            },
+            {
+              "name": "PRIMEAPE",
+              "item": "FOCUS_BAND",
+              "move1": "CROSS_CHOP",
+              "move2": "ROCK_SLIDE",
+              "move3": "REVERSAL",
+              "move4": "COUNTER",
+              "rawData": "32 39 77 00 EE 9D B3 44 C0 80 A0 00 A0 00 A0 00 A0 00 A0 00 C9 89 00 00"
+            },
+            {
+              "name": "GRANBULL",
+              "item": "PRZCUREBERRY",
+              "move1": "STRENGTH",
+              "move2": "SHADOW_BALL",
+              "move3": "SLUDGE_BOMB",
+              "move4": "DYNAMIC_PUNCH",
+              "rawData": "32 D2 4E 00 46 F7 BC DF 03 80 A0 00 A0 00 A0 00 A0 00 A0 00 B9 89 00 00"
+            },
+            {
+              "name": "EXEGGUTOR",
+              "item": "MAGNET",
+              "move1": "GIGA_DRAIN",
+              "move2": "PSYCHIC",
+              "move3": "ANCIENT_POWER",
+              "move4": "EXPLOSION",
+              "rawData": "32 67 6D 00 CA 5E F6 99 CC 80 A0 00 A0 00 A0 00 A0 00 A0 00 C7 67 00 00"
+            },
+            {
+              "name": "URSARING",
+              "item": "SCOPE_LENS",
+              "move1": "SLASH",
+              "move2": "EARTHQUAKE",
+              "move3": "CRUNCH",
+              "move4": "COUNTER",
+              "rawData": "32 D9 8C 00 A3 59 F2 44 00 80 A0 00 A0 00 A0 00 A0 00 A0 00 79 89 00 00"
+            }
+          ]
+        },
+        {
+          "name": "EliteFourKaren",
+          "pokemon": [
+            {
+              "name": "UMBREON",
+              "item": "FOCUS_BAND",
+              "move1": "SWAGGER",
+              "move2": "SCREECH",
+              "move3": "FEINT_ATTACK",
+              "move4": "PSYCHIC",
+              "rawData": "32 C5 77 00 CF 67 B9 5E 0C FF AA 00 AA 00 AA 00 AA 00 AA 00 8B 4B 00 00"
+            },
+            {
+              "name": "PERSIAN",
+              "item": "BRIGHTPOWDER",
+              "move1": "SWAGGER",
+              "move2": "SCREECH",
+              "move3": "HEADBUTT",
+              "move4": "SHADOW_BALL",
+              "rawData": "32 35 03 00 CF 67 1D F7 05 80 AA 00 AA 00 AA 00 AA 00 AA 00 8B 4B 00 00"
+            },
+            {
+              "name": "MURKROW",
+              "item": "SCOPE_LENS",
+              "move1": "SWAGGER",
+              "move2": "MEAN_LOOK",
+              "move3": "PSYCH_UP",
+              "move4": "DRILL_PECK",
+              "rawData": "32 C6 8C 00 CF D4 F4 41 03 80 AA 00 AA 00 AA 00 AA 00 AA 00 8B 4B 00 00"
+            },
+            {
+              "name": "SLOWBRO",
+              "item": "QUICK_CLAW",
+              "move1": "SWAGGER",
+              "move2": "THUNDER_WAVE",
+              "move3": "SURF",
+              "move4": "SUBMISSION",
+              "rawData": "32 50 49 00 CF 56 39 42 04 80 AA 00 AA 00 AA 00 AA 00 AA 00 4B 4B 00 00"
+            },
+            {
+              "name": "MISDREAVUS",
+              "item": "MYSTERYBERRY",
+              "move1": "MEAN_LOOK",
+              "move2": "PERISH_SONG",
+              "move3": "PAIN_SPLIT",
+              "move4": "PSYCHIC",
+              "rawData": "32 C8 96 00 D4 C3 DC 5E 00 80 AA 00 AA 00 AA 00 AA 00 AA 00 4B 4B 00 00"
+            },
+            {
+              "name": "ELECTRODE",
+              "item": "KINGS_ROCK",
+              "move1": "SWAGGER",
+              "move2": "THUNDER_WAVE",
+              "move3": "HEADBUTT",
+              "move4": "THUNDERBOLT",
+              "rawData": "32 65 52 00 CF 56 1D 55 0C 80 AA 00 AA 00 AA 00 AA 00 AA 00 BB 4B 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EliteFourChampion",
+      "trainers": [
+        {
+          "name": "ChampionLance",
+          "pokemon": [
+            {
+              "name": "DRAGONITE",
+              "item": "SCOPE_LENS",
+              "move1": "DRAGON_BREATH",
+              "move2": "ICE_BEAM",
+              "move3": "THUNDERBOLT",
+              "move4": "HYPER_BEAM",
+              "rawData": "32 95 8C 00 E1 3A 55 3F 00 FF B4 00 B4 00 B4 00 B4 00 B4 00 9A 9A 00 00"
+            },
+            {
+              "name": "AERODACTYL",
+              "item": "KINGS_ROCK",
+              "move1": "ANCIENT_POWER",
+              "move2": "WING_ATTACK",
+              "move3": "EARTHQUAKE",
+              "move4": "HYPER_BEAM",
+              "rawData": "32 8E 52 00 F6 11 59 3F C0 80 B4 00 B4 00 B4 00 B4 00 B4 00 9A 9A 00 00"
+            },
+            {
+              "name": "FERALIGATR",
+              "item": "NONE",
+              "move1": "SURF",
+              "move2": "EARTHQUAKE",
+              "move3": "BLIZZARD",
+              "move4": "HYPER_BEAM",
+              "rawData": "32 A0 5F 00 39 59 3B 3F 0C 80 B4 00 B4 00 B4 00 B4 00 B4 00 9A 9A 00 00"
+            },
+            {
+              "name": "KANGASKHAN",
+              "item": "BRIGHTPOWDER",
+              "move1": "SUBMISSION",
+              "move2": "EARTHQUAKE",
+              "move3": "ROCK_SLIDE",
+              "move4": "HYPER_BEAM",
+              "rawData": "32 73 03 00 42 59 9D 3F 00 80 B4 00 B4 00 B4 00 B4 00 B4 00 9A 9A 00 00"
+            },
+            {
+              "name": "ARCANINE",
+              "item": "MAGNET",
+              "move1": "FLAMETHROWER",
+              "move2": "EXTREME_SPEED",
+              "move3": "CRUNCH",
+              "move4": "HYPER_BEAM",
+              "rawData": "32 3B 6D 00 35 F5 F2 3F 30 80 B4 00 B4 00 B4 00 B4 00 B4 00 9A 9A 00 00"
+            },
+            {
+              "name": "TYRANITAR",
+              "item": "QUICK_CLAW",
+              "move1": "CRUNCH",
+              "move2": "ROCK_SLIDE",
+              "move3": "EARTHQUAKE",
+              "move4": "HYPER_BEAM",
+              "rawData": "32 F8 49 00 F2 9D 59 3F 00 80 B4 00 B4 00 B4 00 B4 00 B4 00 7A 9A 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VermilionGym",
+      "trainers": [
+        {
+          "name": "LeaderLt.Surge",
+          "pokemon": [
+            {
+              "name": "RAICHU",
+              "item": "FOCUS_BAND",
+              "move1": "THUNDERBOLT",
+              "move2": "THUNDER_WAVE",
+              "move3": "REVERSAL",
+              "move4": "SURF",
+              "rawData": "32 1A 77 00 55 56 B3 39 00 FF BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "VICTREEBEL",
+              "item": "MAGNET",
+              "move1": "RAZOR_LEAF",
+              "move2": "SLUDGE_BOMB",
+              "move3": "BODY_SLAM",
+              "move4": "STUN_SPORE",
+              "rawData": "32 47 6D 00 4B BC 22 4E 00 80 BE 00 BE 00 BE 00 BE 00 BE 00 7A 9A 00 00"
+            },
+            {
+              "name": "PORYGON2",
+              "item": "QUICK_CLAW",
+              "move1": "CONVERSION_2",
+              "move2": "TRI_ATTACK",
+              "move3": "PSYCHIC",
+              "move4": "BLIZZARD",
+              "rawData": "32 E9 49 00 B0 A1 5E 3B 03 80 BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "QUAGSIRE",
+              "item": "BRIGHTPOWDER",
+              "move1": "SURF",
+              "move2": "EARTHQUAKE",
+              "move3": "ANCIENT_POWER",
+              "move4": "ICE_BEAM",
+              "rawData": "32 C3 03 00 39 59 F6 3A 0C 80 BE 00 BE 00 BE 00 BE 00 BE 00 7A 9A 00 00"
+            },
+            {
+              "name": "DODRIO",
+              "item": "SCOPE_LENS",
+              "move1": "DRILL_PECK",
+              "move2": "TRI_ATTACK",
+              "move3": "PURSUIT",
+              "move4": "STEEL_WING",
+              "rawData": "32 55 8C 00 41 A1 E4 D3 00 80 BE 00 BE 00 BE 00 BE 00 BE 00 7A 9A 00 00"
+            },
+            {
+              "name": "JOLTEON",
+              "item": "KINGS_ROCK",
+              "move1": "THUNDERBOLT",
+              "move2": "HIDDEN_POWER",
+              "move3": "ROAR",
+              "move4": "THUNDER_WAVE",
+              "rawData": "32 87 52 00 55 ED 2E 56 00 FF C8 00 C8 00 C8 00 C8 00 C8 00 B9 9A 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SaffronGym",
+      "trainers": [
+        {
+          "name": "LeaderSabrina",
+          "pokemon": [
+            {
+              "name": "ALAKAZAM",
+              "item": "KINGS_ROCK",
+              "move1": "PSYCHIC",
+              "move2": "THUNDER_PUNCH",
+              "move3": "FIRE_PUNCH",
+              "move4": "FUTURE_SIGHT",
+              "rawData": "32 41 52 00 5E 09 07 F8 00 FF D2 00 D2 00 D2 00 D2 00 D2 00 9A 9A 00 00"
+            },
+            {
+              "name": "SCIZOR",
+              "item": "MAGNET",
+              "move1": "METAL_CLAW",
+              "move2": "SLASH",
+              "move3": "LIGHT_SCREEN",
+              "move4": "REVERSAL",
+              "rawData": "32 D4 6D 00 E8 A3 71 B3 00 80 BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "TYPHLOSION",
+              "item": "FOCUS_BAND",
+              "move1": "FLAMETHROWER",
+              "move2": "EARTHQUAKE",
+              "move3": "THUNDER_PUNCH",
+              "move4": "REVERSAL",
+              "rawData": "32 9D 77 00 35 59 09 B3 00 80 BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "HITMONLEE",
+              "item": "SCOPE_LENS",
+              "move1": "DYNAMIC_PUNCH",
+              "move2": "MEGA_KICK",
+              "move3": "FORESIGHT",
+              "move4": "MIND_READER",
+              "rawData": "32 6A 8C 00 DF 19 C1 AA F3 80 BE 00 BE 00 BE 00 BE 00 BE 00 7A 9A 00 00"
+            },
+            {
+              "name": "SANDSLASH",
+              "item": "BRIGHTPOWDER",
+              "move1": "EARTHQUAKE",
+              "move2": "SLASH",
+              "move3": "ROCK_SLIDE",
+              "move4": "SUBMISSION",
+              "rawData": "32 1C 03 00 59 A3 9D 42 00 80 BE 00 BE 00 BE 00 BE 00 BE 00 7A 9A 00 00"
+            },
+            {
+              "name": "SLOWKING",
+              "item": "QUICK_CLAW",
+              "move1": "PSYCHIC",
+              "move2": "SURF",
+              "move3": "EARTHQUAKE",
+              "move4": "FUTURE_SIGHT",
+              "rawData": "32 C7 49 00 5E 39 59 F8 00 80 BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CeruleanGym",
+      "trainers": [
+        {
+          "name": "LeaderMisty",
+          "pokemon": [
+            {
+              "name": "STARMIE",
+              "item": "KINGS_ROCK",
+              "move1": "SURF",
+              "move2": "PSYCHIC",
+              "move3": "THUNDER",
+              "move4": "RAIN_DANCE",
+              "rawData": "32 79 52 00 39 5E 57 F0 0F FF D2 00 D2 00 D2 00 D2 00 D2 00 9A 9C 00 00"
+            },
+            {
+              "name": "WIGGLYTUFF",
+              "item": "QUICK_CLAW",
+              "move1": "DOUBLE_EDGE",
+              "move2": "ICE_BEAM",
+              "move3": "THUNDER",
+              "move4": "RAIN_DANCE",
+              "rawData": "32 28 49 00 26 3A 57 F0 0F 80 BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "NIDOQUEEN",
+              "item": "SCOPE_LENS",
+              "move1": "EARTHQUAKE",
+              "move2": "SURF",
+              "move3": "THUNDER",
+              "move4": "RAIN_DANCE",
+              "rawData": "32 1F 8C 00 59 39 57 F0 0F 80 BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "AMPHAROS",
+              "item": "BRIGHTPOWDER",
+              "move1": "THUNDER",
+              "move2": "LIGHT_SCREEN",
+              "move3": "REFLECT",
+              "move4": "RAIN_DANCE",
+              "rawData": "32 B5 03 00 57 71 73 F0 C3 80 BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "DRAGONAIR",
+              "item": "BITTER_BERRY",
+              "move1": "ICE_BEAM",
+              "move2": "SURF",
+              "move3": "THUNDER",
+              "move4": "RAIN_DANCE",
+              "rawData": "32 94 53 00 3A 39 57 F0 0F 80 BE 00 BE 00 BE 00 BE 00 F0 00 9A 9D 00 00"
+            },
+            {
+              "name": "POLITOED",
+              "item": "FOCUS_BAND",
+              "move1": "HYDRO_PUMP",
+              "move2": "EARTHQUAKE",
+              "move3": "ICE_BEAM",
+              "move4": "RAIN_DANCE",
+              "rawData": "32 BA 77 00 38 59 3A F0 C3 80 D2 00 D2 00 D2 00 D2 00 D2 00 9A 9A 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CeladonGym",
+      "trainers": [
+        {
+          "name": "LeaderErika",
+          "pokemon": [
+            {
+              "name": "BELLOSSOM",
+              "item": "QUICK_CLAW",
+              "move1": "RAZOR_LEAF",
+              "move2": "RETURN",
+              "move3": "SLEEP_POWDER",
+              "move4": "STUN_SPORE",
+              "rawData": "32 B6 49 00 4B D8 4F 4E FF FF D2 00 D2 00 D2 00 D2 00 D2 00 7A 9A 00 00"
+            },
+            {
+              "name": "MAROWAK",
+              "item": "THICK_CLUB",
+              "move1": "BONEMERANG",
+              "move2": "BELLY_DRUM",
+              "move3": "REST",
+              "move4": "SNORE",
+              "rawData": "32 69 76 00 9B BB 9C AD F3 80 BE 00 BE 00 BE 00 BE 00 BE 00 7A 9A 00 00"
+            },
+            {
+              "name": "NINETALES",
+              "item": "BRIGHTPOWDER",
+              "move1": "FLAMETHROWER",
+              "move2": "BODY_SLAM",
+              "move3": "IRON_TAIL",
+              "move4": "HYPNOSIS",
+              "rawData": "32 26 03 00 35 22 E7 5F FF 80 BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "MANTINE",
+              "item": "MINT_BERRY",
+              "move1": "SURF",
+              "move2": "ICE_BEAM",
+              "move3": "REST",
+              "move4": "SLEEP_TALK",
+              "rawData": "32 E2 54 00 39 3A 9C D6 F3 80 BE 00 BE 00 BE 00 BE 00 BE 00 1A 9A 00 00"
+            },
+            {
+              "name": "BLISSEY",
+              "item": "MAGNET",
+              "move1": "SING",
+              "move2": "PSYCHIC",
+              "move3": "REFLECT",
+              "move4": "LIGHT_SCREEN",
+              "rawData": "32 F2 6D 00 2F 5E 73 71 FC 80 BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "EXEGGUTOR",
+              "item": "FOCUS_BAND",
+              "move1": "GIGA_DRAIN",
+              "move2": "PSYCHIC",
+              "move3": "SLEEP_POWDER",
+              "move4": "STUN_SPORE",
+              "rawData": "32 67 77 00 CA 5E 4F 4E F8 80 BE 00 BE 00 BE 00 BE 00 BE 00 1A 9A 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FuchsiaGym",
+      "trainers": [
+        {
+          "name": "LeaderJanine",
+          "pokemon": [
+            {
+              "name": "CROBAT",
+              "item": "KINGS_ROCK",
+              "move1": "CONFUSE_RAY",
+              "move2": "MEAN_LOOK",
+              "move3": "TOXIC",
+              "move4": "BITE",
+              "rawData": "32 A9 52 00 6D D4 5C 2C F3 FF D2 00 D2 00 D2 00 D2 00 D2 00 8C 7C 00 00"
+            },
+            {
+              "name": "MEGANIUM",
+              "item": "QUICK_CLAW",
+              "move1": "ATTRACT",
+              "move2": "TOXIC",
+              "move3": "LEECH_SEED",
+              "move4": "RAZOR_LEAF",
+              "rawData": "32 9A 49 00 D5 5C 49 4B 03 80 BE 00 BE 00 BE 00 BE 00 BE 00 7C 7C 00 00"
+            },
+            {
+              "name": "MUK",
+              "item": "FOCUS_BAND",
+              "move1": "SWAGGER",
+              "move2": "MEAN_LOOK",
+              "move3": "TOXIC",
+              "move4": "FIRE_PUNCH",
+              "rawData": "32 59 77 00 CF D4 5C 07 F3 80 BE 00 BE 00 BE 00 BE 00 BE 00 7C 7C 00 00"
+            },
+            {
+              "name": "VAPOREON",
+              "item": "BRIGHTPOWDER",
+              "move1": "DOUBLE_TEAM",
+              "move2": "BATON_PASS",
+              "move3": "SURF",
+              "move4": "ICE_BEAM",
+              "rawData": "32 86 03 00 68 E2 39 3A CF 80 BE 00 BE 00 BE 00 BE 00 BE 00 8C 7C 00 00"
+            },
+            {
+              "name": "FORRETRESS",
+              "item": "SCOPE_LENS",
+              "move1": "SWAGGER",
+              "move2": "SPIKES",
+              "move3": "SANDSTORM",
+              "move4": "DOUBLE_EDGE",
+              "rawData": "32 CD 8C 00 CF BF C9 26 C3 80 BE 00 BE 00 BE 00 BE 00 BE 00 8C 7C 00 00"
+            },
+            {
+              "name": "GIRAFARIG",
+              "item": "MAGNET",
+              "move1": "DOUBLE_TEAM",
+              "move2": "BATON_PASS",
+              "move3": "PSYCHIC",
+              "move4": "CRUNCH",
+              "rawData": "32 CB 6D 00 68 E2 5E F2 CF 80 BE 00 BE 00 BE 00 BE 00 BE 00 7C 7C 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PewterGym",
+      "trainers": [
+        {
+          "name": "LeaderBrock",
+          "pokemon": [
+            {
+              "name": "STEELIX",
+              "item": "SCOPE_LENS",
+              "move1": "ROCK_SLIDE",
+              "move2": "EARTHQUAKE",
+              "move3": "RETURN",
+              "move4": "FISSURE",
+              "rawData": "32 D0 8C 00 9D 59 D8 5A 00 FF D2 00 D2 00 D2 00 D2 00 D2 00 9A 9A 00 00"
+            },
+            {
+              "name": "HERACROSS",
+              "item": "FOCUS_BAND",
+              "move1": "MEGAHORN",
+              "move2": "REVERSAL",
+              "move3": "COUNTER",
+              "move4": "EARTHQUAKE",
+              "rawData": "32 D6 77 00 E0 B3 44 59 C0 80 BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "RHYDON",
+              "item": "QUICK_CLAW",
+              "move1": "ROCK_SLIDE",
+              "move2": "EARTHQUAKE",
+              "move3": "DOUBLE_EDGE",
+              "move4": "FISSURE",
+              "rawData": "32 70 49 00 9D 59 26 5A 00 80 BE 00 BE 00 BE 00 BE 00 BE 00 7A 9A 00 00"
+            },
+            {
+              "name": "SLOWBRO",
+              "item": "BRIGHTPOWDER",
+              "move1": "SURF",
+              "move2": "PSYCHIC",
+              "move3": "FLAMETHROWER",
+              "move4": "FISSURE",
+              "rawData": "32 50 03 00 39 5E 35 5A 00 80 BE 00 BE 00 BE 00 BE 00 BE 00 7A 9A 00 00"
+            },
+            {
+              "name": "URSARING",
+              "item": "MINT_BERRY",
+              "move1": "DEFENSE_CURL",
+              "move2": "ROLLOUT",
+              "move3": "SLASH",
+              "move4": "FOCUS_ENERGY",
+              "rawData": "32 D9 54 00 6F CD A3 74 00 80 BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "SHUCKLE",
+              "item": "LEFTOVERS",
+              "move1": "DEFENSE_CURL",
+              "move2": "ROLLOUT",
+              "move3": "SAFEGUARD",
+              "move4": "WRAP",
+              "rawData": "32 D5 92 00 6F CD DB 23 C0 80 BE 00 C8 00 BE 00 BE 00 BE 00 E9 9A 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CinnabarGym",
+      "trainers": [
+        {
+          "name": "LeaderBlaine",
+          "pokemon": [
+            {
+              "name": "ARCANINE",
+              "item": "KINGS_ROCK",
+              "move1": "SUNNY_DAY",
+              "move2": "FIRE_BLAST",
+              "move3": "EXTREME_SPEED",
+              "move4": "ROAR",
+              "rawData": "32 3B 52 00 F1 7E F5 2E 00 FF BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "MR.MIME",
+              "item": "SCOPE_LENS",
+              "move1": "SUNNY_DAY",
+              "move2": "FIRE_PUNCH",
+              "move3": "SOLAR_BEAM",
+              "move4": "PSYCHIC",
+              "rawData": "32 7A 8C 00 F1 07 4C 5E 00 80 BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "CHANSEY",
+              "item": "MAGNET",
+              "move1": "SUNNY_DAY",
+              "move2": "FIRE_BLAST",
+              "move3": "SOLAR_BEAM",
+              "move4": "COUNTER",
+              "rawData": "32 71 6D 00 F1 7E 4C 44 00 80 BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "CLEFABLE",
+              "item": "FOCUS_BAND",
+              "move1": "SUNNY_DAY",
+              "move2": "FIRE_BLAST",
+              "move3": "SOLAR_BEAM",
+              "move4": "MOONLIGHT",
+              "rawData": "32 24 77 00 F1 7E 4C EC 00 80 BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "VILEPLUME",
+              "item": "QUICK_CLAW",
+              "move1": "SUNNY_DAY",
+              "move2": "SOLAR_BEAM",
+              "move3": "SLUDGE_BOMB",
+              "move4": "SYNTHESIS",
+              "rawData": "32 2D 49 00 F1 4C BC EB 00 80 BE 00 BE 00 BE 00 BE 00 BE 00 9A 9A 00 00"
+            },
+            {
+              "name": "MOLTRES",
+              "item": "BRIGHTPOWDER",
+              "move1": "SUNNY_DAY",
+              "move2": "FIRE_BLAST",
+              "move3": "WING_ATTACK",
+              "move4": "STEEL_WING",
+              "rawData": "32 92 03 00 F1 7E 11 D3 00 FF D2 00 D2 00 D2 00 D2 00 D2 00 9A 9A 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ViridianGym",
+      "trainers": [
+        {
+          "name": "LeaderBlue",
+          "pokemon": [
+            {
+              "name": "SCYTHER",
+              "item": "BRIGHTPOWDER",
+              "move1": "SWORDS_DANCE",
+              "move2": "AGILITY",
+              "move3": "BATON_PASS",
+              "move4": "WING_ATTACK",
+              "rawData": "32 7B 03 00 0E 61 E2 11 00 80 C8 00 C8 00 C8 00 C8 00 C8 00 DA 9A 00 00"
+            },
+            {
+              "name": "MILTANK",
+              "item": "MAGNET",
+              "move1": "BODY_SLAM",
+              "move2": "EARTHQUAKE",
+              "move3": "REVERSAL",
+              "move4": "SHADOW_BALL",
+              "rawData": "32 F1 6D 00 22 59 B3 F7 00 80 C8 00 C8 00 C8 00 C8 00 C8 00 9A 9A 00 00"
+            },
+            {
+              "name": "GENGAR",
+              "item": "KINGS_ROCK",
+              "move1": "PSYCHIC",
+              "move2": "ICE_PUNCH",
+              "move3": "FIRE_PUNCH",
+              "move4": "THUNDERBOLT",
+              "rawData": "32 5E 52 00 5E 08 07 55 00 80 C8 00 C8 00 C8 00 C8 00 C8 00 9A 9A 00 00"
+            },
+            {
+              "name": "HOUNDOOM",
+              "item": "FOCUS_BAND",
+              "move1": "FLAMETHROWER",
+              "move2": "CRUNCH",
+              "move3": "IRON_TAIL",
+              "move4": "REVERSAL",
+              "rawData": "32 E5 77 00 35 F2 E7 B3 00 80 C8 00 C8 00 C8 00 C8 00 C8 00 9A 9A 00 00"
+            },
+            {
+              "name": "PILOSWINE",
+              "item": "QUICK_CLAW",
+              "move1": "ICE_BEAM",
+              "move2": "EARTHQUAKE",
+              "move3": "ROCK_SLIDE",
+              "move4": "ROAR",
+              "rawData": "32 DD 49 00 3A 59 9D 2E 00 80 C8 00 C8 00 C8 00 C8 00 C8 00 CA 9D 00 00"
+            },
+            {
+              "name": "KINGDRA",
+              "item": "SCOPE_LENS",
+              "move1": "SURF",
+              "move2": "DRAGON_BREATH",
+              "move3": "ICE_BEAM",
+              "move4": "FLAIL",
+              "rawData": "32 E6 8C 00 39 E1 3A AF 00 80 C8 00 C8 00 C8 00 C8 00 C8 00 7A 9A 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SilverCave",
+      "trainers": [
+        {
+          "name": "red",
+          "pokemon": [
+            {
+              "name": "RAIKOU",
+              "item": "FOCUS_BAND",
+              "move1": "THUNDERBOLT",
+              "move2": "BITE",
+              "move3": "IRON_TAIL",
+              "move4": "HIDDEN_POWER",
+              "rawData": "32 F3 77 00 55 2C E7 ED C0 80 C8 00 C8 00 C8 00 C8 00 C8 00 BD BB 00 00"
+            },
+            {
+              "name": "ENTEI",
+              "item": "SCOPE_LENS",
+              "move1": "FIRE_BLAST",
+              "move2": "BITE",
+              "move3": "IRON_TAIL",
+              "move4": "HIDDEN_POWER",
+              "rawData": "32 F4 8C 00 7E 2C E7 ED C0 80 C8 00 C8 00 C8 00 C8 00 C8 00 CB BB 00 00"
+            },
+            {
+              "name": "SUICUNE",
+              "item": "BRIGHTPOWDER",
+              "move1": "SURF",
+              "move2": "ICE_BEAM",
+              "move3": "ROAR",
+              "move4": "HIDDEN_POWER",
+              "rawData": "32 F5 03 00 39 3A 2E ED 00 80 C8 00 C8 00 C8 00 C8 00 C8 00 AE BB 00 00"
+            },
+            {
+              "name": "DRAGONITE",
+              "item": "MAGNET",
+              "move1": "FLY",
+              "move2": "BODY_SLAM",
+              "move3": "THUNDER_WAVE",
+              "move4": "HIDDEN_POWER",
+              "rawData": "32 95 6D 00 13 22 56 ED 00 80 C8 00 C8 00 C8 00 C8 00 C8 00 CC AA 00 00"
+            },
+            {
+              "name": "SNORLAX",
+              "item": "QUICK_CLAW",
+              "move1": "BODY_SLAM",
+              "move2": "EARTHQUAKE",
+              "move3": "SHADOW_BALL",
+              "move4": "HIDDEN_POWER",
+              "rawData": "32 8F 49 00 22 59 F7 ED 00 80 C8 00 C8 00 C8 00 C8 00 C8 00 CD AA 00 00"
+            },
+            {
+              "name": "ESPEON",
+              "item": "KINGS_ROCK",
+              "move1": "PSYCHIC",
+              "move2": "BITE",
+              "move3": "REFLECT",
+              "move4": "HIDDEN_POWER",
+              "rawData": "32 C4 52 00 5E 2C 73 ED 00 80 C8 00 C8 00 C8 00 C8 00 C8 00 AC AA 00 00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SecretCave",
+      "trainers": [
+        {
+          "name": "rival",
+          "pokemon": [
+            {
+              "name": "LUGIA",
+              "item": "LEFTOVERS",
+              "move1": "AEROBLAST",
+              "move2": "EARTHQUAKE",
+              "move3": "PSYCHIC",
+              "move4": "SAFEGUARD",
+              "rawData": "64 F9 92 00 B1 59 5E DB FC 80 FF FF FF FF FF FF FF FF FF FF FF FF 00 00"
+            },
+            {
+              "name": "HO-OH",
+              "item": "QUICK_CLAW",
+              "move1": "SACRED_FIRE",
+              "move2": "THUNDER",
+              "move3": "EARTHQUAKE",
+              "move4": "GIGA_DRAIN",
+              "rawData": "64 FA 49 00 DD 57 59 CA FF 80 FF FF FF FF FF FF FF FF FF FF FF FF 00 00"
+            },
+            {
+              "name": "MEWTWO",
+              "item": "KINGS_ROCK",
+              "move1": "PSYCHIC",
+              "move2": "SUBMISSION",
+              "move3": "THUNDERBOLT",
+              "move4": "RECOVER",
+              "rawData": "64 96 52 00 5E 42 55 69 C8 00 FF FF FF FF FF FF FF FF FF FF FF FF 00 00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -78,10 +78,10 @@
             {
               "name": "MOLTRES",
               "item": "CHARCOAL",
-              "move1": "FIRE_BLAST",
-              "move2": "FLY",
-              "move3": "TOXIC",
-              "move4": "REST"
+              "move1": "SUNNY_DAY",
+              "move2": "FIRE_BLAST",
+              "move3": "WING_ATTACK",
+              "move4": "STEEL_WING"
             },
             {
               "name": "PIDGEOT",
@@ -245,7 +245,7 @@
               "move1": "AEROBLAST",
               "move2": "EARTHQUAKE",
               "move3": "PSYCHIC",
-              "move4": "SAFEGUARD"
+              "move4": "RECOVER"
             },
             {
               "name": "SLOWKING",
