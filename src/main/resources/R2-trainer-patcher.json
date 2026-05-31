@@ -888,7 +888,7 @@
               "name": "ENTEI",
               "item": "SCOPE_LENS",
               "move1": "FLAMETHROWER",
-              "move2": "SOLARBEAM",
+              "move2": "SOLAR_BEAM",
               "move3": "IRON_TAIL",
               "move4": "SUNNY_DAY"
             },
@@ -955,7 +955,7 @@
             },
             {
               "name": "NIDOQUEEN",
-              "item": "SCOPE LENS",
+              "item": "SCOPE_LENS",
               "move1": "EARTHQUAKE",
               "move2": "SURF",
               "move3": "THUNDER",
@@ -1299,7 +1299,7 @@
             },
             {
               "name": "HO-OH",
-              "item": "QUICK CLAW",
+              "item": "QUICK_CLAW",
               "move1": "SACRED_FIRE",
               "move2": "THUNDER",
               "move3": "EARTHQUAKE",
@@ -1447,7 +1447,7 @@
             },
             {
               "name": "PRIMEAPE",
-              "item": "FOCUS BAND",
+              "item": "FOCUS_BAND",
               "move1": "CROSS_CHOP",
               "move2": "ROCK_SLIDE",
               "move3": "REVERSAL",
@@ -1471,7 +1471,7 @@
             },
             {
               "name": "HO-OH",
-              "item": "QUICK CLAW",
+              "item": "QUICK_CLAW",
               "move1": "SACRED_FIRE",
               "move2": "THUNDER",
               "move3": "EARTHQUAKE",
@@ -1600,7 +1600,7 @@
           "pokemon": [
             {
               "name": "RAICHU",
-              "item": "FOCUS BAND",
+              "item": "FOCUS_BAND",
               "move1": "THUNDERBOLT",
               "move2": "THUNDER_WAVE",
               "move3": "REVERSAL",
@@ -1616,7 +1616,7 @@
             },
             {
               "name": "PORYGON2",
-              "item": "QUICK CLAW",
+              "item": "QUICK_CLAW",
               "move1": "CONVERSION_2",
               "move2": "TRI_ATTACK",
               "move3": "PSYCHIC",
@@ -1674,7 +1674,7 @@
             },
             {
               "name": "TYPHLOSION",
-              "item": "FOCUS BAND",
+              "item": "FOCUS_BAND",
               "move1": "FLAMETHROWER",
               "move2": "EARTHQUAKE",
               "move3": "THUNDER_PUNCH",
@@ -1698,7 +1698,7 @@
             },
             {
               "name": "SLOWKING",
-              "item": "QUICK CLAW",
+              "item": "QUICK_CLAW",
               "move1": "PSYCHIC",
               "move2": "SURF",
               "move3": "EARTHQUAKE",
@@ -1724,7 +1724,7 @@
             },
             {
               "name": "WIGGLYTUFF",
-              "item": "QUICK CLAW",
+              "item": "QUICK_CLAW",
               "move1": "DOUBLE_EDGE",
               "move2": "ICE_BEAM",
               "move3": "THUNDER",
@@ -1756,7 +1756,7 @@
             },
             {
               "name": "POLITOED",
-              "item": "FOCUS BAND",
+              "item": "FOCUS_BAND",
               "move1": "HYDRO_PUMP",
               "move2": "EARTHQUAKE",
               "move3": "ICE_BEAM",
@@ -1774,7 +1774,7 @@
           "pokemon": [
             {
               "name": "BELLOSSOM",
-              "item": "QUICK CLAW",
+              "item": "QUICK_CLAW",
               "move1": "RAZOR_LEAF",
               "move2": "RETURN",
               "move3": "SLEEP_POWDER",
@@ -1814,7 +1814,7 @@
             },
             {
               "name": "EXEGGUTOR",
-              "item": "FOCUS BAND",
+              "item": "FOCUS_BAND",
               "move1": "GIGA_DRAIN",
               "move2": "PSYCHIC",
               "move3": "SLEEP_POWDER",
@@ -1840,7 +1840,7 @@
             },
             {
               "name": "MEGANIUM",
-              "item": "QUICK CLAW",
+              "item": "QUICK_CLAW",
               "move1": "ATTRACT",
               "move2": "TOXIC",
               "move3": "LEECH_SEED",
@@ -1848,7 +1848,7 @@
             },
             {
               "name": "MUK",
-              "item": "FOCUS BAND",
+              "item": "FOCUS_BAND",
               "move1": "SWAGGER",
               "move2": "MEAN_LOOK",
               "move3": "TOXIC",
@@ -1898,7 +1898,7 @@
             },
             {
               "name": "HERACROSS",
-              "item": "FOCUS BAND",
+              "item": "FOCUS_BAND",
               "move1": "MEGAHORN",
               "move2": "REVERSAL",
               "move3": "COUNTER",
@@ -1906,7 +1906,7 @@
             },
             {
               "name": "RHYDON",
-              "item": "QUICK CLAW",
+              "item": "QUICK_CLAW",
               "move1": "ROCK_SLIDE",
               "move2": "EARTHQUAKE",
               "move3": "DOUBLE_EDGE",
@@ -1972,7 +1972,7 @@
             },
             {
               "name": "CLEFABLE",
-              "item": "FOCUS BAND",
+              "item": "FOCUS_BAND",
               "move1": "SUNNY_DAY",
               "move2": "FIRE_BLAST",
               "move3": "SOLAR_BEAM",
@@ -1980,7 +1980,7 @@
             },
             {
               "name": "VILEPLUME",
-              "item": "QUICK CLAW",
+              "item": "QUICK_CLAW",
               "move1": "SUNNY_DAY",
               "move2": "SOLAR_BEAM",
               "move3": "SLUDGE_BOMB",
@@ -2030,7 +2030,7 @@
             },
             {
               "name": "HOUNDOOM",
-              "item": "FOCUS BAND",
+              "item": "FOCUS_BAND",
               "move1": "FLAMETHROWER",
               "move2": "CRUNCH",
               "move3": "IRON_TAIL",
@@ -2038,7 +2038,7 @@
             },
             {
               "name": "PILOSWINE",
-              "item": "QUICK CLAW",
+              "item": "QUICK_CLAW",
               "move1": "ICE_BEAM",
               "move2": "EARTHQUAKE",
               "move3": "ROCK_SLIDE",
@@ -2064,7 +2064,7 @@
           "pokemon": [
             {
               "name": "RAIKOU",
-              "item": "FOCUS BAND",
+              "item": "FOCUS_BAND",
               "move1": "THUNDERBOLT",
               "move2": "BITE",
               "move3": "IRON_TAIL",
@@ -2096,7 +2096,7 @@
             },
             {
               "name": "SNORLAX",
-              "item": "QUICK CLAW",
+              "item": "QUICK_CLAW",
               "move1": "BODY_SLAM",
               "move2": "EARTHQUAKE",
               "move3": "SHADOW_BALL",
@@ -2130,7 +2130,7 @@
             },
             {
               "name": "HO-OH",
-              "item": "QUICK CLAW",
+              "item": "QUICK_CLAW",
               "move1": "SACRED_FIRE",
               "move2": "THUNDER",
               "move3": "EARTHQUAKE",
