@@ -1160,52 +1160,52 @@
           "name": "CooltrainerGloria",
           "pokemon": [
             {
-              "name": "SMEARGLE",
-              "item": "FOCUS BAND",
-              "move1": "SPIDER_WEB",
-              "move2": "SPORE",
-              "move3": "NIGHTMARE",
-              "move4": "SUPER_FANG"
+              "name": "GLIGAR",
+              "item": "SCOPE_LENS",
+              "move1": "WING_ATTACK",
+              "move2": "METAL_CLAW",
+              "move3": "SLUDGE_BOMB",
+              "move4": "QUICK_ATTACK"
             },
             {
-              "name": "TANGELA",
-              "item": "BITTER BERRY",
-              "move1": "BIND",
-              "move2": "SLEEP_POWDER",
-              "move3": "MEGA_DRAIN",
-              "move4": "SLUDGE_BOMB"
+              "name": "HERACROSS",
+              "item": "FOCUS_BAND",
+              "move1": "MEGAHORN",
+              "move2": "REVERSAL",
+              "move3": "TAKE_DOWN",
+              "move4": "EARTHQUAKE"
             },
             {
-              "name": "JYNX",
-              "item": "ICE BERRY",
-              "move1": "MEAN_LOOK",
-              "move2": "LOVELY_KISS",
-              "move3": "DREAM_EATER",
-              "move4": "ICE_PUNCH"
+              "name": "MILTANK",
+              "item": "KINGS_ROCK",
+              "move1": "STOMP",
+              "move2": "EARTHQUAKE",
+              "move3": "REVERSAL",
+              "move4": "MILK_DRINK"
             },
             {
-              "name": "GOLDUCK",
-              "item": "PRZCUREBERRY",
-              "move1": "WHIRLPOOL",
-              "move2": "HYPNOSIS",
-              "move3": "PSYCHIC",
-              "move4": "SUBMISSION"
+              "name": "GENGAR",
+              "item": "MIRACLEBERRY",
+              "move1": "PSYCHIC",
+              "move2": "THUNDERBOLT",
+              "move3": "FIRE_PUNCH",
+              "move4": "CONFUSE_RAY"
             },
             {
-              "name": "HAUNTER",
-              "item": "MINT BERRY",
-              "move1": "MEAN_LOOK",
-              "move2": "HYPNOSIS",
-              "move3": "NIGHTMARE",
-              "move4": "NIGHT_SHADE"
+              "name": "STEELIX",
+              "item": "QUICK_CLAW",
+              "move1": "IRON_TAIL",
+              "move2": "EARTHQUAKE",
+              "move3": "ROCK_SLIDE",
+              "move4": "RETURN"
             },
             {
-              "name": "NINETALES",
-              "item": "BURNT BERRY",
-              "move1": "FIRE_SPIN",
-              "move2": "HYPNOSIS",
-              "move3": "FEINT_ATTACK",
-              "move4": "FLAMETHROWER"
+              "name": "DODRIO",
+              "item": "MAGNET",
+              "move1": "MUD_SLAP",
+              "move2": "TRI_ATTACK",
+              "move3": "DRILL_PECK",
+              "move4": "SKY_ATTACK"
             }
           ]
         },
@@ -1213,52 +1213,52 @@
           "name": "CooltrainerVince",
           "pokemon": [
             {
-              "name": "IVYSAUR",
-              "item": "BURNT BERRY",
-              "move1": "RAZOR_LEAF",
-              "move2": "CUT",
-              "move3": "LEECH_SEED",
-              "move4": "REFLECT"
+              "name": "CHARIZARD",
+              "item": "SCOPE_LENS",
+              "move1": "FLAMETHROWER",
+              "move2": "WING_ATTACK",
+              "move3": "SLASH",
+              "move4": "EARTHQUAKE"
             },
             {
-              "name": "WARTORTLE",
-              "item": "PRZCUREBERRY",
-              "move1": "HYDRO_PUMP",
-              "move2": "BLIZZARD",
-              "move3": "REFLECT",
+              "name": "BLASTOISE",
+              "item": "MAGNET",
+              "move1": "SURF",
+              "move2": "EARTHQUAKE",
+              "move3": "ICE_BEAM",
               "move4": "MIRROR_COAT"
             },
             {
-              "name": "CHARMELEON",
-              "item": "MINT BERRY",
-              "move1": "FIRE_BLAST",
-              "move2": "SLASH",
-              "move3": "DIG",
-              "move4": "COUNTER"
-            },
-            {
-              "name": "BAYLEEF",
-              "item": "BITTER BERRY",
-              "move1": "RAZOR_LEAF",
+              "name": "VENUSAUR",
+              "item": "BITTER_BERRY",
+              "move1": "GIGA_DRAIN",
               "move2": "BODY_SLAM",
-              "move3": "COUNTER",
-              "move4": "LIGHT_SCREEN"
+              "move3": "LEECH_SEED",
+              "move4": "TOXIC"
             },
             {
-              "name": "CROCONAW",
-              "item": "NONE",
-              "move1": "HYDRO_PUMP",
-              "move2": "CRUNCH",
-              "move3": "SLASH",
-              "move4": "DIG"
+              "name": "TYPHLOSION",
+              "item": "FOCUS_BAND",
+              "move1": "FLAMETHROWER",
+              "move2": "EARTHQUAKE",
+              "move3": "THUNDER_PUNCH",
+              "move4": "REVERSAL"
             },
             {
-              "name": "QUILAVA",
-              "item": "PSNCUREBERRY",
-              "move1": "FIRE_BLAST",
-              "move2": "DIG",
-              "move3": "REVERSAL",
-              "move4": "ROAR"
+              "name": "FERALIGATR",
+              "item": "MIRACLEBERRY",
+              "move1": "SURF",
+              "move2": "EARTHQUAKE",
+              "move3": "BLIZZARD",
+              "move4": "HYPER_BEAM"
+            },
+            {
+              "name": "MEGANIUM",
+              "item": "BRIGHTPOWDER",
+              "move1": "GIGA_DRAIN",
+              "move2": "EARTHQUAKE",
+              "move3": "SLEEP_TALK",
+              "move4": "REST"
             }
           ]
         },
@@ -1274,36 +1274,36 @@
               "move4": "ICE_BEAM"
             },
             {
-              "name": "AMPHAROS",
-              "item": "QUICK CLAW",
+              "name": "RAIKOU",
+              "item": "FOCUS_BAND",
               "move1": "THUNDERBOLT",
-              "move2": "THUNDER_WAVE",
-              "move3": "FIRE_PUNCH",
-              "move4": "BODY_SLAM"
+              "move2": "BITE",
+              "move3": "IRON_TAIL",
+              "move4": "HIDDEN_POWER"
             },
             {
               "name": "NIDOKING",
-              "item": "SCOPE LENS",
+              "item": "SCOPE_LENS",
               "move1": "EARTHQUAKE",
               "move2": "DOUBLE_KICK",
               "move3": "SHADOW_BALL",
               "move4": "BODY_SLAM"
             },
             {
-              "name": "RHYDON",
-              "item": "FOCUS BAND",
-              "move1": "ROCK_SLIDE",
-              "move2": "EARTHQUAKE",
-              "move3": "BODY_SLAM",
-              "move4": "ROAR"
+              "name": "DRAGONAIR",
+              "item": "BITTER_BERRY",
+              "move1": "ICE_BEAM",
+              "move2": "SURF",
+              "move3": "THUNDER",
+              "move4": "RAIN_DANCE"
             },
             {
-              "name": "CHARIZARD",
-              "item": "KING\u0027S ROCK",
-              "move1": "FLAMETHROWER",
-              "move2": "WING_ATTACK",
+              "name": "HO-OH",
+              "item": "QUICK CLAW",
+              "move1": "SACRED_FIRE",
+              "move2": "THUNDER",
               "move3": "EARTHQUAKE",
-              "move4": "BODY_SLAM"
+              "move4": "GIGA_DRAIN"
             },
             {
               "name": "GYARADOS",
@@ -1324,16 +1324,16 @@
           "name": "EliteFourWill",
           "pokemon": [
             {
-              "name": "XATU",
-              "item": "BRIGHTPOWDER",
+              "name": "ALAKAZAM",
+              "item": "FOCUS_BAND",
               "move1": "PSYCHIC",
-              "move2": "DRILL_PECK",
-              "move3": "GIGA_DRAIN",
-              "move4": "FEINT_ATTACK"
+              "move2": "THUNDER_PUNCH",
+              "move3": "FIRE_PUNCH",
+              "move4": "FUTURE_SIGHT"
             },
             {
               "name": "ELECTABUZZ",
-              "item": "KING\u0027S ROCK",
+              "item": "SCOPE_LENS",
               "move1": "THUNDERBOLT",
               "move2": "PSYCHIC",
               "move3": "ICE_PUNCH",
@@ -1348,28 +1348,28 @@
               "move4": "HAZE"
             },
             {
-              "name": "FLAREON",
-              "item": "QUICK CLAW",
+              "name": "ENTEI",
+              "item": "BRIGHTPOWDER",
               "move1": "FIRE_BLAST",
-              "move2": "BODY_SLAM",
-              "move3": "SHADOW_BALL",
-              "move4": "ROAR"
+              "move2": "BITE",
+              "move3": "IRON_TAIL",
+              "move4": "HIDDEN_POWER"
             },
             {
-              "name": "CHANSEY",
-              "item": "FOCUS BAND",
+              "name": "MACHAMP",
+              "item": "MIRACLEBERRY",
+              "move1": "CROSS_CHOP",
+              "move2": "EARTHQUAKE",
+              "move3": "ROCK_SLIDE",
+              "move4": "FISSURE"
+            },
+            {
+              "name": "MEWTWO",
+              "item": "KINGS_ROCK",
               "move1": "PSYCHIC",
-              "move2": "ICE_BEAM",
+              "move2": "SUBMISSION",
               "move3": "THUNDERBOLT",
-              "move4": "COUNTER"
-            },
-            {
-              "name": "HYPNO",
-              "item": "SCOPE LENS",
-              "move1": "PSYCHIC",
-              "move2": "SHADOW_BALL",
-              "move3": "SUBMISSION",
-              "move4": "ICE_PUNCH"
+              "move4": "RECOVER"
             }
           ]
         },
@@ -1377,52 +1377,52 @@
           "name": "EliteFourKoga",
           "pokemon": [
             {
-              "name": "VENOMOTH",
-              "item": "BRIGHTPOWDER",
-              "move1": "DOUBLE_TEAM",
-              "move2": "TOXIC",
-              "move3": "BATON_PASS",
-              "move4": "PSYBEAM"
+              "name": "MUK",
+              "item": "BURNT_BERRY",
+              "move1": "SLUDGE_BOMB",
+              "move2": "MEAN_LOOK",
+              "move3": "ZAP_CANNON",
+              "move4": "ICE_PUNCH"
             },
             {
               "name": "MAGMAR",
               "item": "MAGNET",
-              "move1": "DOUBLE_TEAM",
-              "move2": "TOXIC",
-              "move3": "CONFUSE_RAY",
-              "move4": "FLAMETHROWER"
+              "move1": "FLAMETHROWER",
+              "move2": "THUNDER_PUNCH",
+              "move3": "CROSS_CHOP",
+              "move4": "HYPER_BEAM"
             },
             {
               "name": "LAPRAS",
+              "item": "SCOPE_LENS",
+              "move1": "SURF",
+              "move2": "ICE_BEAM",
+              "move3": "THUNDERBOLT",
+              "move4": "BODY_SLAM"
+            },
+            {
+              "name": "WEEZING",
+              "item": "BITTER_BERRY",
+              "move1": "SLUDGE_BOMB",
+              "move2": "FLAMETHROWER",
+              "move3": "THUNDERBOLT",
+              "move4": "THIEF"
+            },
+            {
+              "name": "UMBREON",
+              "item": "FOCUS_BAND",
+              "move1": "SWAGGER",
+              "move2": "SCREECH",
+              "move3": "FEINT_ATTACK",
+              "move4": "PSYCHIC"
+            },
+            {
+              "name": "LUGIA",
               "item": "LEFTOVERS",
-              "move1": "DOUBLE_TEAM",
-              "move2": "TOXIC",
-              "move3": "CONFUSE_RAY",
-              "move4": "SURF"
-            },
-            {
-              "name": "STANTLER",
-              "item": "MYSTERYBERRY",
-              "move1": "DOUBLE_TEAM",
-              "move2": "TOXIC",
-              "move3": "CONFUSE_RAY",
-              "move4": "EARTHQUAKE"
-            },
-            {
-              "name": "LANTURN",
-              "item": "QUICK CLAW",
-              "move1": "DOUBLE_TEAM",
-              "move2": "TOXIC",
-              "move3": "CONFUSE_RAY",
-              "move4": "THUNDERBOLT"
-            },
-            {
-              "name": "ARIADOS",
-              "item": "FOCUS BAND",
-              "move1": "DOUBLE_TEAM",
-              "move2": "SPIDER_WEB",
-              "move3": "BATON_PASS",
-              "move4": "PSYBEAM"
+              "move1": "AEROBLAST",
+              "move2": "EARTHQUAKE",
+              "move3": "PSYCHIC",
+              "move4": "SAFEGUARD"
             }
           ]
         },
@@ -1431,7 +1431,7 @@
           "pokemon": [
             {
               "name": "MACHAMP",
-              "item": "QUICK CLAW",
+              "item": "QUICK_CLAW",
               "move1": "CROSS_CHOP",
               "move2": "EARTHQUAKE",
               "move3": "ROCK_SLIDE",
@@ -1470,12 +1470,12 @@
               "move4": "EXPLOSION"
             },
             {
-              "name": "URSARING",
-              "item": "SCOPE LENS",
-              "move1": "SLASH",
-              "move2": "EARTHQUAKE",
-              "move3": "CRUNCH",
-              "move4": "COUNTER"
+              "name": "HO-OH",
+              "item": "QUICK CLAW",
+              "move1": "SACRED_FIRE",
+              "move2": "THUNDER",
+              "move3": "EARTHQUAKE",
+              "move4": "GIGA_DRAIN"
             }
           ]
         },
@@ -1483,36 +1483,36 @@
           "name": "EliteFourKaren",
           "pokemon": [
             {
-              "name": "UMBREON",
-              "item": "FOCUS BAND",
-              "move1": "SWAGGER",
-              "move2": "SCREECH",
-              "move3": "FEINT_ATTACK",
-              "move4": "PSYCHIC"
+              "name": "MEW",
+              "item": "KINGS_ROCK",
+              "move1": "PSYCHIC",
+              "move2": "SUBMISSION",
+              "move3": "THUNDERBOLT",
+              "move4": "RECOVER"
             },
             {
-              "name": "PERSIAN",
+              "name": "CELEBI",
+              "item": "LEFTOVERS",
+              "move1": "PSYCHIC",
+              "move2": "GIGA_DRAIN",
+              "move3": "RECOVER",
+              "move4": "LEECH_SEED"
+            },
+            {
+              "name": "TYRANITAR",
+              "item": "QUICK_CLAW",
+              "move1": "CRUNCH",
+              "move2": "ROCK_SLIDE",
+              "move3": "EARTHQUAKE",
+              "move4": "HYPER_BEAM"
+            },
+            {
+              "name": "SLOWKING",
               "item": "BRIGHTPOWDER",
-              "move1": "SWAGGER",
-              "move2": "SCREECH",
-              "move3": "HEADBUTT",
-              "move4": "SHADOW_BALL"
-            },
-            {
-              "name": "MURKROW",
-              "item": "SCOPE LENS",
-              "move1": "SWAGGER",
-              "move2": "MEAN_LOOK",
-              "move3": "PSYCH_UP",
-              "move4": "DRILL_PECK"
-            },
-            {
-              "name": "SLOWBRO",
-              "item": "QUICK CLAW",
-              "move1": "SWAGGER",
-              "move2": "THUNDER_WAVE",
-              "move3": "SURF",
-              "move4": "SUBMISSION"
+              "move1": "SURF",
+              "move2": "PSYCHIC",
+              "move3": "EARTHQUAKE",
+              "move4": "ICE_BEAM"
             },
             {
               "name": "MISDREAVUS",
@@ -1523,12 +1523,12 @@
               "move4": "PSYCHIC"
             },
             {
-              "name": "ELECTRODE",
-              "item": "KING\u0027S ROCK",
-              "move1": "SWAGGER",
-              "move2": "THUNDER_WAVE",
-              "move3": "HEADBUTT",
-              "move4": "THUNDERBOLT"
+              "name": "ZAPDOS",
+              "item": "BRIGHTPOWDER",
+              "move1": "MUD_SLAP",
+              "move2": "THUNDERBOLT",
+              "move3": "DRILL_PECK",
+              "move4": "SKY_ATTACK"
             }
           ]
         }
@@ -1542,7 +1542,7 @@
           "pokemon": [
             {
               "name": "DRAGONITE",
-              "item": "SCOPE LENS",
+              "item": "SCOPE_LENS",
               "move1": "DRAGON_BREATH",
               "move2": "ICE_BEAM",
               "move3": "THUNDERBOLT",
@@ -1550,19 +1550,19 @@
             },
             {
               "name": "AERODACTYL",
-              "item": "KING\u0027S ROCK",
+              "item": "KINGS_ROCK",
               "move1": "ANCIENT_POWER",
               "move2": "WING_ATTACK",
               "move3": "EARTHQUAKE",
               "move4": "HYPER_BEAM"
             },
             {
-              "name": "FERALIGATR",
-              "item": "NONE",
-              "move1": "SURF",
+              "name": "LUGIA",
+              "item": "LEFTOVERS",
+              "move1": "AEROBLAST",
               "move2": "EARTHQUAKE",
-              "move3": "BLIZZARD",
-              "move4": "HYPER_BEAM"
+              "move3": "PSYCHIC",
+              "move4": "SAFEGUARD"
             },
             {
               "name": "KANGASKHAN",
@@ -1573,16 +1573,16 @@
               "move4": "HYPER_BEAM"
             },
             {
-              "name": "ARCANINE",
-              "item": "MAGNET",
-              "move1": "FLAMETHROWER",
-              "move2": "EXTREME_SPEED",
-              "move3": "CRUNCH",
-              "move4": "HYPER_BEAM"
+              "name": "ENTEI",
+              "item": "FOCUS_BAND",
+              "move1": "FIRE_BLAST",
+              "move2": "HYPER_BEAM",
+              "move3": "IRON_TAIL",
+              "move4": "DIG"
             },
             {
               "name": "TYRANITAR",
-              "item": "QUICK CLAW",
+              "item": "QUICK_CLAW",
               "move1": "CRUNCH",
               "move2": "ROCK_SLIDE",
               "move3": "EARTHQUAKE",

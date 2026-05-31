@@ -41,7 +41,7 @@ public class RomPatcher {
             }
         }
 
-        for (int k = 0; k < 4; k++) {
+        for (int k = 0; k < 11; k++) {
             GymPokemonData.Gym gym = pokemonData.getGyms().get(k);
 
             for (GymPokemonData.Trainer trainer : gym.getTrainers()) {
