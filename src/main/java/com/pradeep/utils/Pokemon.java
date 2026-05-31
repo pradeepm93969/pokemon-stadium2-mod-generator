@@ -126,7 +126,7 @@ public class Pokemon {
         return "UNKNOWN";
     }
 
-    private static List<String> loadPokemonDb() {
+    public static List<String> loadPokemonDb() {
         try {
             InputStream inputStream = Pokemon.class
                     .getClassLoader()

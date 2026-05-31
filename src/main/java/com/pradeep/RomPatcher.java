@@ -22,12 +22,29 @@ public class RomPatcher {
     private final GymAddress gymAddressR2 = new GymAddress("/R2-trainer-address.json");
     private final GymPatcher gymPatcherR2 = new GymPatcher("/R2-trainer-patcher.json");
 
+
     public void patch(Rom rom) {
         skipChecksum(rom);
         battle6Pokemons(rom);
+        //readData(rom, 0x992B9, 9);
         modPokemons(rom, gymAddressR2.getGymAddressData(), gymPatcherR2.getGymPokemonData());
         readPokemons(rom, gymAddressR2.getGymAddressData());
     }
+
+    private void readData(Rom rom, int address, int lineBreakerLength) {
+        List<String> POKEMON_DB = Pokemon.loadPokemonDb();
+        byte[] pokemon;
+        for (int i = 0; i < 256 ; i ++) {
+            int currentAddress = address + i * lineBreakerLength;
+            byte[] data = rom.readSubArray(currentAddress, lineBreakerLength, rom.getRom());
+            System.out.println(POKEMON_DB.get(data[0]) + " - " +
+                    IntStream.range(0, data.length)
+                            .mapToObj(j -> String.format("%02X", data[j] & 0xFF))
+                            .collect(Collectors.joining(" "))
+            );
+        }
+    }
+
 
     private void modPokemons(
             Rom rom, GymAddressData addressData, GymPokemonData pokemonData) {
