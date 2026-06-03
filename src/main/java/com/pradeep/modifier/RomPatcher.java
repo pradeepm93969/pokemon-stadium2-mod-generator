@@ -1,4 +1,4 @@
-package com.pradeep;
+package com.pradeep.modifier;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -26,25 +26,28 @@ public class RomPatcher {
     public void patch(Rom rom) {
         skipChecksum(rom);
         battle6Pokemons(rom);
-        //readData(rom, 0x992B9, 9);
+
+        modifyDragonite(rom, 0x23E9922);
+        modifyDragonite(rom, 0x23EC81D);
+
         modPokemons(rom, gymAddressR2.getGymAddressData(), gymPatcherR2.getGymPokemonData());
         readPokemons(rom, gymAddressR2.getGymAddressData());
     }
 
-    private void readData(Rom rom, int address, int lineBreakerLength) {
-        List<String> POKEMON_DB = Pokemon.loadPokemonDb();
-        byte[] pokemon;
-        for (int i = 0; i < 256 ; i ++) {
-            int currentAddress = address + i * lineBreakerLength;
-            byte[] data = rom.readSubArray(currentAddress, lineBreakerLength, rom.getRom());
-            System.out.println(POKEMON_DB.get(data[0]) + " - " +
-                    IntStream.range(0, data.length)
-                            .mapToObj(j -> String.format("%02X", data[j] & 0xFF))
-                            .collect(Collectors.joining(" "))
-            );
-        }
+    private void modifyDragonite(Rom rom, int address) {
+        byte[] data = {
+                (byte) 0x95, // rr: Pokémon ID (149)
+                (byte) 0x5B, // ss: Base HP (91)
+                (byte) 0x86, // tt: Base Attack (134)
+                (byte) 0xC8, // uu: Base Defense (95)
+                (byte) 0xC8, // vv: Base Speed (80)
+                (byte) 0x64, // ww: Base Special Attack (100)
+                (byte) 0xC8, // xx: Base Special Defense (100)
+                (byte) 0x1A, // type1
+                (byte) 0x15, // type2
+        };
+        rom.writeBytes(data, address);
     }
-
 
     private void modPokemons(
             Rom rom, GymAddressData addressData, GymPokemonData pokemonData) {
@@ -97,9 +100,9 @@ public class RomPatcher {
                     // write back to ROM
                     rom.writeBytes(poke.getPokemon(), address);
 
-                    System.out.println(IntStream.range(0, poke.getPokemon().length)
-                            .mapToObj(j -> String.format("%02X", poke.getPokemon()[j] & 0xFF))
-                            .collect(Collectors.joining(" ")));
+//                    System.out.println(IntStream.range(0, poke.getPokemon().length)
+//                            .mapToObj(j -> String.format("%02X", poke.getPokemon()[j] & 0xFF))
+//                            .collect(Collectors.joining(" ")));
 
                     // move to next Pokémon slot
                     address += 0x18;

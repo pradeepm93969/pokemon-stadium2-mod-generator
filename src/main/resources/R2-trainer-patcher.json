@@ -144,10 +144,10 @@
             {
               "name": "LANTURN",
               "item": "QUICK_CLAW",
-              "move1": "SURF",
-              "move2": "TOXIC",
-              "move3": "CONFUSE_RAY",
-              "move4": "THUNDERBOLT"
+              "move1": "HYDRO_PUMP",
+              "move2": "THUNDER",
+              "move3": "FLAIL",
+              "move4": "RAIN_DANCE"
             },
             {
               "name": "GOLEM",
@@ -241,7 +241,7 @@
             },
             {
               "name": "LUGIA",
-              "item": "LEFTOVERS",
+              "item": "PSNCUREBERRY",
               "move1": "AEROBLAST",
               "move2": "EARTHQUAKE",
               "move3": "PSYCHIC",
@@ -428,12 +428,12 @@
               "move4": "LEECH_SEED"
             },
             {
-              "name": "DRAGONITE",
-              "item": "MIRACLEBERRY",
-              "move1": "OUTRAGE",
-              "move2": "ICE_BEAM",
-              "move3": "EARTHQUAKE",
-              "move4": "SAFEGUARD"
+              "name": "ALAKAZAM",
+              "item": "FOCUS_BAND",
+              "move1": "PSYCHIC",
+              "move2": "THUNDER_PUNCH",
+              "move3": "FIRE_PUNCH",
+              "move4": "FUTURE_SIGHT"
             }
           ]
         }

@@ -1,4 +1,4 @@
-package com.pradeep;
+package com.pradeep.modifier;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
