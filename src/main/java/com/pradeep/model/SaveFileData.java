@@ -7,11 +7,16 @@ import java.util.List;
 @Data
 public class SaveFileData {
 
-    private List<Team> gymLeaderCastle1;
-    private List<Team> gymLeaderCastle2;
+    private List<Box> boxes;
 
     @Data
-    public static class Team {
+    public static class Box {
+        private String name;
+        private List<Party> parties;
+    }
+
+    @Data
+    public static class Party {
         private List<Pokemon> pokemons;
     }
 

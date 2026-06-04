@@ -1,108 +1,116 @@
 {
-  "gymLeaderCastle1": [
+  "boxes": [
     {
-      "pokemons": [
+      "name": "GYM_CASTLE",
+      "parties": [
         {
-          "name": "DRAGONITE",
-          "item": "MIRACLEBERRY",
-          "move1": "AEROBLAST",
-          "move2": "ICE_BEAM",
-          "move3": "EARTHQUAKE",
-          "move4": "SAFEGUARD"
-        },
-        {
-          "name": "ZAPDOS",
-          "item": "PRZCUREBERRY",
-          "move1": "THUNDERBOLT",
-          "move2": "DRILL_PECK",
-          "move3": "ICE_BEAM",
-          "move4": "LIGHT_SCREEN"
-        },
-        {
-          "name": "GENGAR",
-          "item": "BRIGHTPOWDER",
-          "move1": "PSYCHIC",
-          "move2": "THUNDERBOLT",
-          "move3": "ICE_BEAM",
-          "move4": "DESTINY_BOND"
-        },
-        {
-          "name": "NIDOKING",
-          "item": "KINGS_ROCK",
-          "move1": "EARTHQUAKE",
-          "move2": "THUNDERBOLT",
-          "move3": "CROSS_CHOP",
-          "move4": "ROCK_SLIDE"
-        },
-        {
-          "name": "SUICUNE",
-          "item": "LEFTOVERS",
-          "move1": "SURF",
-          "move2": "ICE_BEAM",
-          "move3": "SLEEP_TALK",
-          "move4": "REST"
-        },
-        {
-          "name": "TYRANITAR",
-          "item": "QUICK_CLAW",
-          "move1": "ANCIENT_POWER",
-          "move2": "CRUNCH",
-          "move3": "ICE_BEAM",
-          "move4": "EARTHQUAKE"
+          "pokemons": [
+            {
+              "name": "DRAGONITE",
+              "item": "MIRACLEBERRY",
+              "move1": "AEROBLAST",
+              "move2": "ICE_BEAM",
+              "move3": "EARTHQUAKE",
+              "move4": "SAFEGUARD"
+            },
+            {
+              "name": "ZAPDOS",
+              "item": "PRZCUREBERRY",
+              "move1": "THUNDERBOLT",
+              "move2": "DRILL_PECK",
+              "move3": "ICE_BEAM",
+              "move4": "LIGHT_SCREEN"
+            },
+            {
+              "name": "GENGAR",
+              "item": "BRIGHTPOWDER",
+              "move1": "PSYCHIC",
+              "move2": "THUNDERBOLT",
+              "move3": "ICE_BEAM",
+              "move4": "DESTINY_BOND"
+            },
+            {
+              "name": "GOLEM",
+              "item": "KINGS_ROCK",
+              "move1": "EARTHQUAKE",
+              "move2": "THUNDERBOLT",
+              "move3": "CROSS_CHOP",
+              "move4": "ROCK_SLIDE"
+            },
+            {
+              "name": "SUICUNE",
+              "item": "LEFTOVERS",
+              "move1": "SURF",
+              "move2": "ICE_BEAM",
+              "move3": "SLEEP_TALK",
+              "move4": "REST"
+            },
+            {
+              "name": "TYRANITAR",
+              "item": "QUICK_CLAW",
+              "move1": "ANCIENT_POWER",
+              "move2": "CRUNCH",
+              "move3": "ICE_BEAM",
+              "move4": "EARTHQUAKE"
+            }
+          ]
         }
       ]
-    }
-  ],
-  "gymLeaderCastle2": [
+    },
     {
-      "pokemons": [
+      "name": "GYM_CASTLE2",
+      "parties": [
         {
-          "name": "DRAGONITE",
-          "item": "MIRACLEBERRY",
-          "move1": "AEROBLAST",
-          "move2": "ICE_BEAM",
-          "move3": "EARTHQUAKE",
-          "move4": "SAFEGUARD"
-        },
-        {
-          "name": "ZAPDOS",
-          "item": "PRZCUREBERRY",
-          "move1": "THUNDERBOLT",
-          "move2": "DRILL_PECK",
-          "move3": "ICE_BEAM",
-          "move4": "LIGHT_SCREEN"
-        },
-        {
-          "name": "GENGAR",
-          "item": "BRIGHTPOWDER",
-          "move1": "PSYCHIC",
-          "move2": "THUNDERBOLT",
-          "move3": "ICE_BEAM",
-          "move4": "DESTINY_BOND"
-        },
-        {
-          "name": "NIDOKING",
-          "item": "KINGS_ROCK",
-          "move1": "EARTHQUAKE",
-          "move2": "THUNDERBOLT",
-          "move3": "CROSS_CHOP",
-          "move4": "ROCK_SLIDE"
-        },
-        {
-          "name": "SUICUNE",
-          "item": "LEFTOVERS",
-          "move1": "SURF",
-          "move2": "ICE_BEAM",
-          "move3": "SLEEP_TALK",
-          "move4": "REST"
-        },
-        {
-          "name": "TYRANITAR",
-          "item": "QUICK_CLAW",
-          "move1": "ANCIENT_POWER",
-          "move2": "CRUNCH",
-          "move3": "ICE_BEAM",
-          "move4": "EARTHQUAKE"
+          "pokemons": [
+            {
+              "name": "DRAGONITE",
+              "item": "MIRACLEBERRY",
+              "move1": "AEROBLAST",
+              "move2": "ICE_BEAM",
+              "move3": "EARTHQUAKE",
+              "move4": "SAFEGUARD"
+            },
+            {
+              "name": "ZAPDOS",
+              "item": "PRZCUREBERRY",
+              "move1": "THUNDERBOLT",
+              "move2": "DRILL_PECK",
+              "move3": "ICE_BEAM",
+              "move4": "LIGHT_SCREEN"
+            },
+            {
+              "name": "GENGAR",
+              "item": "BRIGHTPOWDER",
+              "move1": "PSYCHIC",
+              "move2": "THUNDERBOLT",
+              "move3": "ICE_BEAM",
+              "move4": "DESTINY_BOND"
+            },
+            {
+              "name": "ENTEI",
+              "item": "KINGS_ROCK",
+              "move1": "EARTHQUAKE",
+              "move2": "THUNDERBOLT",
+              "move3": "CROSS_CHOP",
+              "move4": "ROCK_SLIDE"
+            },
+            {
+              "name": "SUICUNE",
+              "item": "LEFTOVERS",
+              "move1": "SURF",
+              "move2": "ICE_BEAM",
+              "move3": "SLEEP_TALK",
+              "move4": "REST"
+            },
+            {
+              "name": "TYRANITAR",
+              "item": "QUICK_CLAW",
+              "move1": "ANCIENT_POWER",
+              "move2": "CRUNCH",
+              "move3": "ICE_BEAM",
+              "move4": "EARTHQUAKE"
+            }
+          ]
         }
       ]
     }

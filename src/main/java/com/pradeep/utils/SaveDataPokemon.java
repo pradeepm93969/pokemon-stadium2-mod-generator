@@ -1,18 +1,13 @@
 package com.pradeep.utils;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+import com.pradeep.data.ItemsEnum;
+import com.pradeep.data.MovesEnum;
+import com.pradeep.data.PokemonsEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.lang.reflect.Type;
-import java.nio.charset.StandardCharsets;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.Arrays;
 
 @Data
 @NoArgsConstructor
@@ -22,25 +17,18 @@ public class SaveDataPokemon {
     private int address;
     private byte[] pokemon;
 
-    private static final List<String> POKEMON_DB = loadPokemonDb();
-    private static final List<String> MOVES_DB = loadMovesDb();
-    private static final Map<Integer, String> ITEM_DB = loadItemDb();
-
-
     // =========================
     // SETTERS (NEW FEATURE)
     // =========================
 
     public void setPokemonByName(String name) {
-        int index = POKEMON_DB.indexOf(name.toUpperCase());
-        if (index == -1) throw new RuntimeException("Unknown Pokémon: " + name);
-
-        pokemon[3] = (byte) index;
+        PokemonsEnum pokemonEnum = PokemonsEnum.valueOf(name.toUpperCase());
+        pokemon[3] = (byte) pokemonEnum.getId();
     }
 
     public void setHeldItem(String itemName) {
-        int index = getItemIndex(itemName);
-        pokemon[2] = (byte) index;
+        ItemsEnum itemsEnum = ItemsEnum.valueOf(itemName.toUpperCase());
+        pokemon[2] = itemsEnum.getHex();
     }
 
     public void setMove1(String move) {
@@ -59,155 +47,119 @@ public class SaveDataPokemon {
         pokemon[6] = (byte) getMoveIndex(move);
     }
 
+    private int getMoveIndex(String move) {
+        MovesEnum moveEnum = MovesEnum.valueOf(move.toUpperCase());
+        return moveEnum.getId();
+    }
+
     // Fill all stats with FF
     public void maxStats() {
-        //trainer ID
-        pokemon[4] = (byte) 0x5D;
-        pokemon[5] = (byte) 0x1A;
 
-        //EXP
-        pokemon[8] = (byte) 0xD0;
-        pokemon[9] = (byte) 0x12;
-        pokemon[10] = (byte) 0x13;
-        pokemon[11] = (byte) 0x00;
+        // trainer ID
+        byte[] trainerId = { (byte) 0x5D, (byte) 0x1A };
+        System.arraycopy(trainerId, 0, pokemon, 4, 2);
 
-        //DV and IV
-        for (int i = 12; i < 24 ; i++) {
-            pokemon[i] = (byte) 0xFF;
-        }
+        // EXP
+        int expValue = calculateExp(100, getPokemonEnum().getGrowthRate());
+        pokemon[8] = (byte) (expValue & 0xFF);
+        pokemon[9] = (byte) ((expValue >> 8) & 0xFF);
+        pokemon[10] = (byte) ((expValue >> 16) & 0xFF);
+        pokemon[11] = (byte) ((expValue >> 24) & 0xFF);
+
+        // DV and IV
+        byte[] maxDvIv = new byte[12];
+        Arrays.fill(maxDvIv, (byte) 0xFF);
+        System.arraycopy(maxDvIv, 0, pokemon, 12, 12);
+
+        // PP and PPUps
+        pokemon[24] = getPPValue(getMove4());
+        pokemon[25] = getPPValue(getMove3());
+        pokemon[26] = getPPValue(getMove2());
+        pokemon[27] = getPPValue(getMove1());
+
+        byte[] statsBlock = {
+                (byte) 0x00, (byte) 0x04, (byte) 0x64, (byte) 0xFF
+        };
+        System.arraycopy(statsBlock, 0, pokemon, 28, 4);
+
+        byte[] zeros = { 0, 0, 0, 0 };
+        System.arraycopy(zeros, 0, pokemon, 32, 4);
+
+        // Pokémon name (36 - 47)
+        byte[] encodedName = GBStringEncoding.encodeName(getPokemonName());
+        System.arraycopy(encodedName, 0, pokemon, 36, 12);
+
+        // Trainer name
+        byte[] trainerName = {
+                (byte) 0xA3, (byte) 0xA0, (byte) 0xB1, (byte) 0x8F,
+                (byte) 0x50, (byte) 0xAF, (byte) 0xA4, (byte) 0xA4,
+                (byte) 0x00, (byte) 0x50, (byte) 0x50, (byte) 0x50
+        };
+        System.arraycopy(trainerName, 0, pokemon, 48, 12);
     }
 
     // =========================
     // HELPERS
     // =========================
 
-    private int getMoveIndex(String move) {
-        int idx = MOVES_DB.indexOf(move.toUpperCase());
-        if (idx == -1) throw new RuntimeException("Unknown move: " + move);
-        return idx;
-    }
-
-    private int getItemIndex(String itemName) {
-        for (Map.Entry<Integer, String> e : ITEM_DB.entrySet()) {
-            if (e.getValue().equalsIgnoreCase(itemName)) {
-                return e.getKey();
-            }
-        }
-        throw new RuntimeException("Unknown item: " + itemName);
+    public PokemonsEnum getPokemonEnum() {
+        PokemonsEnum pokemonsEnum = PokemonsEnum.fromId(pokemon[3] & 0xFF);
+        return pokemonsEnum != null ? pokemonsEnum : PokemonsEnum.UNKNOWN;
     }
 
     public String getPokemonName() {
-        int index = pokemon[1] & 0xFF;
-
-        if (index >= 0 && index < POKEMON_DB.size()) {
-            return POKEMON_DB.get(index);
-        }
-
-        return "UNKNOWN";
+        PokemonsEnum pokemonsEnum = PokemonsEnum.fromId(pokemon[3] & 0xFF);
+        return pokemonsEnum != null ? pokemonsEnum.getName() : "UNKNOWN";
     }
 
-    public String getMove1() {
-        return getMoveName(4);
+    public MovesEnum getMove1() {
+        return getMoveEnum(1);
     }
 
-    public String getMove2() {
-        return getMoveName(5);
+    public MovesEnum getMove2() {
+        return getMoveEnum(0);
     }
 
-    public String getMove3() {
-        return getMoveName(6);
+    public MovesEnum getMove3() {
+        return getMoveEnum(7);
     }
 
-    public String getMove4() {
-        return getMoveName(7);
+    public MovesEnum getMove4() {
+        return getMoveEnum(6);
     }
 
-    public String getHeldItem() {
-        int itemId = pokemon[2] & 0xFF;
-        return ITEM_DB.getOrDefault(itemId, "NONE");
+    public ItemsEnum getHeldItem() {
+        ItemsEnum itemsEnum = ItemsEnum.fromHex(pokemon[2] & 0xFF);
+        return itemsEnum != null ? itemsEnum : ItemsEnum.NONE;
     }
 
-    private String getMoveName(int offset) {
-        int moveId = pokemon[offset] & 0xFF;
-
-        if (moveId >= 0 && moveId < MOVES_DB.size()) {
-            return MOVES_DB.get(moveId);
-        }
-
-        return "UNKNOWN";
+    private MovesEnum getMoveEnum(int offset) {
+        MovesEnum movesEnum = MovesEnum.fromId(pokemon[offset] & 0xFF);
+        return movesEnum != null ? movesEnum : MovesEnum.UNKNOWN;
     }
 
-    public static List<String> loadPokemonDb() {
-        try {
-            InputStream inputStream = Pokemon.class
-                    .getClassLoader()
-                    .getResourceAsStream("pokemon-db.json");
+    public static int calculateExp(int lvl, String rate) {
 
-            InputStreamReader reader = new InputStreamReader(
-                    inputStream,
-                    StandardCharsets.UTF_8
-            );
+        return switch (rate) {
+            case "Medium_Fast" -> lvl * lvl * lvl;
 
-            Type type = new TypeToken<List<String>>() {}.getType();
+            case "Fast" -> (4 * lvl * lvl * lvl) / 5;
 
-            return new Gson().fromJson(reader, type);
+            case "Slow" -> (5 * lvl * lvl * lvl) / 4;
 
-        } catch (Exception e) {
-            throw new RuntimeException("Failed to load pokemon-db.json", e);
-        }
+            case "Medium_Slow" ->
+                    (6 * lvl * lvl * lvl) / 5
+                            - (15 * lvl * lvl)
+                            + (100 * lvl)
+                            - 140;
+            default -> throw new IllegalStateException("Unexpected value: " + rate);
+        };
     }
 
-    private static List<String> loadMovesDb() {
-        try {
-            InputStream inputStream = Pokemon.class
-                    .getClassLoader()
-                    .getResourceAsStream("pokemon-moves-db.json");
-
-            InputStreamReader reader = new InputStreamReader(
-                    inputStream,
-                    StandardCharsets.UTF_8
-            );
-
-            Type type = new TypeToken<List<String>>() {}.getType();
-
-            return new Gson().fromJson(reader, type);
-
-        } catch (Exception e) {
-            throw new RuntimeException("Failed to load pokemon-moves-db.json", e);
-        }
+    public byte getPPValue(MovesEnum movesEnum) {
+        int ppUp = 3;
+        int finalPP = (int) (movesEnum.getPp() * (1 + 0.2 * ppUp));
+        return (byte) ((ppUp << 6) | (finalPP & 0x3F));
     }
 
-    private static Map<Integer, String> loadItemDb() {
-        try {
-            InputStream inputStream = Pokemon.class
-                    .getClassLoader()
-                    .getResourceAsStream("item-db.json");
-
-            InputStreamReader reader = new InputStreamReader(
-                    inputStream,
-                    StandardCharsets.UTF_8
-            );
-
-            Type type = new TypeToken<List<Item>>() {}.getType();
-
-            List<Item> items = new Gson().fromJson(reader, type);
-
-            Map<Integer, String> map = new HashMap<>();
-
-            for (Item item : items) {
-                int value = Integer.decode(item.hex);
-                map.put(value, item.name);
-            }
-
-            return map;
-
-        } catch (Exception e) {
-            throw new RuntimeException("Failed to load item-db.json", e);
-        }
-    }
-
-    public static class Item {
-        public String name;
-        public String hex;
-    }
 }

@@ -17,7 +17,7 @@ public class RomTester {
                 (byte) 0x95,
         };
         //readDataByBytes(rom, dragonitePattern, 0x00, 0x1FF00);
-        readData(rom, 0x4F00, 0x40, 60);
+        readData(rom, 0x4000, 0x40, 6);
     }
 
     private void testingRom(Rom rom) {
@@ -87,12 +87,11 @@ public class RomTester {
 
 
     private void readData(Rom rom, int address, int lineBreakerLength, int lines) {
-        List<String> POKEMON_DB = Pokemon.loadPokemonDb();
-        byte[] pokemon;
+
         for (int i = 0; i < lines ; i ++) {
             int currentAddress = address + i * lineBreakerLength;
             byte[] data = rom.readSubArray(currentAddress, lineBreakerLength, rom.getRom());
-            System.out.println(//POKEMON_DB.get(data[0]) + " - " +
+            System.out.println(
                     (i + 1) + " - " +
                             String.format("0x%X", currentAddress) + " - " +
                             IntStream.range(0, data.length)

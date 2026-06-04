@@ -1,18 +1,11 @@
 package com.pradeep.utils;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+import com.pradeep.data.ItemsEnum;
+import com.pradeep.data.MovesEnum;
+import com.pradeep.data.PokemonsEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.lang.reflect.Type;
-import java.nio.charset.StandardCharsets;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 @Data
 @NoArgsConstructor
@@ -22,25 +15,19 @@ public class Pokemon {
     private int address;
     private byte[] pokemon;
 
-    private static final List<String> POKEMON_DB = loadPokemonDb();
-    private static final List<String> MOVES_DB = loadMovesDb();
-    private static final Map<Integer, String> ITEM_DB = loadItemDb();
-
 
     // =========================
     // SETTERS (NEW FEATURE)
     // =========================
 
     public void setPokemonByName(String name) {
-        int index = POKEMON_DB.indexOf(name.toUpperCase());
-        if (index == -1) throw new RuntimeException("Unknown Pokémon: " + name);
-
-        pokemon[1] = (byte) index;
+        PokemonsEnum pokemonEnum = PokemonsEnum.valueOf(name.toUpperCase());
+        pokemon[1] = (byte) pokemonEnum.getId();
     }
 
     public void setHeldItem(String itemName) {
-        int index = getItemIndex(itemName);
-        pokemon[2] = (byte) index;
+        ItemsEnum itemsEnum = ItemsEnum.valueOf(itemName.toUpperCase());
+        pokemon[2] = itemsEnum.getHex();
     }
 
     public void setMove1(String move) {
@@ -66,33 +53,16 @@ public class Pokemon {
         }
     }
 
-    // =========================
-    // HELPERS
-    // =========================
-
     private int getMoveIndex(String move) {
-        int idx = MOVES_DB.indexOf(move.toUpperCase());
-        if (idx == -1) throw new RuntimeException("Unknown move: " + move);
-        return idx;
+        MovesEnum moveEnum = MovesEnum.valueOf(move.toUpperCase());
+        return moveEnum.getId();
     }
 
-    private int getItemIndex(String itemName) {
-        for (Map.Entry<Integer, String> e : ITEM_DB.entrySet()) {
-            if (e.getValue().equalsIgnoreCase(itemName)) {
-                return e.getKey();
-            }
-        }
-        throw new RuntimeException("Unknown item: " + itemName);
-    }
+    //GETTERS
 
     public String getPokemonName() {
-        int index = pokemon[1] & 0xFF;
-
-        if (index >= 0 && index < POKEMON_DB.size()) {
-            return POKEMON_DB.get(index);
-        }
-
-        return "UNKNOWN";
+        PokemonsEnum pokemonsEnum = PokemonsEnum.fromId(pokemon[1] & 0xFF);
+        return pokemonsEnum != null ? pokemonsEnum.getName() : "UNKNOWN";
     }
 
     public String getMove1() {
@@ -112,91 +82,12 @@ public class Pokemon {
     }
 
     public String getHeldItem() {
-        int itemId = pokemon[2] & 0xFF;
-        return ITEM_DB.getOrDefault(itemId, "NONE");
+        ItemsEnum itemsEnum = ItemsEnum.fromHex(pokemon[1] & 0xFF);
+        return itemsEnum != null ? itemsEnum.getDisplayName() : "NONE";
     }
 
     private String getMoveName(int offset) {
-        int moveId = pokemon[offset] & 0xFF;
-
-        if (moveId >= 0 && moveId < MOVES_DB.size()) {
-            return MOVES_DB.get(moveId);
-        }
-
-        return "UNKNOWN";
-    }
-
-    public static List<String> loadPokemonDb() {
-        try {
-            InputStream inputStream = Pokemon.class
-                    .getClassLoader()
-                    .getResourceAsStream("pokemon-db.json");
-
-            InputStreamReader reader = new InputStreamReader(
-                    inputStream,
-                    StandardCharsets.UTF_8
-            );
-
-            Type type = new TypeToken<List<String>>() {}.getType();
-
-            return new Gson().fromJson(reader, type);
-
-        } catch (Exception e) {
-            throw new RuntimeException("Failed to load pokemon-db.json", e);
-        }
-    }
-
-    private static List<String> loadMovesDb() {
-        try {
-            InputStream inputStream = Pokemon.class
-                    .getClassLoader()
-                    .getResourceAsStream("pokemon-moves-db.json");
-
-            InputStreamReader reader = new InputStreamReader(
-                    inputStream,
-                    StandardCharsets.UTF_8
-            );
-
-            Type type = new TypeToken<List<String>>() {}.getType();
-
-            return new Gson().fromJson(reader, type);
-
-        } catch (Exception e) {
-            throw new RuntimeException("Failed to load pokemon-moves-db.json", e);
-        }
-    }
-
-    private static Map<Integer, String> loadItemDb() {
-        try {
-            InputStream inputStream = Pokemon.class
-                    .getClassLoader()
-                    .getResourceAsStream("item-db.json");
-
-            InputStreamReader reader = new InputStreamReader(
-                    inputStream,
-                    StandardCharsets.UTF_8
-            );
-
-            Type type = new TypeToken<List<Item>>() {}.getType();
-
-            List<Item> items = new Gson().fromJson(reader, type);
-
-            Map<Integer, String> map = new HashMap<>();
-
-            for (Item item : items) {
-                int value = Integer.decode(item.hex);
-                map.put(value, item.name);
-            }
-
-            return map;
-
-        } catch (Exception e) {
-            throw new RuntimeException("Failed to load item-db.json", e);
-        }
-    }
-
-    public static class Item {
-        public String name;
-        public String hex;
+        MovesEnum movesEnum = MovesEnum.fromId(pokemon[offset] & 0xFF);
+        return movesEnum != null ? movesEnum.getName() : "UNKNOWN";
     }
 }

@@ -4,8 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.pradeep.model.GymAddressData;
 import com.pradeep.model.GymPokemonData;
-import com.pradeep.utils.GymAddress;
-import com.pradeep.utils.GymPatcher;
+import com.pradeep.utils.FileLoader;
 import com.pradeep.utils.Pokemon;
 
 import java.util.ArrayList;
@@ -17,11 +16,10 @@ import java.util.stream.IntStream;
 
 public class RomPatcher {
 
-    //private final GymAddress gymAddressR1 = new GymAddress("/R1-trainer-address.json");
-    //private final GymPatcher gymPatcherR1 = new GymPatcher("/R1-trainer-patcher.json");
-    private final GymAddress gymAddressR2 = new GymAddress("/R2-trainer-address.json");
-    private final GymPatcher gymPatcherR2 = new GymPatcher("/R2-trainer-patcher.json");
-
+    private final GymAddressData gymAddressData = FileLoader.load(
+            "/R2-trainer-address.json", GymAddressData.class);
+    private final GymPokemonData gymPokemonData = FileLoader.load(
+            "/R2-trainer-patcher.json", GymPokemonData.class);
 
     public void patch(Rom rom) {
         skipChecksum(rom);
@@ -30,8 +28,8 @@ public class RomPatcher {
         modifyDragonite(rom, 0x23E9922);
         modifyDragonite(rom, 0x23EC81D);
 
-        modPokemons(rom, gymAddressR2.getGymAddressData(), gymPatcherR2.getGymPokemonData());
-        readPokemons(rom, gymAddressR2.getGymAddressData());
+        modPokemons(rom, gymAddressData, gymPokemonData);
+        readPokemons(rom, gymAddressData);
     }
 
     private void modifyDragonite(Rom rom, int address) {
