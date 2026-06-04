@@ -13,8 +13,8 @@ public class SaveFileModifierMain {
         Rom rom = new Rom("/rom/POKEMON STADIUM 2.fla");
 
         // 2. Modify ROM in memory
-        SaveFilePatcher romPatcher = new SaveFilePatcher();
-        romPatcher.patch(rom);
+        SaveFilePatcher saveFilePatcher = new SaveFilePatcher();
+        saveFilePatcher.patch(rom);
 
         // 3. Save NEW file (safe)
         rom.saveAs("D:/POKEMON STADIUM 2.fla");

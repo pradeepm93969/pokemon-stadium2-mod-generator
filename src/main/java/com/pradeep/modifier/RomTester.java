@@ -17,7 +17,7 @@ public class RomTester {
                 (byte) 0x95,
         };
         //readDataByBytes(rom, dragonitePattern, 0x00, 0x1FF00);
-        readData(rom, 0x0000, 0x40, 60);
+        readData(rom, 0x4F00, 0x40, 60);
     }
 
     private void testingRom(Rom rom) {
