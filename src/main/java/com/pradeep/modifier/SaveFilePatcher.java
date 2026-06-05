@@ -29,7 +29,7 @@ public class SaveFilePatcher {
     private static final byte[] STARTING_ARRAY = new byte[] {
             (byte) 0x5D, (byte) 0x1A, (byte) 0x00, (byte) 0x01,
             (byte) 0xA3, (byte) 0xA0, (byte) 0xB1, (byte) 0x8F,
-            (byte) 0x00, (byte) 0xAF, (byte) 0xA4, (byte) 0xA4,
+            (byte) 0x50, (byte) 0xAF, (byte) 0xA4, (byte) 0xA4,
             (byte) 0x00, (byte) 0x00, (byte) 0x00, (byte) 0x00
     };
 

@@ -30,12 +30,12 @@
               "move4": "DESTINY_BOND"
             },
             {
-              "name": "GOLEM",
+              "name": "NIDOQUEEN",
               "item": "KINGS_ROCK",
               "move1": "EARTHQUAKE",
-              "move2": "THUNDERBOLT",
-              "move3": "CROSS_CHOP",
-              "move4": "ROCK_SLIDE"
+              "move2": "CROSS_CHOP",
+              "move3": "THUNDERBOLT",
+              "move4": "ICE_BEAM"
             },
             {
               "name": "SUICUNE",
@@ -87,12 +87,12 @@
               "move4": "DESTINY_BOND"
             },
             {
-              "name": "ENTEI",
+              "name": "NIDOQUEEN",
               "item": "KINGS_ROCK",
               "move1": "EARTHQUAKE",
-              "move2": "THUNDERBOLT",
-              "move3": "CROSS_CHOP",
-              "move4": "ROCK_SLIDE"
+              "move2": "CROSS_CHOP",
+              "move3": "THUNDERBOLT",
+              "move4": "ICE_BEAM"
             },
             {
               "name": "SUICUNE",
