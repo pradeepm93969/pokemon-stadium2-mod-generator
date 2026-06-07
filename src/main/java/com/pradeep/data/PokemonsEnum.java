@@ -345,7 +345,7 @@ public enum PokemonsEnum {
     SMOOCHUM(237, "SMOOCHUM", 45, 30, 15, 85, 65, 65, "Medium_Fast"),
     ELEKID(238, "ELEKID", 45, 63, 37, 65, 55, 95, "Medium_Fast"),
     MAGBY(239, "MAGBY", 45, 75, 37, 70, 55, 83, "Medium_Fast"),
-    MIL_TANK(241, "MILTANK", 95, 80, 105, 40, 70, 100, "Slow"),
+    MILTANK(241, "MILTANK", 95, 80, 105, 40, 70, 100, "Slow"),
 
     BLISSEY(242, "BLISSEY", 255, 10, 10, 75, 135, 55, "Fast"),
 
@@ -358,7 +358,7 @@ public enum PokemonsEnum {
     TYRANITAR(248, "TYRANITAR", 100, 134, 110, 95, 100, 61, "Slow"),
 
     LUGIA(249, "LUGIA", 106, 90, 130, 90, 154, 110, "Slow"),
-    HO_OH(250, "HO-OH", 106, 130, 90, 110, 154, 90, "Slow"),
+    HOOH(250, "HOOH", 106, 130, 90, 110, 154, 90, "Slow"),
 
     CELEBI(251, "CELEBI", 100, 100, 100, 100, 100, 100, "Medium_Slow");
 

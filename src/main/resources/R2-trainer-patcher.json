@@ -592,7 +592,7 @@
               "move4": "HYPER_BEAM"
             },
             {
-              "name": "HO-OH",
+              "name": "HOOH",
               "item": "MINT_BERRY",
               "move1": "SACRED_FIRE",
               "move2": "THUNDER",
@@ -1089,7 +1089,7 @@
               "move4": "HIDDEN_POWER"
             },
             {
-              "name": "HO-OH",
+              "name": "HOOH",
               "item": "QUICK_CLAW",
               "move1": "SACRED_FIRE",
               "move2": "THUNDER",
@@ -1298,7 +1298,7 @@
               "move4": "RAIN_DANCE"
             },
             {
-              "name": "HO-OH",
+              "name": "HOOH",
               "item": "QUICK_CLAW",
               "move1": "SACRED_FIRE",
               "move2": "THUNDER",
@@ -1470,7 +1470,7 @@
               "move4": "EXPLOSION"
             },
             {
-              "name": "HO-OH",
+              "name": "HOOH",
               "item": "QUICK_CLAW",
               "move1": "SACRED_FIRE",
               "move2": "THUNDER",
@@ -1640,7 +1640,7 @@
             },
             {
               "name": "JOLTEON",
-              "item": "KING\u0027S ROCK",
+              "item": "KINGS_ROCK",
               "move1": "THUNDERBOLT",
               "move2": "HIDDEN_POWER",
               "move3": "ROAR",
@@ -1658,7 +1658,7 @@
           "pokemon": [
             {
               "name": "ALAKAZAM",
-              "item": "KING\u0027S ROCK",
+              "item": "KINGS_ROCK",
               "move1": "PSYCHIC",
               "move2": "THUNDER_PUNCH",
               "move3": "FIRE_PUNCH",
@@ -1716,7 +1716,7 @@
           "pokemon": [
             {
               "name": "STARMIE",
-              "item": "KING\u0027S ROCK",
+              "item": "KINGS_ROCK",
               "move1": "SURF",
               "move2": "PSYCHIC",
               "move3": "THUNDER",
@@ -1832,7 +1832,7 @@
           "pokemon": [
             {
               "name": "CROBAT",
-              "item": "KING\u0027S ROCK",
+              "item": "KINGS_ROCK",
               "move1": "CONFUSE_RAY",
               "move2": "MEAN_LOOK",
               "move3": "TOXIC",
@@ -1948,7 +1948,7 @@
           "pokemon": [
             {
               "name": "ARCANINE",
-              "item": "KING\u0027S ROCK",
+              "item": "KINGS_ROCK",
               "move1": "SUNNY_DAY",
               "move2": "FIRE_BLAST",
               "move3": "EXTREME_SPEED",
@@ -2022,7 +2022,7 @@
             },
             {
               "name": "GENGAR",
-              "item": "KING\u0027S ROCK",
+              "item": "KINGS_ROCK",
               "move1": "PSYCHIC",
               "move2": "ICE_PUNCH",
               "move3": "FIRE_PUNCH",
@@ -2104,7 +2104,7 @@
             },
             {
               "name": "ESPEON",
-              "item": "KING\u0027S ROCK",
+              "item": "KINGS_ROCK",
               "move1": "PSYCHIC",
               "move2": "BITE",
               "move3": "REFLECT",
@@ -2129,7 +2129,7 @@
               "move4": "SAFEGUARD"
             },
             {
-              "name": "HO-OH",
+              "name": "HOOH",
               "item": "QUICK_CLAW",
               "move1": "SACRED_FIRE",
               "move2": "THUNDER",
@@ -2138,7 +2138,7 @@
             },
             {
               "name": "MEWTWO",
-              "item": "KING\u0027S ROCK",
+              "item": "KINGS_ROCK",
               "move1": "PSYCHIC",
               "move2": "SUBMISSION",
               "move3": "THUNDERBOLT",

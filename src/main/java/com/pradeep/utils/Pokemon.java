@@ -82,7 +82,7 @@ public class Pokemon {
     }
 
     public String getHeldItem() {
-        ItemsEnum itemsEnum = ItemsEnum.fromHex(pokemon[1] & 0xFF);
+        ItemsEnum itemsEnum = ItemsEnum.fromHex(pokemon[2] & 0xFF);
         return itemsEnum != null ? itemsEnum.getDisplayName() : "NONE";
     }
 
