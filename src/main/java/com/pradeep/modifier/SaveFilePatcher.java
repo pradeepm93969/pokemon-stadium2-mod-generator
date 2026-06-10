@@ -18,7 +18,7 @@ public class SaveFilePatcher {
             "/save-file-patcher.json", SaveFileData.class);
 
     private final Map<String, Integer> boxAddress = new HashMap<>() {{
-//        put("FREE_BATTLE", 0x0000);
+        put("FREE_BATTLE", 0x0000);
 //        put("LITTLE_CUP",  0x0F00);
 //        put("POKE_CUP",    0x1E00);
 //        put("PRIME_CUP",   0x2D00);

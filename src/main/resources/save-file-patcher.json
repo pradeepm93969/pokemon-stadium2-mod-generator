@@ -1,6 +1,115 @@
 {
   "boxes": [
     {
+      "name": "FREE_BATTLE",
+      "parties": [
+        {
+          "pokemons": [
+            {
+              "name": "DRAGONITE",
+              "item": "MIRACLEBERRY",
+              "move1": "AEROBLAST",
+              "move2": "ICE_BEAM",
+              "move3": "EARTHQUAKE",
+              "move4": "SAFEGUARD"
+            },
+            {
+              "name": "ZAPDOS",
+              "item": "PRZCUREBERRY",
+              "move1": "THUNDERBOLT",
+              "move2": "DRILL_PECK",
+              "move3": "ICE_BEAM",
+              "move4": "LIGHT_SCREEN"
+            },
+            {
+              "name": "GENGAR",
+              "item": "BRIGHTPOWDER",
+              "move1": "PSYCHIC",
+              "move2": "THUNDERBOLT",
+              "move3": "ICE_BEAM",
+              "move4": "DESTINY_BOND"
+            },
+            {
+              "name": "HERACROSS",
+              "item": "KINGS_ROCK",
+              "move1": "MEGAHORN",
+              "move2": "CROSS_CHOP",
+              "move3": "EARTHQUAKE",
+              "move4": "ROCK_SLIDE"
+            },
+            {
+              "name": "SUICUNE",
+              "item": "LEFTOVERS",
+              "move1": "SURF",
+              "move2": "ICE_BEAM",
+              "move3": "SLEEP_TALK",
+              "move4": "REST"
+            },
+            {
+              "name": "TYRANITAR",
+              "item": "QUICK_CLAW",
+              "move1": "ANCIENT_POWER",
+              "move2": "CRUNCH",
+              "move3": "ICE_BEAM",
+              "move4": "EARTHQUAKE"
+            }
+          ]
+        },
+        {
+          "pokemons": [
+            {
+              "name": "DRAGONITE",
+              "item": "MIRACLEBERRY",
+              "move1": "AEROBLAST",
+              "move2": "ICE_BEAM",
+              "move3": "EARTHQUAKE",
+              "move4": "SAFEGUARD"
+            },
+            {
+              "name": "STEELIX",
+              "item": "PRZCUREBERRY",
+              "move1": "EARTHQUAKE",
+              "move2": "ROCK_SLIDE",
+              "move3": "ROAR",
+              "move4": "BODY_SLAM"
+            },
+            {
+              "name": "GENGAR",
+              "item": "BRIGHTPOWDER",
+              "move1": "PSYCHIC",
+              "move2": "THUNDERBOLT",
+              "move3": "ICE_BEAM",
+              "move4": "DESTINY_BOND"
+            },
+            {
+              "name": "MEWTWO",
+              "item": "KINGS_ROCK",
+              "move1": "PSYCHIC",
+              "move2": "ICE_BEAM",
+              "move3": "THUNDERBOLT",
+              "move4": "RECOVER"
+            },
+            {
+              "name": "BLASTOISE",
+              "item": "LEFTOVERS",
+              "move1": "SURF",
+              "move2": "ICE_BEAM",
+              "move3": "SLEEP_TALK",
+              "move4": "REST"
+            },
+            {
+              "name": "CHARIZARD",
+              "item": "QUICK_CLAW",
+              "move1": "FLAMETHROWER",
+              "move2": "SEISMIC_TOSS",
+              "move3": "DRAGON_RAGE",
+              "move4": "EARTHQUAKE"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "GYM_CASTLE",
       "parties": [
         {

@@ -9,15 +9,7 @@ import java.util.stream.IntStream;
 public class RomTester {
 
     public void test(Rom rom) {
-        testingSave(rom);
-    }
-
-    private void testingSave(Rom rom) {
-        byte[] dragonitePattern = new byte[] {
-                (byte) 0x95,
-        };
-        //readDataByBytes(rom, dragonitePattern, 0x00, 0x1FF00);
-        readData(rom, 0x4000, 0x40, 6);
+        testingRom(rom);
     }
 
     private void testingRom(Rom rom) {
@@ -25,10 +17,10 @@ public class RomTester {
                 (byte) 0x95, // rr: Pokémon ID (149)
                 (byte) 0x5B, // ss: Base HP (91)
                 (byte) 0x86, // tt: Base Attack (134)
-                (byte) 0x5F, // uu: Base Defense (95)
-                (byte) 0x50, // vv: Base Speed (80)
+                (byte) 0xC8, // uu: Base Defense (95)
+                (byte) 0xC8, // vv: Base Speed (80)
                 (byte) 0x64, // ww: Base Special Attack (100)
-                (byte) 0x64  // xx: Base Special Defense (100)
+                (byte) 0xC8, // xx: Base Special Defense (100)
         };
         byte[] pattern = new byte[] {
                 (byte) 0x04, // rr: Pokémon ID (004)
@@ -58,10 +50,10 @@ public class RomTester {
                 (byte) 0x9A  // xx: Base Special Defense (154)
         };
 
-        readDataByBytes(rom, dragonitePattern, 0x98F20, 0x35EBFC0);
-        readDataByBytes(rom, pattern, 0x98F20, 0x35EBFC0);
-        readDataByBytes(rom, dragnair, 0x98F20, 0x35EBFC0);
-        readDataByBytes(rom, zapdos, 0x98F20, 0x35EBFC0);
+        readDataByBytes(rom, dragonitePattern, 0x98F20, 0x34EBFC0);
+        readDataByBytes(rom, pattern, 0x98F20, 0x34EBFC0);
+        readDataByBytes(rom, dragnair, 0x98F20, 0x34EBFC0);
+        readDataByBytes(rom, zapdos, 0x98F20, 0x34EBFC0);
     }
 
     private void readDataByBytes(Rom rom, byte[] pattern, int startAddress, int endAddress) {
