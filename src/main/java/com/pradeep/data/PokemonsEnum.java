@@ -308,43 +308,44 @@ public enum PokemonsEnum {
     HERACROSS(214, "HERACROSS", 80, 125, 75, 40, 95, 85, "Slow"),
 
     SNEASEL(215, "SNEASEL", 55, 95, 55, 35, 75, 115, "Medium_Slow"),
-    URSARING(216, "URSARING", 90, 130, 75, 75, 75, 55, "Medium_Fast"),
+    TEDDIURSA(216, "TEDDIURSA", 60, 80, 50, 50, 50, 40, "Medium_Fast"),
+    URSARING(217, "URSARING", 90, 130, 75, 75, 75, 55, "Medium_Fast"),
 
-    SLUGMA(217, "SLUGMA", 40, 40, 40, 70, 40, 20, "Medium_Fast"),
-    MAGCARGO(218, "MAGCARGO", 50, 50, 120, 80, 80, 30, "Medium_Fast"),
+    SLUGMA(218, "SLUGMA", 40, 40, 40, 70, 40, 20, "Medium_Fast"),
+    MAGCARGO(219, "MAGCARGO", 50, 50, 120, 80, 80, 30, "Medium_Fast"),
 
-    SWINUB(219, "SWINUB", 50, 50, 40, 30, 30, 50, "Slow"),
-    PILOSWINE(220, "PILOSWINE", 100, 100, 80, 60, 60, 50, "Slow"),
+    SWINUB(220, "SWINUB", 50, 50, 40, 30, 30, 50, "Slow"),
+    PILOSWINE(221, "PILOSWINE", 100, 100, 80, 60, 60, 50, "Slow"),
 
-    CORSOLA(221, "CORSOLA", 55, 55, 85, 65, 85, 35, "Fast"),
-    REMORAID(222, "REMORAID", 35, 65, 35, 65, 35, 65, "Medium_Fast"),
-    OCTILLERY(223, "OCTILLERY", 75, 105, 75, 105, 75, 45, "Medium_Fast"),
+    CORSOLA(222, "CORSOLA", 55, 55, 85, 65, 85, 35, "Fast"),
+    REMORAID(223, "REMORAID", 35, 65, 35, 65, 35, 65, "Medium_Fast"),
+    OCTILLERY(224, "OCTILLERY", 75, 105, 75, 105, 75, 45, "Medium_Fast"),
 
-    DELIBIRD(224, "DELIBIRD", 45, 55, 45, 65, 45, 75, "Fast"),
-    MANTINE(225, "MANTINE", 65, 40, 70, 80, 140, 70, "Slow"),
+    DELIBIRD(225, "DELIBIRD", 45, 55, 45, 65, 45, 75, "Fast"),
+    MANTINE(226, "MANTINE", 65, 40, 70, 80, 140, 70, "Slow"),
 
-    SKARMORY(226, "SKARMORY", 65, 80, 140, 40, 70, 70, "Slow"),
+    SKARMORY(227, "SKARMORY", 65, 80, 140, 40, 70, 70, "Slow"),
 
-    HOUNDOUR(227, "HOUNDOUR", 45, 60, 30, 80, 50, 65, "Slow"),
-    HOUNDOOM(228, "HOUNDOOM", 75, 90, 50, 110, 80, 95, "Slow"),
+    HOUNDOUR(228, "HOUNDOUR", 45, 60, 30, 80, 50, 65, "Slow"),
+    HOUNDOOM(229, "HOUNDOOM", 75, 90, 50, 110, 80, 95, "Slow"),
 
-    KINGDRA(229, "KINGDRA", 75, 95, 95, 95, 95, 85, "Medium_Fast"),
+    KINGDRA(230, "KINGDRA", 75, 95, 95, 95, 95, 85, "Medium_Fast"),
 
-    PHANPY(230, "PHANPY", 90, 60, 60, 40, 40, 40, "Medium_Fast"),
-    DONPHAN(231, "DONPHAN", 90, 120, 120, 60, 60, 50, "Medium_Fast"),
+    PHANPY(231, "PHANPY", 90, 60, 60, 40, 40, 40, "Medium_Fast"),
+    DONPHAN(232, "DONPHAN", 90, 120, 120, 60, 60, 50, "Medium_Fast"),
 
-    PORYGON2(232, "PORYGON2", 85, 80, 90, 105, 95, 60, "Medium_Fast"),
+    PORYGON2(233, "PORYGON2", 85, 80, 90, 105, 95, 60, "Medium_Fast"),
 
-    STANTLER(233, "STANTLER", 73, 95, 62, 85, 65, 85, "Slow"),
+    STANTLER(234, "STANTLER", 73, 95, 62, 85, 65, 85, "Slow"),
 
-    SMEARGLE(234, "SMEARGLE", 55, 20, 35, 20, 45, 75, "Fast"),
+    SMEARGLE(235, "SMEARGLE", 55, 20, 35, 20, 45, 75, "Fast"),
 
-    TYROGUE(235, "TYROGUE", 35, 35, 35, 35, 35, 35, "Medium_Fast"),
-    HITMONTOP(236, "HITMONTOP", 50, 95, 95, 35, 110, 70, "Medium_Fast"),
+    TYROGUE(236, "TYROGUE", 35, 35, 35, 35, 35, 35, "Medium_Fast"),
+    HITMONTOP(237, "HITMONTOP", 50, 95, 95, 35, 110, 70, "Medium_Fast"),
 
-    SMOOCHUM(237, "SMOOCHUM", 45, 30, 15, 85, 65, 65, "Medium_Fast"),
-    ELEKID(238, "ELEKID", 45, 63, 37, 65, 55, 95, "Medium_Fast"),
-    MAGBY(239, "MAGBY", 45, 75, 37, 70, 55, 83, "Medium_Fast"),
+    SMOOCHUM(238, "SMOOCHUM", 45, 30, 15, 85, 65, 65, "Medium_Fast"),
+    ELEKID(239, "ELEKID", 45, 63, 37, 65, 55, 95, "Medium_Fast"),
+    MAGBY(240, "MAGBY", 45, 75, 37, 70, 55, 83, "Medium_Fast"),
     MILTANK(241, "MILTANK", 95, 80, 105, 40, 70, 100, "Slow"),
 
     BLISSEY(242, "BLISSEY", 255, 10, 10, 75, 135, 55, "Fast"),
