@@ -58,6 +58,14 @@
         {
           "pokemons": [
             {
+              "name": "GENGAR",
+              "item": "BRIGHTPOWDER",
+              "move1": "PSYCHIC",
+              "move2": "THUNDERBOLT",
+              "move3": "ICE_BEAM",
+              "move4": "DESTINY_BOND"
+            },
+            {
               "name": "DRAGONITE",
               "item": "MIRACLEBERRY",
               "move1": "AEROBLAST",
@@ -73,14 +81,7 @@
               "move3": "ROAR",
               "move4": "BODY_SLAM"
             },
-            {
-              "name": "GENGAR",
-              "item": "BRIGHTPOWDER",
-              "move1": "PSYCHIC",
-              "move2": "THUNDERBOLT",
-              "move3": "ICE_BEAM",
-              "move4": "DESTINY_BOND"
-            },
+
             {
               "name": "MEWTWO",
               "item": "KINGS_ROCK",
@@ -92,7 +93,7 @@
             {
               "name": "BLASTOISE",
               "item": "LEFTOVERS",
-              "move1": "SURF",
+              "move1": "HYDRO_PUMP",
               "move2": "ICE_BEAM",
               "move3": "SLEEP_TALK",
               "move4": "REST"
@@ -139,12 +140,12 @@
               "move4": "DESTINY_BOND"
             },
             {
-              "name": "HERACROSS",
-              "item": "KINGS_ROCK",
-              "move1": "MEGAHORN",
-              "move2": "CROSS_CHOP",
-              "move3": "EARTHQUAKE",
-              "move4": "ROCK_SLIDE"
+              "name": "QUAGSIRE",
+              "item": "BRIGHTPOWDER",
+              "move1": "SURF",
+              "move2": "EARTHQUAKE",
+              "move3": "ANCIENT_POWER",
+              "move4": "ICE_BEAM"
             },
             {
               "name": "SUICUNE",
@@ -196,12 +197,12 @@
               "move4": "DESTINY_BOND"
             },
             {
-              "name": "HERACROSS",
+              "name": "QUAGSIRE",
               "item": "KINGS_ROCK",
-              "move1": "MEGAHORN",
-              "move2": "CROSS_CHOP",
-              "move3": "EARTHQUAKE",
-              "move4": "ROCK_SLIDE"
+              "move1": "SURF",
+              "move2": "EARTHQUAKE",
+              "move3": "ANCIENT_POWER",
+              "move4": "RECOVER"
             },
             {
               "name": "SUICUNE",

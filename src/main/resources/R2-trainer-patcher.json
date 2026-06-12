@@ -101,7 +101,7 @@
             },
             {
               "name": "QUAGSIRE",
-              "item": "LEFTOVERS",
+              "item": "BITTER_BERRY",
               "move1": "SURF",
               "move2": "EARTHQUAKE",
               "move3": "AMNESIA",
@@ -245,7 +245,7 @@
               "move1": "AEROBLAST",
               "move2": "EARTHQUAKE",
               "move3": "PSYCHIC",
-              "move4": "RECOVER"
+              "move4": "SAFEGUARD"
             },
             {
               "name": "SLOWKING",
@@ -421,7 +421,7 @@
             },
             {
               "name": "CELEBI",
-              "item": "LEFTOVERS",
+              "item": "BITTER_BERRY",
               "move1": "PSYCHIC",
               "move2": "GIGA_DRAIN",
               "move3": "RECOVER",
@@ -577,7 +577,7 @@
             },
             {
               "name": "LAPRAS",
-              "item": "LEFTOVERS",
+              "item": "BITTER_BERRY",
               "move1": "SURF",
               "move2": "ICE_BEAM",
               "move3": "THUNDERBOLT",
@@ -597,7 +597,7 @@
               "move1": "SACRED_FIRE",
               "move2": "THUNDER",
               "move3": "EARTHQUAKE",
-              "move4": "RECOVER"
+              "move4": "SAFEGUARD"
             }
           ]
         }
@@ -704,11 +704,11 @@
             },
             {
               "name": "MEWTWO",
-              "item": "LEFTOVERS",
+              "item": "BITTER_BERRY",
               "move1": "PSYCHIC",
               "move2": "SUBMISSION",
               "move3": "THUNDERBOLT",
-              "move4": "RECOVER"
+              "move4": "FIRE_PUNCH"
             }
           ]
         }
@@ -967,7 +967,7 @@
               "move1": "PSYCHIC",
               "move2": "SUBMISSION",
               "move3": "THUNDERBOLT",
-              "move4": "RECOVER"
+              "move4": "SAFEGUARD"
             },
             {
               "name": "PARASECT",
@@ -1114,12 +1114,12 @@
               "item": "BRIGHTPOWDER",
               "move1": "SURF",
               "move2": "ICE_BEAM",
-              "move3": "SLEEP_TALK",
-              "move4": "REST"
+              "move3": "ROAR",
+              "move4": "HIDDEN_POWER"
             },
             {
               "name": "LUGIA",
-              "item": "LEFTOVERS",
+              "item": "BITTER_BERRY",
               "move1": "AEROBLAST",
               "move2": "EARTHQUAKE",
               "move3": "PSYCHIC",
@@ -1369,7 +1369,7 @@
               "move1": "PSYCHIC",
               "move2": "SUBMISSION",
               "move3": "THUNDERBOLT",
-              "move4": "RECOVER"
+              "move4": "SAFEGUARD"
             }
           ]
         },
@@ -1418,7 +1418,7 @@
             },
             {
               "name": "LUGIA",
-              "item": "LEFTOVERS",
+              "item": "BITTER_BERRY",
               "move1": "AEROBLAST",
               "move2": "EARTHQUAKE",
               "move3": "PSYCHIC",
@@ -1488,11 +1488,11 @@
               "move1": "PSYCHIC",
               "move2": "SUBMISSION",
               "move3": "THUNDERBOLT",
-              "move4": "RECOVER"
+              "move4": "SAFEGUARD"
             },
             {
               "name": "CELEBI",
-              "item": "LEFTOVERS",
+              "item": "BITTER_BERRY",
               "move1": "PSYCHIC",
               "move2": "GIGA_DRAIN",
               "move3": "RECOVER",
@@ -1558,7 +1558,7 @@
             },
             {
               "name": "LUGIA",
-              "item": "LEFTOVERS",
+              "item": "BITTER_BERRY",
               "move1": "AEROBLAST",
               "move2": "EARTHQUAKE",
               "move3": "PSYCHIC",
@@ -1930,7 +1930,7 @@
             },
             {
               "name": "SHUCKLE",
-              "item": "LEFTOVERS",
+              "item": "BITTER_BERRY",
               "move1": "DEFENSE_CURL",
               "move2": "ROLLOUT",
               "move3": "SAFEGUARD",
