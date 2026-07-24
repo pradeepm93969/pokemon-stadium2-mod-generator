@@ -25,22 +25,77 @@ public class RomPatcher {
         skipChecksum(rom);
         battle6Pokemons(rom);
 
-        modifyDragonite(rom, 0x23E9922);
-        modifyDragonite(rom, 0x23EC81D);
+        modifyOutrage(rom);
+
+        modifyDragonite(rom, 0x99BD9);
+        modifyCharizard(rom, 0x98F8F);
+        modifyGengar(rom, 0x9971F);
 
         modPokemons(rom, gymAddressData, gymPokemonData);
         readPokemons(rom, gymAddressData);
     }
 
+    private void modifyOutrage(Rom rom) {
+        byte[] data = {
+                (byte) 0x00, // Effect ID
+                (byte) 0x96, // Power
+                (byte) 0x1A, // Type
+                (byte) 0xFF, // Accuracy
+                (byte) 0x0A, // PP
+                (byte) 0x00, // Probability
+        };
+        rom.writeBytes(data, 0x988DA);
+
+        byte[] nameData = {
+                (byte) 0x44, // D
+                (byte) 0x52, // R
+                (byte) 0x41, // A
+                (byte) 0x43, // C
+                (byte) 0x4F, // O
+                (byte) 0x20, // Space
+                (byte) 0x4D, // M
+                (byte) 0x00  // String terminator
+        };
+
+        rom.writeBytes(nameData, 0x1D814FD);
+    }
+
+    private void modifyGengar(Rom rom, int address) {
+        byte[] data = {
+                (byte) 0xA0, // Base HP
+                (byte) 0x83, // Base Attack
+                (byte) 0x83, // Base Defense
+                (byte) 0x6E, // Base Speed
+                (byte) 0x82, // Base Special Attack
+                (byte) 0x82, // Base Special Defense
+                (byte) 0x08, // type1
+                (byte) 0x08, // type2
+        };
+        rom.writeBytes(data, address);
+    }
+
+    private void modifyCharizard(Rom rom, int address) {
+        byte[] data = {
+                (byte) 0x4E, // Base HP
+                (byte) 0x54, // Base Attack
+                (byte) 0x7D, // Base Defense
+                (byte) 0x64, // Base Speed
+                (byte) 0x6D, // Base Special Attack
+                (byte) 0x6D, // Base Special Defense
+                (byte) 0x14, // type1
+                (byte) 0x1A, // type2
+        };
+        rom.writeBytes(data, address);
+    }
+
     private void modifyDragonite(Rom rom, int address) {
         byte[] data = {
-                (byte) 0x95, // rr: Pokémon ID (149)
-                (byte) 0x5B, // ss: Base HP (91)
-                (byte) 0x86, // tt: Base Attack (134)
-                (byte) 0xC8, // uu: Base Defense (95)
-                (byte) 0xC8, // vv: Base Speed (80)
-                (byte) 0x64, // ww: Base Special Attack (100)
-                (byte) 0xC8, // xx: Base Special Defense (100)
+                (byte) 0xA0, // Base HP
+                (byte) 0xA0, // Base Attack
+                (byte) 0xC0, // Base Defense
+                (byte) 0xA0, // Base Speed
+                (byte) 0xA0, // Base Special Attack
+                (byte) 0xC0, // Base Special Defense
                 (byte) 0x1A, // type1
                 (byte) 0x15, // type2
         };

@@ -13,68 +13,15 @@ public class RomTester {
     }
 
     private void testingRom(Rom rom) {
-        byte[] dragonitePattern = new byte[] {
-                (byte) 0x95, // rr: Pokémon ID (149)
-                (byte) 0x5B, // ss: Base HP (91)
-                (byte) 0x86, // tt: Base Attack (134)
-                (byte) 0xC8, // uu: Base Defense (95)
-                (byte) 0xC8, // vv: Base Speed (80)
-                (byte) 0x64, // ww: Base Special Attack (100)
-                (byte) 0xC8, // xx: Base Special Defense (100)
-        };
-        byte[] pattern = new byte[] {
-                (byte) 0x04, // rr: Pokémon ID (004)
-                (byte) 0x27, // ss: Base HP (39)
-                (byte) 0x34, // tt: Base Attack (52)
-                (byte) 0x2B, // uu: Base Defense (43)
-                (byte) 0x41, // vv: Base Speed (65)
-                (byte) 0x3C, // ww: Base Special Attack (60)
-                (byte) 0x32  // xx: Base Special Defense (50)
-        };
-        byte[] dragnair = new byte[] {
-                (byte) 0x05, // rr: Pokémon ID (005)
-                (byte) 0x3A, // ss: Base HP (58)
-                (byte) 0x40, // tt: Base Attack (64)
-                (byte) 0x3A, // uu: Base Defense (58)
-                (byte) 0x50, // vv: Base Speed (80)
-                (byte) 0x50, // ww: Base Special Attack (80)
-                (byte) 0x41  // xx: Base Special Defense (65)
-        };
-        byte[] zapdos = new byte[] {
-                (byte) 0xF9, // rr: Pokémon ID (249)
-                (byte) 0x6A, // ss: Base HP (106)
-                (byte) 0x5A, // tt: Base Attack (90)
-                (byte) 0x82, // uu: Base Defense (130)
-                (byte) 0x6E, // vv: Base Speed (110)
-                (byte) 0x5A, // ww: Base Special Attack (90)
-                (byte) 0x9A  // xx: Base Special Defense (154)
-        };
 
-        readDataByBytes(rom, dragonitePattern, 0x98F20, 0x34EBFC0);
-        readDataByBytes(rom, pattern, 0x98F20, 0x34EBFC0);
-        readDataByBytes(rom, dragnair, 0x98F20, 0x34EBFC0);
-        readDataByBytes(rom, zapdos, 0x98F20, 0x34EBFC0);
-    }
+        //Moves Names
+        readData(rom, 0x1D80DA0, 12, 252);
 
-    private void readDataByBytes(Rom rom, byte[] pattern, int startAddress, int endAddress) {
-        byte[] romData = rom.getRom();
+        //Moves stats
+        //readData(rom, 0x98430, 6, 252);
 
-
-        for (int i = startAddress; i < endAddress; i++) {
-            boolean match = true;
-            for (int j = 0; j < pattern.length; j++) {
-                if (romData[i + j] != pattern[j]) {
-                    match = false;
-                    break;
-                }
-            }
-            if (match) {
-                readData(rom, i, 256, 1);
-                //System.out.printf("Found pattern at: 0x%X%n", i);
-                //return; // stop immediately
-            }
-        }
-        System.out.println("Pattern search finished");
+        //Pokemon stats
+        //readData(rom, 0x98F20, 22, 250);
     }
 
 

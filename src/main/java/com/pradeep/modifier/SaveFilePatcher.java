@@ -21,7 +21,7 @@ public class SaveFilePatcher {
         put("FREE_BATTLE", 0x0000);
 //        put("LITTLE_CUP",  0x0F00);
 //        put("POKE_CUP",    0x1E00);
-//        put("PRIME_CUP",   0x2D00);
+        put("PRIME_CUP",   0x2D00);
         put("GYM_CASTLE",  0x4000);
         put("GYM_CASTLE2", 0x4F00);
     }};
@@ -45,12 +45,24 @@ public class SaveFilePatcher {
         readPokemons(rom);
     }
 
-    private void modPokemons(
-            Rom rom, SaveFileData saveFileData) {
-        Integer address;
+    private void modPokemons(Rom rom, SaveFileData saveFileData) {
 
-        for (SaveFileData.Box box : saveFileData.getBoxes()) {
-            address = boxAddress.get(box.getName());
+        for (Map.Entry<String, Integer> entry : boxAddress.entrySet()) {
+
+            String boxName = entry.getKey();
+            int address = entry.getValue();
+
+            // Fetch box data using box name
+            SaveFileData.Box box = saveFileData.getBox(boxName);
+
+            if (box == null) {
+                System.out.println("Box not found: " + boxName);
+                continue;
+            }
+
+            System.out.println("Processing Box: " + boxName +
+                    " Address: 0x" + Integer.toHexString(address));
+
             int offset = 0;
             for (SaveFileData.Party party : box.getParties()) {
                 int partyAddress = address + offset;

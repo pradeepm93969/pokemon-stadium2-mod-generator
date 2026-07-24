@@ -8,9 +8,9 @@
             {
               "name": "DRAGONITE",
               "item": "MIRACLEBERRY",
-              "move1": "AEROBLAST",
-              "move2": "ICE_BEAM",
-              "move3": "EARTHQUAKE",
+              "move1": "OUTRAGE",
+              "move2": "SURF",
+              "move3": "RECOVER",
               "move4": "SAFEGUARD"
             },
             {
@@ -111,106 +111,49 @@
       ]
     },
     {
-      "name": "GYM_CASTLE",
+      "name": "MY_TEAM",
       "parties": [
         {
           "pokemons": [
             {
               "name": "DRAGONITE",
               "item": "MIRACLEBERRY",
-              "move1": "AEROBLAST",
-              "move2": "ICE_BEAM",
-              "move3": "EARTHQUAKE",
+              "move1": "OUTRAGE",
+              "move2": "SURF",
+              "move3": "RECOVER",
               "move4": "SAFEGUARD"
             },
             {
-              "name": "ZAPDOS",
-              "item": "PRZCUREBERRY",
-              "move1": "THUNDERBOLT",
-              "move2": "DRILL_PECK",
-              "move3": "ICE_BEAM",
-              "move4": "LIGHT_SCREEN"
-            },
-            {
               "name": "GENGAR",
-              "item": "BRIGHTPOWDER",
-              "move1": "PSYCHIC",
-              "move2": "THUNDERBOLT",
-              "move3": "ICE_BEAM",
-              "move4": "DESTINY_BOND"
-            },
-            {
-              "name": "QUAGSIRE",
-              "item": "BRIGHTPOWDER",
-              "move1": "SURF",
-              "move2": "EARTHQUAKE",
-              "move3": "ANCIENT_POWER",
-              "move4": "ICE_BEAM"
-            },
-            {
-              "name": "SUICUNE",
               "item": "LEFTOVERS",
+              "move1": "SHADOW_BALL",
+              "move2": "THUNDERBOLT",
+              "move3": "RECOVER",
+              "move4": "CONFUSE_RAY"
+            },
+            {
+              "name": "BLASTOISE",
+              "item": "MINT_BERRY",
               "move1": "SURF",
               "move2": "ICE_BEAM",
               "move3": "SLEEP_TALK",
               "move4": "REST"
             },
             {
-              "name": "TYRANITAR",
-              "item": "QUICK_CLAW",
-              "move1": "ANCIENT_POWER",
-              "move2": "CRUNCH",
-              "move3": "ICE_BEAM",
-              "move4": "EARTHQUAKE"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "GYM_CASTLE2",
-      "parties": [
-        {
-          "pokemons": [
-            {
-              "name": "DRAGONITE",
-              "item": "MIRACLEBERRY",
-              "move1": "AEROBLAST",
-              "move2": "ICE_BEAM",
-              "move3": "EARTHQUAKE",
-              "move4": "SAFEGUARD"
-            },
-            {
-              "name": "ZAPDOS",
+              "name": "CHARIZARD",
               "item": "PRZCUREBERRY",
-              "move1": "THUNDERBOLT",
-              "move2": "DRILL_PECK",
-              "move3": "ICE_BEAM",
-              "move4": "LIGHT_SCREEN"
-            },
-            {
-              "name": "GENGAR",
-              "item": "BRIGHTPOWDER",
-              "move1": "PSYCHIC",
-              "move2": "THUNDERBOLT",
-              "move3": "ICE_PUNCH",
-              "move4": "DESTINY_BOND"
-            },
-            {
-              "name": "QUAGSIRE",
-              "item": "KINGS_ROCK",
-              "move1": "SURF",
+              "move1": "SACRED_FIRE",
               "move2": "EARTHQUAKE",
-              "move3": "ANCIENT_POWER",
-              "move4": "RECOVER"
+              "move3": "DRAGON_BREATH",
+              "move4": "THUNDER_PUNCH"
             },
             {
-              "name": "SUICUNE",
-              "item": "LEFTOVERS",
-              "move1": "SURF",
-              "move2": "ICE_BEAM",
-              "move3": "SLEEP_TALK",
-              "move4": "REST"
+              "name": "VENUSAUR",
+              "item": "BRIGHTPOWDER",
+              "move1": "GIGA_DRAIN",
+              "move2": "EARTHQUAKE",
+              "move3": "SLEEP_POWDER",
+              "move4": "LEECH_SEED"
             },
             {
               "name": "TYRANITAR",

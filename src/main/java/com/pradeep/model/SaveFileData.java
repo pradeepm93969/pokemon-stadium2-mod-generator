@@ -29,4 +29,22 @@ public class SaveFileData {
         private String move3;
         private String move4;
     }
+
+    public Box getBox(String boxname) {
+        Box boxOutput = null;
+        for (Box box : boxes) {
+            if (box.getName().equalsIgnoreCase(boxname)) {
+                boxOutput = box;
+            }
+        }
+        if (boxOutput == null) {
+            boxname = "MY_TEAM";
+            for (Box box : boxes) {
+                if (box.getName().equalsIgnoreCase(boxname)) {
+                    boxOutput = box;
+                }
+            }
+        }
+        return boxOutput;
+    }
 }

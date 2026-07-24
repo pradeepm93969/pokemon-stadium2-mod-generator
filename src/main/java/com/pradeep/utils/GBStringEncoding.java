@@ -43,15 +43,31 @@ public class GBStringEncoding {
     }
 
     public static String decodeString(byte[] nameBytes) {
-        StringBuilder str = new StringBuilder();
-        for (byte b : nameBytes) {
-            int c = b & 0xFF;
-            if (c == 0x50) break; // Stop immediately when hitting the string terminator
 
-            if (c < GB_ENCODING.length) {
-                str.append(GB_ENCODING[c]);
-            }
+        byte[] raw = new byte[nameBytes.length];
+
+        // reverse every 4-byte block back
+        for (int block = 0; block < nameBytes.length / 4; block++) {
+            int base = block * 4;
+
+            raw[base]     = nameBytes[base + 3];
+            raw[base + 1] = nameBytes[base + 2];
+            raw[base + 2] = nameBytes[base + 1];
+            raw[base + 3] = nameBytes[base + 0];
         }
+
+        StringBuilder str = new StringBuilder();
+
+        for (byte b : raw) {
+            int c = b & 0xFF;
+
+            if (c == 0x50)
+                break;
+
+            if (c < GB_ENCODING.length)
+                str.append(GB_ENCODING[c]);
+        }
+
         return str.toString();
     }
 

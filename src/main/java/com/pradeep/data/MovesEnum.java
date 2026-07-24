@@ -87,7 +87,7 @@ public enum MovesEnum {
     SLEEP_POWDER(79, "SLEEP_POWDER", "Grass", 15, 0, 75),
     PETAL_DANCE(80, "PETAL_DANCE", "Grass", 10, 120, 100),
     STRING_SHOT(81, "STRING_SHOT", "Bug", 40, 0, 95),
-    DRAGON_RAGE(82, "DRAGON_RAGE", "Dragon", 10, 1, 100),
+    DRAGON_RAGE(82, "DRAGON_RAGE", "Dragon", 10, 40, 100),
     FIRE_SPIN(83, "FIRE_SPIN", "Fire", 15, 35, 85),
     THUNDER_SHOCK(84, "THUNDER_SHOCK", "Electric", 30, 40, 100),
     THUNDERBOLT(85, "THUNDERBOLT", "Electric", 15, 90, 100),
