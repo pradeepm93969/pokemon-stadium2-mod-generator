@@ -117,22 +117,22 @@
           "pokemons": [
             {
               "name": "DRAGONITE",
-              "item": "MIRACLEBERRY",
-              "move1": "OUTRAGE",
+              "item": "LEFTOVERS",
+              "move1": "SACRED_FIRE",
               "move2": "SURF",
-              "move3": "RECOVER",
-              "move4": "SAFEGUARD"
+              "move3": "THUNDERBOLT",
+              "move4": "GROWTH"
             },
             {
               "name": "GENGAR",
-              "item": "LEFTOVERS",
-              "move1": "SHADOW_BALL",
-              "move2": "THUNDERBOLT",
-              "move3": "RECOVER",
-              "move4": "CONFUSE_RAY"
+              "item": "BRIGHTPOWDER",
+              "move1": "MEAN_LOOK",
+              "move2": "DREAM_EATER",
+              "move3": "SPORE",
+              "move4": "HAZE"
             },
             {
-              "name": "BLASTOISE",
+              "name": "SUICUNE",
               "item": "MINT_BERRY",
               "move1": "SURF",
               "move2": "ICE_BEAM",
@@ -140,20 +140,20 @@
               "move4": "REST"
             },
             {
-              "name": "CHARIZARD",
+              "name": "ZAPDOS",
               "item": "PRZCUREBERRY",
-              "move1": "SACRED_FIRE",
-              "move2": "EARTHQUAKE",
-              "move3": "DRAGON_BREATH",
-              "move4": "THUNDER_PUNCH"
+              "move1": "THUNDERBOLT",
+              "move2": "DRILL_PECK",
+              "move3": "THUNDER_WAVE",
+              "move4": "REST"
             },
             {
-              "name": "VENUSAUR",
-              "item": "BRIGHTPOWDER",
-              "move1": "GIGA_DRAIN",
+              "name": "SNORLAX",
+              "item": "MIRACLEBERRY",
+              "move1": "BODY_SLAM",
               "move2": "EARTHQUAKE",
-              "move3": "SLEEP_POWDER",
-              "move4": "LEECH_SEED"
+              "move3": "CURSE",
+              "move4": "REST"
             },
             {
               "name": "TYRANITAR",

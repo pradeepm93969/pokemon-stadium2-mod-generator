@@ -16,29 +16,38 @@ import java.util.stream.IntStream;
 
 public class RomPatcher {
 
-    private final GymAddressData gymAddressData = FileLoader.load(
+    private final GymAddressData gymAddressDataR1 = FileLoader.load(
+            "/R1-trainer-address.json", GymAddressData.class);
+    private final GymPokemonData gymPokemonDataR1 = FileLoader.load(
+            "/R1-trainer-patcher.json", GymPokemonData.class);
+
+    private final GymAddressData gymAddressDataR2 = FileLoader.load(
             "/R2-trainer-address.json", GymAddressData.class);
-    private final GymPokemonData gymPokemonData = FileLoader.load(
+    private final GymPokemonData gymPokemonDataR2 = FileLoader.load(
             "/R2-trainer-patcher.json", GymPokemonData.class);
 
     public void patch(Rom rom) {
         skipChecksum(rom);
         battle6Pokemons(rom);
 
-        modifyOutrage(rom);
+        //modifyOutrage(rom);
 
         modifyDragonite(rom, 0x99BD9);
-        modifyCharizard(rom, 0x98F8F);
-        modifyGengar(rom, 0x9971F);
+        //modifyGengar(rom, 0x9971F);
 
-        modPokemons(rom, gymAddressData, gymPokemonData);
-        readPokemons(rom, gymAddressData);
+        modPokemons(rom, gymAddressDataR1, gymPokemonDataR1);
+
+        System.out.println();
+        System.out.println();
+        modPokemons(rom, gymAddressDataR2, gymPokemonDataR2);
+
+        //readPokemons(rom, gymAddressData);
     }
 
-    private void modifyOutrage(Rom rom) {
+    /**private void modifyOutrage(Rom rom) {
         byte[] data = {
                 (byte) 0x00, // Effect ID
-                (byte) 0x96, // Power
+                (byte) 0x82, // Power
                 (byte) 0x1A, // Type
                 (byte) 0xFF, // Accuracy
                 (byte) 0x0A, // PP
@@ -58,46 +67,32 @@ public class RomPatcher {
         };
 
         rom.writeBytes(nameData, 0x1D814FD);
-    }
+    }**/
 
-    private void modifyGengar(Rom rom, int address) {
-        byte[] data = {
-                (byte) 0xA0, // Base HP
-                (byte) 0x83, // Base Attack
-                (byte) 0x83, // Base Defense
-                (byte) 0x6E, // Base Speed
-                (byte) 0x82, // Base Special Attack
-                (byte) 0x82, // Base Special Defense
-                (byte) 0x08, // type1
-                (byte) 0x08, // type2
-        };
-        rom.writeBytes(data, address);
-    }
-
-    private void modifyCharizard(Rom rom, int address) {
-        byte[] data = {
-                (byte) 0x4E, // Base HP
-                (byte) 0x54, // Base Attack
-                (byte) 0x7D, // Base Defense
-                (byte) 0x64, // Base Speed
-                (byte) 0x6D, // Base Special Attack
-                (byte) 0x6D, // Base Special Defense
-                (byte) 0x14, // type1
-                (byte) 0x1A, // type2
-        };
-        rom.writeBytes(data, address);
-    }
+//    private void modifyGengar(Rom rom, int address) {
+//        byte[] data = {
+//                (byte) 0x3C, // Base HP              (Original: 60 / 0x3C)
+//                (byte) 0x41, // Base Attack          (Original: 65 / 0x41)
+//                (byte) 0x82, // Base Defense         (Original: 60 / 0x3C)
+//                (byte) 0x6E, // Base Speed           (Original: 110 / 0x6E)
+//                (byte) 0x82, // Base Special Attack  (Original: 130 / 0x82)
+//                (byte) 0x82, // Base Special Defense (Original: 75 / 0x4B)
+//                (byte) 0x08, // Type 1 (Ghost)
+//                (byte) 0x08, // Type 2 (Ghost)
+//        };
+//        rom.writeBytes(data, address);
+//    }
 
     private void modifyDragonite(Rom rom, int address) {
         byte[] data = {
-                (byte) 0xA0, // Base HP
-                (byte) 0xA0, // Base Attack
-                (byte) 0xC0, // Base Defense
-                (byte) 0xA0, // Base Speed
-                (byte) 0xA0, // Base Special Attack
-                (byte) 0xC0, // Base Special Defense
-                (byte) 0x1A, // type1
-                (byte) 0x15, // type2
+                (byte) 0xA0, // Base HP              (Original: 91 / 0x5B)
+                (byte) 0xA0, // Base Attack          (Original: 134 / 0x86)
+                (byte) 0xA0, // Base Defense         (Original: 95 / 0x5F)
+                (byte) 0xA0, // Base Speed           (Original: 80 / 0x50)
+                (byte) 0xA0, // Base Special Attack  (Original: 100 / 0x64)
+                (byte) 0xA0, // Base Special Defense (Original: 100 / 0x64)
+                (byte) 0x1A, // Type 1 (Dragon)
+                (byte) 0x15, // Type 2 (Water)
         };
         rom.writeBytes(data, address);
     }
@@ -114,7 +109,7 @@ public class RomPatcher {
             }
         }
 
-        for (int k = 0; k < 11; k++) {
+        for (int k = 0; k < pokemonData.getGyms().size(); k++) {
             GymPokemonData.Gym gym = pokemonData.getGyms().get(k);
 
             for (GymPokemonData.Trainer trainer : gym.getTrainers()) {
@@ -153,6 +148,7 @@ public class RomPatcher {
                     // write back to ROM
                     rom.writeBytes(poke.getPokemon(), address);
 
+
 //                    System.out.println(IntStream.range(0, poke.getPokemon().length)
 //                            .mapToObj(j -> String.format("%02X", poke.getPokemon()[j] & 0xFF))
 //                            .collect(Collectors.joining(" ")));
@@ -160,6 +156,7 @@ public class RomPatcher {
                     // move to next Pokémon slot
                     address += 0x18;
                 }
+                System.out.println("Finished for trainer : " + trainer.getName() + " (" + gym.getName() + ")");
             }
         }
     }
