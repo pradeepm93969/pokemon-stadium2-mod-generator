@@ -32,7 +32,7 @@ public class RomPatcher {
 
         //modifyOutrage(rom);
 
-        modifyDragonite(rom, 0x99BD9);
+        //modifyDragonite(rom, 0x99BD9);
         //modifyGengar(rom, 0x9971F);
 
         modPokemons(rom, gymAddressDataR1, gymPokemonDataR1);

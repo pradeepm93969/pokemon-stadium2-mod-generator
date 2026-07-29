@@ -157,9 +157,19 @@ public class SaveDataPokemon {
     }
 
     public byte getPPValue(MovesEnum movesEnum) {
+        // Clamp ppUp between 0 and 3
         int ppUp = 3;
-        int finalPP = (int) (movesEnum.getPp() * (1 + 0.2 * ppUp));
-        return (byte) ((ppUp << 6) | (finalPP & 0x3F));
+
+        int basePp = movesEnum.getPp();
+
+        // Official Game Boy Math: Each PP Up adds floor(basePP / 5), capped at 61 max PP
+        int bonusPpPerUp = basePp / 5;
+        int finalPP = Math.min(61, basePp + (bonusPpPerUp * ppUp));
+
+        // Combine 2-bit PP Up count (bits 6-7) and 6-bit PP value (bits 0-5)
+        int combinedValue = ((ppUp & 0x03) << 6) | (finalPP & 0x3F);
+
+        return (byte) combinedValue;
     }
 
 }

@@ -117,23 +117,23 @@
           "pokemons": [
             {
               "name": "DRAGONITE",
-              "item": "LEFTOVERS",
-              "move1": "SACRED_FIRE",
-              "move2": "SURF",
-              "move3": "THUNDERBOLT",
-              "move4": "GROWTH"
+              "item": "MIRACLEBERRY",
+              "move1": "AEROBLAST",
+              "move2": "ICE_BEAM",
+              "move3": "EARTHQUAKE",
+              "move4": "SAFEGUARD"
             },
             {
               "name": "GENGAR",
               "item": "BRIGHTPOWDER",
-              "move1": "MEAN_LOOK",
-              "move2": "DREAM_EATER",
-              "move3": "SPORE",
-              "move4": "HAZE"
+              "move1": "PSYCHIC",
+              "move2": "THUNDERBOLT",
+              "move3": "ICE_PUNCH",
+              "move4": "DESTINY_BOND"
             },
             {
               "name": "SUICUNE",
-              "item": "MINT_BERRY",
+              "item": "FOCUS_BAND",
               "move1": "SURF",
               "move2": "ICE_BEAM",
               "move3": "SLEEP_TALK",
@@ -142,26 +142,26 @@
             {
               "name": "ZAPDOS",
               "item": "PRZCUREBERRY",
-              "move1": "THUNDERBOLT",
+              "move1": "THUNDER",
               "move2": "DRILL_PECK",
-              "move3": "THUNDER_WAVE",
-              "move4": "REST"
+              "move3": "RAIN_DANCE",
+              "move4": "AGILITY"
             },
             {
               "name": "SNORLAX",
-              "item": "MIRACLEBERRY",
-              "move1": "BODY_SLAM",
+              "item": "MINT_BERRY",
+              "move1": "EXTREME_SPEED",
               "move2": "EARTHQUAKE",
-              "move3": "CURSE",
+              "move3": "BELLY_DRUM",
               "move4": "REST"
             },
             {
-              "name": "TYRANITAR",
-              "item": "QUICK_CLAW",
-              "move1": "ANCIENT_POWER",
-              "move2": "CRUNCH",
-              "move3": "ICE_BEAM",
-              "move4": "EARTHQUAKE"
+              "name": "UMBREON",
+              "item": "LEFTOVERS",
+              "move1": "CRUNCH",
+              "move2": "DOUBLE_TEAM",
+              "move3": "BATON_PASS",
+              "move4": "MOONLIGHT"
             }
           ]
         }
