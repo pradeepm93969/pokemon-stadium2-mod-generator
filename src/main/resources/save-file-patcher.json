@@ -117,11 +117,11 @@
           "pokemons": [
             {
               "name": "DRAGONITE",
-              "item": "MIRACLEBERRY",
-              "move1": "AEROBLAST",
-              "move2": "ICE_BEAM",
-              "move3": "EARTHQUAKE",
-              "move4": "SAFEGUARD"
+              "item": "LEFTOVERS",
+              "move1": "FLAMETHROWER",
+              "move2": "SURF",
+              "move3": "THUNDERBOLT",
+              "move4": "GROWTH"
             },
             {
               "name": "GENGAR",
@@ -132,36 +132,36 @@
               "move4": "DESTINY_BOND"
             },
             {
-              "name": "SUICUNE",
-              "item": "FOCUS_BAND",
+              "name": "QUAGSIRE",
+              "item": "MYSTIC_WATER",
               "move1": "SURF",
               "move2": "ICE_BEAM",
-              "move3": "SLEEP_TALK",
-              "move4": "REST"
+              "move3": "EARTHQUAKE",
+              "move4": "SLUDGE_BOMB"
+            },
+            {
+              "name": "TYRANITAR",
+              "item": "QUICK_CLAW",
+              "move1": "ROCK_SLIDE",
+              "move2": "CRUNCH",
+              "move3": "EARTHQUAKE",
+              "move4": "ICE_BEAM"
             },
             {
               "name": "ZAPDOS",
-              "item": "PRZCUREBERRY",
-              "move1": "THUNDER",
+              "item": "MAGNET",
+              "move1": "THUNDERBOLT",
               "move2": "DRILL_PECK",
-              "move3": "RAIN_DANCE",
-              "move4": "AGILITY"
+              "move3": "THUNDER_WAVE",
+              "move4": "LIGHT_SCREEN"
             },
             {
-              "name": "SNORLAX",
-              "item": "MINT_BERRY",
-              "move1": "EXTREME_SPEED",
-              "move2": "EARTHQUAKE",
-              "move3": "BELLY_DRUM",
-              "move4": "REST"
-            },
-            {
-              "name": "UMBREON",
-              "item": "LEFTOVERS",
-              "move1": "CRUNCH",
-              "move2": "DOUBLE_TEAM",
-              "move3": "BATON_PASS",
-              "move4": "MOONLIGHT"
+              "name": "MACHAMP",
+              "item": "SCOPE_LENS",
+              "move1": "CROSS_CHOP",
+              "move2": "ROCK_SLIDE",
+              "move3": "EARTHQUAKE",
+              "move4": "CURSE"
             }
           ]
         }
