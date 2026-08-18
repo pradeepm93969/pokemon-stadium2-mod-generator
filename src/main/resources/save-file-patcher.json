@@ -124,12 +124,20 @@
               "move4": "GROWTH"
             },
             {
+              "name": "TYRANITAR",
+              "item": "QUICK_CLAW",
+              "move1": "ROCK_SLIDE",
+              "move2": "CRUNCH",
+              "move3": "EARTHQUAKE",
+              "move4": "ICE_BEAM"
+            },
+            {
               "name": "GENGAR",
               "item": "BRIGHTPOWDER",
               "move1": "PSYCHIC",
               "move2": "THUNDERBOLT",
               "move3": "ICE_PUNCH",
-              "move4": "DESTINY_BOND"
+              "move4": "HAZE"
             },
             {
               "name": "QUAGSIRE",
@@ -140,14 +148,6 @@
               "move4": "SLUDGE_BOMB"
             },
             {
-              "name": "TYRANITAR",
-              "item": "QUICK_CLAW",
-              "move1": "ROCK_SLIDE",
-              "move2": "CRUNCH",
-              "move3": "EARTHQUAKE",
-              "move4": "ICE_BEAM"
-            },
-            {
               "name": "ZAPDOS",
               "item": "MAGNET",
               "move1": "THUNDERBOLT",
@@ -156,12 +156,12 @@
               "move4": "LIGHT_SCREEN"
             },
             {
-              "name": "MACHAMP",
-              "item": "SCOPE_LENS",
-              "move1": "CROSS_CHOP",
-              "move2": "ROCK_SLIDE",
-              "move3": "EARTHQUAKE",
-              "move4": "CURSE"
+              "name": "ALAKAZAM",
+              "item": "TWISTEDSPOON",
+              "move1": "PSYCHIC",
+              "move2": "THUNDER_PUNCH",
+              "move3": "ICE_PUNCH",
+              "move4": "FIRE_PUNCH"
             }
           ]
         }

@@ -1632,7 +1632,7 @@
             },
             {
               "name": "DODRIO",
-              "item": "SCOPE LENS",
+              "item": "SCOPE_LENS",
               "move1": "DRILL_PECK",
               "move2": "TRI_ATTACK",
               "move3": "PURSUIT",
@@ -1682,7 +1682,7 @@
             },
             {
               "name": "HITMONLEE",
-              "item": "SCOPE LENS",
+              "item": "SCOPE_LENS",
               "move1": "DYNAMIC_PUNCH",
               "move2": "MEGA_KICK",
               "move3": "FORESIGHT",
@@ -1732,7 +1732,7 @@
             },
             {
               "name": "NIDOQUEEN",
-              "item": "SCOPE LENS",
+              "item": "SCOPE_LENS",
               "move1": "EARTHQUAKE",
               "move2": "SURF",
               "move3": "THUNDER",
@@ -1748,7 +1748,7 @@
             },
             {
               "name": "DRAGONAIR",
-              "item": "BITTER BERRY",
+              "item": "BITTER_BERRY",
               "move1": "ICE_BEAM",
               "move2": "SURF",
               "move3": "THUNDER",
@@ -1782,7 +1782,7 @@
             },
             {
               "name": "MAROWAK",
-              "item": "THICK CLUB",
+              "item": "THICK_CLUB",
               "move1": "BONEMERANG",
               "move2": "BELLY_DRUM",
               "move3": "REST",
@@ -1798,7 +1798,7 @@
             },
             {
               "name": "MANTINE",
-              "item": "MINT BERRY",
+              "item": "MINT_BERRY",
               "move1": "SURF",
               "move2": "ICE_BEAM",
               "move3": "REST",
@@ -1864,7 +1864,7 @@
             },
             {
               "name": "FORRETRESS",
-              "item": "SCOPE LENS",
+              "item": "SCOPE_LENS",
               "move1": "SWAGGER",
               "move2": "SPIKES",
               "move3": "SANDSTORM",
@@ -1890,7 +1890,7 @@
           "pokemon": [
             {
               "name": "STEELIX",
-              "item": "SCOPE LENS",
+              "item": "SCOPE_LENS",
               "move1": "ROCK_SLIDE",
               "move2": "EARTHQUAKE",
               "move3": "RETURN",
@@ -1922,7 +1922,7 @@
             },
             {
               "name": "URSARING",
-              "item": "MINT BERRY",
+              "item": "MINT_BERRY",
               "move1": "DEFENSE_CURL",
               "move2": "ROLLOUT",
               "move3": "SLASH",
@@ -1955,8 +1955,8 @@
               "move4": "ROAR"
             },
             {
-              "name": "MR.MIME",
-              "item": "SCOPE LENS",
+              "name": "MR_MIME",
+              "item": "SCOPE_LENS",
               "move1": "SUNNY_DAY",
               "move2": "FIRE_PUNCH",
               "move3": "SOLAR_BEAM",
@@ -2046,7 +2046,7 @@
             },
             {
               "name": "KINGDRA",
-              "item": "SCOPE LENS",
+              "item": "SCOPE_LENS",
               "move1": "SURF",
               "move2": "DRAGON_BREATH",
               "move3": "ICE_BEAM",
@@ -2072,7 +2072,7 @@
             },
             {
               "name": "ENTEI",
-              "item": "SCOPE LENS",
+              "item": "SCOPE_LENS",
               "move1": "FIRE_BLAST",
               "move2": "BITE",
               "move3": "IRON_TAIL",
