@@ -118,10 +118,27 @@
             {
               "name": "DRAGONITE",
               "item": "LEFTOVERS",
-              "move1": "FLAMETHROWER",
+              "move1": "SACRED_FIRE",
               "move2": "SURF",
               "move3": "THUNDERBOLT",
               "move4": "GROWTH"
+            },
+            {
+              "name": "SNORLAX",
+              "item": "MINT_BERRY",
+              "move1": "BODY_SLAM",
+              "move2": "SHADOW_BALL",
+              "move3": "CURSE",
+              "move4": "REST"
+            },
+            {
+              "name": "ZAPDOS",
+              "item": "MAGNET",
+              "move1": "THUNDERBOLT",
+              "move2": "DRILL_PECK",
+              "move3": "HIDDEN_POWER",
+              "move4": "THUNDER_WAVE",
+              "hiddenPowerType": "WATER"
             },
             {
               "name": "TYRANITAR",
@@ -146,22 +163,6 @@
               "move2": "ICE_BEAM",
               "move3": "EARTHQUAKE",
               "move4": "SLUDGE_BOMB"
-            },
-            {
-              "name": "ZAPDOS",
-              "item": "MAGNET",
-              "move1": "THUNDERBOLT",
-              "move2": "DRILL_PECK",
-              "move3": "THUNDER_WAVE",
-              "move4": "LIGHT_SCREEN"
-            },
-            {
-              "name": "ALAKAZAM",
-              "item": "TWISTEDSPOON",
-              "move1": "PSYCHIC",
-              "move2": "THUNDER_PUNCH",
-              "move3": "ICE_PUNCH",
-              "move4": "FIRE_PUNCH"
             }
           ]
         }

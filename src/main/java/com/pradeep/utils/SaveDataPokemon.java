@@ -1,6 +1,7 @@
 package com.pradeep.utils;
 
 import com.pradeep.data.ItemsEnum;
+import com.pradeep.data.HiddenPowerEnum;
 import com.pradeep.data.MovesEnum;
 import com.pradeep.data.PokemonsEnum;
 import lombok.AllArgsConstructor;
@@ -45,6 +46,22 @@ public class SaveDataPokemon {
 
     public void setMove4(String move) {
         pokemon[6] = (byte) getMoveIndex(move);
+    }
+
+    /**
+     * Sets the Gen II Attack and Defense DVs used to determine Hidden Power's type.
+     * Byte 22 stores Attack in its high nibble and Defense in its low nibble.
+     */
+    public void setHiddenPowerType(String type) {
+        HiddenPowerEnum hiddenPowerType;
+        try {
+            hiddenPowerType = HiddenPowerEnum.valueOf(type.toUpperCase());
+        } catch (IllegalArgumentException exception) {
+            throw new IllegalArgumentException("Unknown Hidden Power type: " + type, exception);
+        }
+
+        pokemon[22] = (byte) ((hiddenPowerType.getAttackDV() << 4)
+                | hiddenPowerType.getDefenseDV());
     }
 
     private int getMoveIndex(String move) {
@@ -131,6 +148,12 @@ public class SaveDataPokemon {
     public ItemsEnum getHeldItem() {
         ItemsEnum itemsEnum = ItemsEnum.fromHex(pokemon[2] & 0xFF);
         return itemsEnum != null ? itemsEnum : ItemsEnum.NONE;
+    }
+
+    public HiddenPowerEnum getHiddenPowerType() {
+        int attackDV = (pokemon[22] >>> 4) & 0x0F;
+        int defenseDV = pokemon[22] & 0x0F;
+        return HiddenPowerEnum.fromDvs(attackDV, defenseDV);
     }
 
     private MovesEnum getMoveEnum(int offset) {

@@ -28,6 +28,7 @@ public class SaveFileData {
         private String move2;
         private String move3;
         private String move4;
+        private String hiddenPowerType;
     }
 
     public Box getBox(String boxname) {

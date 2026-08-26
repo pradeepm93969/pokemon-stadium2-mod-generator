@@ -87,6 +87,9 @@ public class SaveFilePatcher {
 
                     // stats FF if needed
                     poke.maxStats();
+                    if (p.getHiddenPowerType() != null) {
+                        poke.setHiddenPowerType(p.getHiddenPowerType());
+                    }
 
                     // write back to ROM
                     rom.writeBytes(poke.getPokemon(), address + offset);
@@ -137,6 +140,13 @@ public class SaveFilePatcher {
         };
     }
 
+    private boolean hasHiddenPower(SaveDataPokemon pokemon) {
+        return pokemon.getMove1().getName().equals("HIDDEN_POWER")
+                || pokemon.getMove2().getName().equals("HIDDEN_POWER")
+                || pokemon.getMove3().getName().equals("HIDDEN_POWER")
+                || pokemon.getMove4().getName().equals("HIDDEN_POWER");
+    }
+
     private void readPokemons(Rom rom) {
 
         SaveFileData saveFileData = new SaveFileData();
@@ -185,6 +195,9 @@ public class SaveFilePatcher {
                     p.setMove2(poke.getMove2().getName());
                     p.setMove3(poke.getMove3().getName());
                     p.setMove4(poke.getMove4().getName());
+                    if (hasHiddenPower(poke) && poke.getHiddenPowerType() != null) {
+                        p.setHiddenPowerType(poke.getHiddenPowerType().name());
+                    }
 
                     offset += 60;
                 }
