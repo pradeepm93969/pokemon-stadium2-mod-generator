@@ -60,7 +60,7 @@ public class SaveDataPokemon {
             throw new IllegalArgumentException("Unknown Hidden Power type: " + type, exception);
         }
 
-        pokemon[22] = (byte) ((hiddenPowerType.getAttackDV() << 4)
+        pokemon[21] = (byte) ((hiddenPowerType.getAttackDV() << 4)
                 | hiddenPowerType.getDefenseDV());
     }
 
